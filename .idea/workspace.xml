@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df1151fc-c741-4b16-8217-8cc433c25e31" name="Default" comment="Modelo login domain class&#10;userName&#10;userPassword&#10;DataSource.groovy/development enviroment/ &#10;set to update - no mem - h2, devDB&#10;&#10;Merge branch 'master' of https://github.com/PreventRisk/PreventRisk&#10;&#10;Conflicts:&#10;&#9;src/test/TestFranco.groovy&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/LogIn$__clinit__closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/LogIn.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devDb.h2.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/preventrisk/LogInSpec.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devDb.lock.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devDb.trace.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PreventRisk.iws" />
@@ -490,7 +496,7 @@
       <option name="number" value="Default" />
       <updated>1444612279589</updated>
       <workItem from="1444612283397" duration="1477000" />
-      <workItem from="1444633160665" duration="5537000" />
+      <workItem from="1444633160665" duration="5762000" />
     </task>
     <task id="LOCAL-00001" summary="Modelo login domain class&#10;userName&#10;userPassword&#10;DataSource.groovy/development enviroment/ &#10;set to update - no mem - h2, devDB&#10;&#10;Merge branch 'master' of https://github.com/PreventRisk/PreventRisk&#10;&#10;Conflicts:&#10;&#9;src/test/TestFranco.groovy&#10;">
       <created>1444639504088</created>
@@ -510,11 +516,23 @@
       <option name="project" value="LOCAL" />
       <updated>1444639681444</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modelo login domain class&#10;userName&#10;userPassword&#10;DataSource.groovy/development enviroment/ &#10;set to update - no mem - h2, devDB&#10;&#10;Merge branch 'master' of https://github.com/PreventRisk/PreventRisk&#10;&#10;Conflicts:&#10;&#9;src/test/TestFranco.groovy&#10;">
+      <created>1444640084203</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1444640084203</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Modelo login domain class&#10;userName&#10;userPassword&#10;DataSource.groovy/development enviroment/ &#10;set to update - no mem - h2, devDB&#10;&#10;Merge branch 'master' of https://github.com/PreventRisk/PreventRisk&#10;&#10;Conflicts:&#10;&#9;src/test/TestFranco.groovy&#10;">
+      <created>1444640149511</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1444640149511</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7014000" />
+    <option name="totallyTimeSpent" value="7239000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

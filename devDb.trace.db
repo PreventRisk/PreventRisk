@@ -1,0 +1,8 @@
+10-12 03:35:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Conversión de datos fallida, convirtiendo "'0.2' (LOG_IN: VERSION BIGINT NOT NULL)"
+Data conversion error converting "'0.2' (LOG_IN: VERSION BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."LOG_IN"("ID","VERSION","USER_NAME","USER_PASSWORD")VALUES(?,?,?,?) -- (?1, ?2, ?3, ?4) [22018-176]
+10-12 03:35:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Conversión de datos fallida, convirtiendo "'0.2' (LOG_IN: VERSION BIGINT NOT NULL)"
+Data conversion error converting "'0.2' (LOG_IN: VERSION BIGINT NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."LOG_IN"("ID","VERSION","USER_NAME","USER_PASSWORD")VALUES(?,?,?,?) -- (?1, ?2, ?3, ?4) [22018-176]
