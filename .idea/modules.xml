@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PreventRisk.iml" filepath="$PROJECT_DIR$/PreventRisk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PreventRisk-grailsPlugins.iml" filepath="$PROJECT_DIR$/PreventRisk-grailsPlugins.iml" />
     </modules>
   </component>
 </project>
