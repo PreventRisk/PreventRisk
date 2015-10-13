@@ -6,5 +6,10 @@ package preventrisk
 
 class LogInController{
 
+    def current = {
+        def allLogIns = LogIn.list()
+        [allLogIns : allLogIns]
+    }
+
 
 }
