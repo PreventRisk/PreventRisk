@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="df1151fc-c741-4b16-8217-8cc433c25e31" name="Default" comment="Create controller">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/preventrisk/LogInController.groovy" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
@@ -28,6 +29,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" afterPath="$PROJECT_DIR$/target/work/web.xml.tmp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/resources/web.xml" afterPath="$PROJECT_DIR$/target/work/resources/web.xml" />
+=======
+    <list default="true" id="df1151fc-c741-4b16-8217-8cc433c25e31" name="Default" comment="">
+>>>>>>> Stashed changes
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PreventRisk.iws" />
@@ -186,6 +190,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< Updated upstream
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="PreventRisk" />
@@ -262,6 +267,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+=======
+>>>>>>> Stashed changes
         </subPane>
       </pane>
     </panes>
@@ -526,7 +533,7 @@
       <option name="number" value="Default" />
       <updated>1444612279589</updated>
       <workItem from="1444612283397" duration="1477000" />
-      <workItem from="1444633160665" duration="5762000" />
+      <workItem from="1444633160665" duration="5976000" />
     </task>
     <task id="LOCAL-00001" summary="Modelo login domain class&#10;userName&#10;userPassword&#10;DataSource.groovy/development enviroment/ &#10;set to update - no mem - h2, devDB&#10;&#10;Merge branch 'master' of https://github.com/PreventRisk/PreventRisk&#10;&#10;Conflicts:&#10;&#9;src/test/TestFranco.groovy&#10;">
       <created>1444639504088</created>
@@ -558,11 +565,17 @@
       <option name="project" value="LOCAL" />
       <updated>1444640149511</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modelo login domain class&#10;userName&#10;userPassword&#10;DataSource.groovy/development enviroment/ &#10;set to update - no mem - h2, devDB&#10;&#10;Merge branch 'master' of https://github.com/PreventRisk/PreventRisk&#10;&#10;Conflicts:&#10;&#9;src/test/TestFranco.groovy&#10;">
+      <created>1444640342916</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1444640342917</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7239000" />
+    <option name="totallyTimeSpent" value="7453000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
