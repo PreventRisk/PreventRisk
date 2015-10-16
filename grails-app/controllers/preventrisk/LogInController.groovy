@@ -6,5 +6,7 @@ package preventrisk
 
 class LogInController{
 
+    /** scaffold*/
+
 
 }
