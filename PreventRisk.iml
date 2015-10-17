@@ -59,11 +59,10 @@
       <excludeFolder url="file://$MODULE_DIR$/target/work/stubs" />
       <excludeFolder url="file://$MODULE_DIR$/target/work/tomcat" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="Spring-4.1.6.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Hibernate 4.2.2-4.2.2" level="project" />
-    <orderEntry type="library" exported="" name="grails-2.5.1" level="application" />
     <orderEntry type="module-library" exported="">
       <library name="Grails User Library (PreventRisk)">
         <CLASSES>
@@ -104,17 +103,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-el/7.0.55/tomcat-embed-el-7.0.55.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.55/tomcat-embed-jasper-7.0.55.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-catalina-ant/7.0.55/tomcat-catalina-ant-7.0.55.jar!/" />
-          <root url="jar://C:/Grails/grails-2.5.1/lib/org.springframework/spring-tx/jars/spring-tx-4.1.6.RELEASE.jar!/" />
-          <root url="jar://C:/Grails/grails-2.5.1/lib/aopalliance/aopalliance/jars/aopalliance-1.0.jar!/" />
-          <root url="jar://C:/Grails/grails-2.5.1/lib/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar!/" />
-          <root url="jar://C:/Grails/grails-2.5.1/lib/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar!/" />
-          <root url="jar://C:/Grails/grails-2.5.1/lib/org.springframework/spring-context-support/jars/spring-context-support-4.1.6.RELEASE.jar!/" />
-          <root url="jar://C:/Grails/grails-2.5.1/lib/org.springframework/spring-expression/jars/spring-expression-4.1.6.RELEASE.jar!/" />
-          <root url="jar://C:/Grails/grails-2.5.1/lib/org.springframework/spring-aop/jars/spring-aop-4.1.6.RELEASE.jar!/" />
-          <root url="jar://C:/Grails/grails-2.5.1/lib/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar!/" />
-          <root url="jar://C:/Grails/grails-2.5.1/lib/org.springframework/spring-jdbc/jars/spring-jdbc-4.1.6.RELEASE.jar!/" />
-          <root url="jar://C:/Grails/grails-2.5.1/lib/org.springframework/spring-aspects/jars/spring-aspects-4.1.6.RELEASE.jar!/" />
-          <root url="jar://C:/Grails/grails-2.5.1/lib/org.springframework/spring-test/jars/spring-test-4.1.6.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -122,6 +110,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="PreventRisk-grailsPlugins" exported="" />
-    <orderEntry type="library" exported="" name="grails-2.5.1" level="application" />
+    <orderEntry type="library" name="grails-2.5.1" level="application" />
   </component>
 </module>
