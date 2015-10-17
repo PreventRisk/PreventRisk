@@ -2,21 +2,137 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df1151fc-c741-4b16-8217-8cc433c25e31" name="Default" comment="Create controller">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/GenerateAll$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/GenerateAll.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/HomeController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/unit/preventrisk/HomeControllerSpec.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/LogInController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/LoginCommand$__clinit__closure1$_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/LoginCommand$__clinit__closure1$_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/LoginCommand$__clinit__closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/LoginCommand.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/User$__clinit__closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$__tt__delete_closure11$_closure18.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$__tt__delete_closure11$_closure19.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$__tt__delete_closure11.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$__tt__save_closure9$_closure14.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$__tt__save_closure9$_closure15.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$__tt__save_closure9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$__tt__update_closure10$_closure16.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$__tt__update_closure10$_closure17.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$__tt__update_closure10.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$_create_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$_delete_closure7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$_edit_closure5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$_index_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$_notFound_closure8$_closure12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$_notFound_closure8$_closure13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$_notFound_closure8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$_save_closure4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$_show_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController$_update_closure6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/preventrisk/UserController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/unit/preventrisk/UserControllerSpec.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/unit/preventrisk/UserSpec.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsGenerate_groovy$_run_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsGenerate_groovy$_run_closure2$_closure3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsGenerate_groovy$_run_closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsGenerate_groovy.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/img/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/html/org/junit/runner/manipulation/0_Filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/preventrisk/HomeController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/preventrisk/HomeControllerSpec.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/LICENSE" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/preventrisk/LoginCommand.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-org.junit.runner.manipulation.Filter-err.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-org.junit.runner.manipulation.Filter-out.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-unit-unit-org.junit.runner.manipulation.Filter.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/TEST-unit-unit-org.junit.runner.manipulation.Filter.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/TESTS-TestSuites.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/preventrisk/User.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/preventrisk/UserController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/preventrisk/UserControllerSpec.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/user/_form.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/scss/_spinning.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/html/all.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/integration/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/user/create.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/user/edit.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/html/failed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/home/index.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/html/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/less/path.less" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/user/register.gsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/controllers/preventrisk/LogInController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/preventrisk/LogIn.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/preventrisk/LogInSpec.groovy" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/spring/resources.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/user/show.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/less/spinning.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-reports/html/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/css/stylish-portfolio.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/layouts/stylish.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/stylish/font-awesome/less/variables.less" />
+      <change type="DELETED" beforePath="E:\Carlos\IDE\PreventRisk\grails-app\controllers\preventrisk\LogInController.groovy" afterPath="" />
+      <change type="DELETED" beforePath="E:\Carlos\IDE\PreventRisk\grails-app\domain\preventrisk\LogIn.groovy" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.h2.db" afterPath="$PROJECT_DIR$/devDb.h2.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PreventRisk-grailsPlugins.iml" afterPath="$PROJECT_DIR$/PreventRisk-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PreventRisk.iml" afterPath="$PROJECT_DIR$/PreventRisk.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.lock.db" afterPath="$PROJECT_DIR$/devDb.lock.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.trace.db" afterPath="$PROJECT_DIR$/devDb.trace.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" afterPath="$PROJECT_DIR$/target/work/web.xml.tmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/resources/web.xml" afterPath="$PROJECT_DIR$/target/work/resources/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\Carlos\IDE\PreventRisk\test\unit\preventrisk\LogInSpec.groovy" afterPath="$PROJECT_DIR$/test/unit/preventrisk/UserSpec.groovy" />
     </list>
     <ignored path="PreventRisk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +155,38 @@
     <favorites_list name="PreventRisk" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="stylish.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/stylish.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-122.5">
+              <caret line="247" column="7" selection-start-line="247" selection-start-column="7" selection-end-line="247" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/home/index.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.106383">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreventRisk.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PreventRisk.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40441176">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,6 +227,7 @@
         <option value="$PROJECT_DIR$/grails-app/views/user/Login.gsp" />
         <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/grails-app/domain/preventrisk/LoginCommand.groovy" />
+        <option value="$PROJECT_DIR$/PreventRisk.iml" />
       </list>
     </option>
   </component>
@@ -91,10 +239,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1535" />
-    <option name="height" value="904" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -164,6 +312,68 @@
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -189,9 +399,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,47 +442,6 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -471,12 +640,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
     <configuration default="false" name="Grails:PreventRisk" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="PreventRisk" />
       <setting name="vmparams" value="" />
@@ -557,41 +720,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32627645" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25602606" sideWeight="0.49227372" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32503113" sideWeight="0.4953125" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.324031" sideWeight="0.4953125" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25549048" sideWeight="0.49227372" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24921875" sideWeight="0.50772625" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32627645" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24921875" sideWeight="0.50772625" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3255814" sideWeight="0.496875" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3255814" sideWeight="0.496875" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -624,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,19 +891,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/stylish.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="268" column="44" selection-start-line="268" selection-start-column="44" selection-end-line="268" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grailsw">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,15 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/home/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39130434">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.48">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1950208">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.7460938">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7578125">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,7 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.01953125">
           <caret line="95" column="60" selection-start-line="95" selection-start-column="37" selection-end-line="95" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,7 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.7070312">
           <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5174538">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,7 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07392197">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,28 +990,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.354767">
           <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/preventrisk/LoginCommand.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31578946">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/preventrisk/User.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.078947365">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/stylish.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-122.5">
+          <caret line="247" column="7" selection-start-line="247" selection-start-column="7" selection-end-line="247" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/preventrisk/User.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/home/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.078947365">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state vertical-scroll-proportion="-5.106383">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PreventRisk.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40441176">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -896,15 +1045,15 @@
           <value>
             <GrailsSettings>
               <option name="buildConfigCrc" value="-1257070100" />
-              <option name="pluginDependenciesCrc" value="1682136675" />
+              <option name="pluginDependenciesCrc" value="-747976210" />
               <option name="properties">
                 <map>
-                  <entry key="grails.global.plugins.dir" value="C:\Users\Francisco Aranguren\.grails\2.5.1\global-plugins" />
+                  <entry key="grails.global.plugins.dir" value="C:\Users\Carlos\.grails\2.5.1\global-plugins" />
                   <entry key="grails.project.fork.run" value="true" />
                   <entry key="grails.project.fork.test" value="true" />
                   <entry key="grails.project.plugins.dir" value="target\work\plugins" />
                   <entry key="grails.project.work.dir" value="target\work" />
-                  <entry key="grails.work.dir" value="C:\Users\Francisco Aranguren\.grails\2.5.1" />
+                  <entry key="grails.work.dir" value="C:\Users\Carlos\.grails\2.5.1" />
                 </map>
               </option>
             </GrailsSettings>
