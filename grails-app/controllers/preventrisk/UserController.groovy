@@ -19,18 +19,23 @@ class  UserController {
         }
     }
 
-    def login(LoginCommand cmd) {
+    def dologin(LoginCommand cmd) {
         if(request.method == 'POST') {
             if(!cmd.hasErrors()) {
                 session.user = cmd.getUser()
                // render("se acepto el login")
                  redirect controller:'home'
             } else {
-                render view:'index'
-            }} else {
-            render view:'index'
+                redirect(controller:'user',action:'login')
+            }
+        } else {
+            redirect(controller:'user',action:'login')
         }
     }
+
+    def login= {
+    }
+
 
     def logout() {
         if(session.user) {

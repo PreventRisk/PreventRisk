@@ -18,7 +18,7 @@ class LoginCommand {
             if(!obj.user)
                 return "user.not.found"
         }
-        password blank:false, validator:{ val, obj ->
+        password blank:false, password: true , validator:{ val, obj ->
             if(obj.user && obj.user.password != val)
                 return "user.password.invalid"
         }

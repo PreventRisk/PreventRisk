@@ -1,10 +1,10 @@
 <body id="body">
-<h1>Registration</h1>
-<p>Complete the form below to create an account!</p>
-<g:hasErrors bean="${user}">
-<div class="errors">
-<g:renderErrors bean="${user}"></g:renderErrors>
-</div>
+  <h1>Registration</h1>
+    <p>Complete the form below to create an account!</p>
+    <g:hasErrors bean="${user}">
+  <div class="errors">
+    <g:renderErrors bean="${user}"></g:renderErrors>
+  </div>
 </g:hasErrors>
 <g:form action="register" name="registerForm">
 <div class="formField">
