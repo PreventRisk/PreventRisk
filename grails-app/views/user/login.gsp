@@ -2,12 +2,12 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Welcome to Grails</title>
+    <title>PreventRisk LogIn</title>
     <style type="text/css" media="screen">
     #status {
         background-color: #eee;
         border: .2em solid #fff;
-        margin: 2em 2em 1em;
+        margin: 4em 4em 2em;
         padding: 1em;
         width: 12em;
         float: left;
@@ -31,7 +31,7 @@
     }
 
     #status li {
-        line-height: 1.3;
+        line-height: 1.5;
     }
 
     #status h1 {
@@ -81,9 +81,19 @@
     </style>
 </head>
 <body>
+
+<div id="greetingsPane">
+    <g:if test="${!session.user}">
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Bienvenido, para iniciar sesión en PreventRisk...
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Tan solo necesitas tu usuario y contraseña únicas
+        <br><br>
+    </g:if>
+</div>
 <div id="loginBox" class="loginBox">
     <g:if test="${session?.user}">
-        <div style="margin-top:20px">
+        <div style="margin-center:40px">
             <div style="float:right;">
                 <a href="#">Profile</a> | <g:link controller="user"
                                                   action="logout">Logout</g:link><br>
@@ -102,8 +112,8 @@
             <g:passwordField name="password"></g:passwordField>
             <br/>
             <input type="image"
-                   src="${createLinkTo(dir:'images', file:'login-button.gif')}"
-                   name="loginButton" id="loginButton" border="0"></input>
+                   src="${createLinkTo(dir:'images', file:'login.jpg')}"
+                   name="loginButton" id="loginButton" border="0"/>
         </g:form>
         <g:renderErrors bean="${loginCmd}"></g:renderErrors>
     </g:else>
@@ -113,15 +123,15 @@
     <g:if test="${session.user}">
         <ul>
             <li><g:link controller="home"
-            > Ahora puede acceder a Prevent Risk</g:link></li>
+            > Accede ahora a PreventRisk</g:link></li>
 
         </ul>
     </g:if>
     <g:else>
         <div id="registerPane">
-            Need an account?
+            Todavía no te has registrado?
             <g:link controller="user"
-                    action="register">Signup now</g:link>
+                    action="register">Únete acá</g:link>
         </div>
     </g:else>
 </div>

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta name="layout" content="main"/>
-	<title>Welcome to Grails</title>
+	<title>Welcome to PreventRisk</title>
 	<style type="text/css" media="screen">
 	#status {
 		background-color: #eee;
@@ -81,6 +81,17 @@
 	</style>
 </head>
 <body>
+
+<div id="greetingsPane">
+	<g:if test="${!session.user}">
+		<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Bienvenido, para iniciar sesión en PreventRisk...
+		<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;Tan solo necesitas tu usuario y contraseña únicas
+		<br><br>
+	</g:if>
+</div>
+
 <div id="loginBox" class="loginBox">
 	<g:if test="${session?.user}">
 		<div style="margin-top:20px">
@@ -102,8 +113,8 @@
 			<g:passwordField name="password"></g:passwordField>
 			<br/>
 			<input type="image"
-				   src="${createLinkTo(dir:'images', file:'login-button.gif')}"
-				   name="loginButton" id="loginButton" border="0"></input>
+				   src="${createLinkTo(dir:'images', file:'login.jpg')}"
+				   name="loginButton" id="loginButton" border="0"/>
 		</g:form>
 		<g:renderErrors bean="${loginCmd}"></g:renderErrors>
 	</g:else>

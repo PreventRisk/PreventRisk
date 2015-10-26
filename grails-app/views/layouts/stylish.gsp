@@ -74,7 +74,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>PreventRisk te permite aprender sobre primeros auxilios y crear situaciones, para saber como actuar en caso de emergencia. </h2>
-                    <p class="lead">Registrate gratis <a target="_blank" href="http://join.deathtothestockphoto.com/">aquí</a>.</p>
+                    <p class="lead">Registrate gratis <g:link controller="user"
+                                                              action="register">HAZ CLICK AQUI :)</g:link>.</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -101,7 +102,7 @@
                                     <strong>Simulador</strong>
                                 </h4>
                                 <p>Puedes crear una situación de emergencia y mostraremos qué hacer.</p>
-                                <a href="#" class="btn btn-light">Ingresar</a>
+                                <a href="http://localhost:9090/PreventRisk/user/login" class="btn btn-light">Ingresar</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
@@ -114,7 +115,7 @@
                                     <strong>Curso</strong>
                                 </h4>
                                 <p>Aquí podrás aprender como actuar en caso de emergencia y ver tu progreso.</p>
-                                <a href="#" class="btn btn-light">Ingresar</a>
+                                <a href="http://localhost:9090/PreventRisk/user/login" class="btn btn-light">Ingresar</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
@@ -127,7 +128,7 @@
                                     <strong>Entidades cercanas</strong>
                                 </h4>
                                 <p>En caso de emergencia, verás que entidades de salud dependiendo del caso.</p>
-                                <a href="#" class="btn btn-light">Ver</a>
+                                <a href="http://localhost:9090/PreventRisk/user/login" class="btn btn-light">Ver</a>
                             </div>
                         </div>
                     </div>
@@ -149,7 +150,7 @@
                     <p class="lead">Vista general de tu avance</p>
                     <hr class="small">
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">Ingresa</a>
+                    <a href="http://localhost:9090/PreventRisk/user/login" class="btn btn-dark">Ingresa</a>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>

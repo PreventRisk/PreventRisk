@@ -1,3 +1,6 @@
+<head>
+  <title> Registration </title>
+</head>
 <body id="body">
   <h1>Registration</h1>
     <p>Complete the form below to create an account!</p>
@@ -8,23 +11,27 @@
 </g:hasErrors>
 <g:form action="register" name="registerForm">
 <div class="formField">
-<label for="login">Login:</label>
+<label for="login">Login: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
 <g:textField name="login" value="${user?.login}"></g:textField>
 </div>
 <div class="formField">
-<label for="password">Password:</label>
+<label for="password">Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
 <g:passwordField name="password" value="${user?.password}"></g:passwordField>
 </div>
 <div class="formField">
-<label for="confirm">Confirm Password:</label>
+<label for="confirm">Confirm Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
 <g:passwordField name="confirm" value="${params?.confirm}"></g:passwordField>
 </div>
 <div class="formField">
-<label for="firstName">First Name:</label>
+<label for="firstName">First Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
 <g:textField name="firstName" value="${user?.firstName}"></g:textField>
 </div>
 <div class="formField">
-<label for="lastName">Last Name:</label>
+<label for="lastName">Last Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
 <g:textField name="lastName" value="${user?.lastName}"></g:textField>
 </div>
 <g:submitButton class="formButton" name="register" value="Register"></g:submitButton>
