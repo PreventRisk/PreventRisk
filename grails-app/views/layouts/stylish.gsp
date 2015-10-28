@@ -38,7 +38,7 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Ingresar</a>
+                <a href="http://localhost:9090/PreventRisk/user/login"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Ingresar</a>
             </li>
             <li>
                 <a href="#top" onclick = $("#menu-close").click(); ><i class="fa fa-home fa-lw"></i>&nbsp; Inicio</a>
@@ -60,11 +60,12 @@
         <div class="text-vertical-center">
             <h1>Bienvenido a PreventRisk</h1>
             <h3>Aquí sabrás qué hacer en caso de emergencias.</h3>
+            <h4><a href="http://localhost:9090/PreventRisk/user/login">Inicia sesión</a> o si
+            eres nuevo, registrate <a href="http://localhost:9090/PreventRisk/user/register">aquí</a></h4>
             <br>
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <a href="#about" class="btn btn-dark btn-lg">Saber más</a>
-                    <a href="http://localhost:9090/PreventRisk/user/register" class="btn btn-lg btn-dark">Ingresa</a>
                 </div>
             </div>
         </div>
