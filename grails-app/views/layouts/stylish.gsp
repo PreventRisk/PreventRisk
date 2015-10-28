@@ -44,16 +44,13 @@
                 <a href="#top" onclick = $("#menu-close").click(); ><i class="fa fa-home fa-lw"></i>&nbsp; Inicio</a>
             </li>
             <li>
-                <a href="#about" onclick = $("#menu-close").click(); ><i class="fa fa-info-circle fa-lw"></i>&nbsp; Sobre nosotros</a>
-            </li>
-            <li>
                 <a href="#services" onclick = $("#menu-close").click(); ><i class="fa fa-shield fa-lw"></i>&nbsp; Servicios</a>
             </li>
             <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); ><i class="fa fa-tasks fa-lw"></i>&nbsp; Progreso</a>
+                <a href="#entities" onclick = $("#menu-close").click(); ><i class="fa fa-map-marker fa-lw"></i>&nbsp; Entidades cercanas</a>
             </li>
             <li>
-                <a href="#entities" onclick = $("#menu-close").click(); ><i class="fa fa-map-marker fa-lw"></i>&nbsp; Entidades cercanas</a>
+                <a href="#about" onclick = $("#menu-close").click(); ><i class="fa fa-info-circle fa-lw"></i>&nbsp; Sobre nosotros</a>
             </li>
         </ul>
     </nav>
@@ -64,24 +61,14 @@
             <h1>Bienvenido a PreventRisk</h1>
             <h3>Aquí sabrás qué hacer en caso de emergencias.</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Saber más</a>
-        </div>
-    </header>
-
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>PreventRisk te permite aprender sobre primeros auxilios y crear situaciones, para saber como actuar en caso de emergencia. </h2>
-                    <p class="lead">Registrate gratis <g:link controller="user"
-                                                              action="register">HAZ CLICK AQUI :)</g:link>.</p>
+                    <a href="#about" class="btn btn-dark btn-lg">Saber más</a>
+                    <a href="http://localhost:9090/PreventRisk/user/register" class="btn btn-lg btn-dark">Ingresa</a>
                 </div>
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
-    </section>
+    </header>
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
@@ -141,23 +128,6 @@
         <!-- /.container -->
     </section>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Tu progreso</h2>
-                    <p class="lead">Vista general de tu avance</p>
-                    <hr class="small">
-                    <!-- /.row (nested) -->
-                    <a href="http://localhost:9090/PreventRisk/user/login" class="btn btn-dark">Ingresa</a>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
 
     <!-- Call to Action -->
     <section id="entities" class="call-to-action bg-primary">
@@ -183,7 +153,7 @@
     </aside>
 
     <!-- Footer -->
-    <footer>
+    <section id = "about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -207,7 +177,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </section>
 
 <!-- jQuery -->
 <script src="${request.contextPath}/stylish/js/jquery.js"></script>
