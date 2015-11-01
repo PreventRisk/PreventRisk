@@ -1,4 +1,4 @@
-<%@ page import="preventrisk.User" %>
+<%@ page import="User" %>
 <!DOCTYPE html>
 <html>
 	<head>

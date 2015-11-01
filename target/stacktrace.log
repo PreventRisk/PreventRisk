@@ -2313,7 +2313,7 @@ Caused by: java.lang.ClassNotFoundException: preventrisk.IndexController
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
 	... 4 more
 2015-10-16 20:34:34,455 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.addArtefact(DefaultGrailsApplication.java:797)
 	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.addArtefact(DefaultGrailsApplication.java:477)
 	at org.codehaus.groovy.grails.commons.GrailsApplication$addArtefact$2.call(Unknown Source)
@@ -2382,16 +2382,16 @@ org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add D
 	at groovy.lang.Closure.run(Closure.java:507)
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:34,459 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:34,460 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:34,460 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:39,749 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.addArtefact(DefaultGrailsApplication.java:797)
 	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.addArtefact(DefaultGrailsApplication.java:477)
 	at org.codehaus.groovy.grails.commons.GrailsApplication$addArtefact$2.call(Unknown Source)
@@ -2457,16 +2457,16 @@ org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add D
 	at groovy.lang.Closure.run(Closure.java:507)
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:39,750 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:39,750 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:39,750 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:44,879 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.addArtefact(DefaultGrailsApplication.java:797)
 	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.addArtefact(DefaultGrailsApplication.java:477)
 	at org.codehaus.groovy.grails.commons.GrailsApplication$addArtefact$2.call(Unknown Source)
@@ -2532,16 +2532,16 @@ org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add D
 	at groovy.lang.Closure.run(Closure.java:507)
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:44,880 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:44,880 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:44,880 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:56,334 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.addArtefact(DefaultGrailsApplication.java:797)
 	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.addArtefact(DefaultGrailsApplication.java:477)
 	at org.codehaus.groovy.grails.commons.GrailsApplication$addArtefact$2.call(Unknown Source)
@@ -2607,13 +2607,13 @@ org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add D
 	at groovy.lang.Closure.run(Closure.java:507)
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:56,335 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:56,335 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:34:56,335 [Thread-11] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class preventrisk.User]. It is not a Domain!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Domain class [class User]. It is not a Domain!
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 20:35:27,629 [Thread-9] ERROR StackTrace  - Full Stack Trace:
 java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
@@ -2814,7 +2814,7 @@ java.lang.Exception: No tests found matching grails test target pattern filter f
 	at org.junit.internal.requests.FilterRequest.getRunner(FilterRequest.java:40)
 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
 2015-10-16 22:01:29,623 [http-bio-9090-exec-9] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.renderViewForUrlMappingInfo(UrlMappingsFilter.java:420)
 	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.doFilterInternal(UrlMappingsFilter.java:222)
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
@@ -2847,7 +2847,7 @@ org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error map
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at org.codehaus.groovy.grails.web.pages.GroovyPage.evaluate(GroovyPage.java:322)
 	at sun.reflect.GeneratedMethodAccessor123.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -2913,7 +2913,7 @@ Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException:
 	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
 	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.renderViewForUrlMappingInfo(UrlMappingsFilter.java:401)
 	... 31 more
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaClassGetPropertySite.getProperty(PogoMetaClassGetPropertySite.java:53)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
@@ -2933,7 +2933,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSong
 	at org.codehaus.groovy.grails.web.pages.GroovyPage.evaluate(GroovyPage.java:320)
 	... 94 more
 2015-10-16 22:01:29,628 [http-bio-9090-exec-9] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at org.codehaus.groovy.grails.web.pages.GroovyPage.evaluate(GroovyPage.java:322)
 	at sun.reflect.GeneratedMethodAccessor123.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3029,7 +3029,7 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaClassGetPropertySite.getProperty(PogoMetaClassGetPropertySite.java:53)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
@@ -3049,7 +3049,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSong
 	at org.codehaus.groovy.grails.web.pages.GroovyPage.evaluate(GroovyPage.java:320)
 	... 94 more
 2015-10-16 22:01:29,632 [http-bio-9090-exec-9] ERROR StackTrace  - Full Stack Trace:
-groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaClassGetPropertySite.getProperty(PogoMetaClassGetPropertySite.java:53)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
@@ -3162,41 +3162,41 @@ groovy.lang.MissingPropertyException: No such property: purchasedSongs for class
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 22:01:29,635 [http-bio-9090-exec-9] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
 	... 3 more
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	... 5 more
 2015-10-16 22:01:29,639 [http-bio-9090-exec-9] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
 	... 3 more
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	... 5 more
 2015-10-16 22:01:29,642 [http-bio-9090-exec-9] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	... 5 more
 2015-10-16 22:01:29,644 [http-bio-9090-exec-9] ERROR StackTrace  - Full Stack Trace:
-groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
@@ -3204,41 +3204,41 @@ groovy.lang.MissingPropertyException: No such property: purchasedSongs for class
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 22:01:29,646 [http-bio-9090-exec-9] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
 	... 3 more
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	... 5 more
 2015-10-16 22:01:29,875 [http-bio-9090-exec-9] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
 	... 3 more
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	... 5 more
 2015-10-16 22:01:29,875 [http-bio-9090-exec-9] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	... 5 more
 2015-10-16 22:01:29,875 [http-bio-9090-exec-9] ERROR StackTrace  - Full Stack Trace:
-groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
@@ -3246,19 +3246,19 @@ groovy.lang.MissingPropertyException: No such property: purchasedSongs for class
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 22:01:29,876 [http-bio-9090-exec-9] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
 	... 3 more
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	... 5 more
 2015-10-16 22:01:41,036 [http-bio-9090-exec-7] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.renderViewForUrlMappingInfo(UrlMappingsFilter.java:420)
 	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.doFilterInternal(UrlMappingsFilter.java:222)
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
@@ -3291,7 +3291,7 @@ org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error map
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at org.codehaus.groovy.grails.web.pages.GroovyPage.evaluate(GroovyPage.java:322)
 	at sun.reflect.GeneratedMethodAccessor123.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3355,7 +3355,7 @@ Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException:
 	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
 	at org.codehaus.groovy.grails.web.mapping.filter.UrlMappingsFilter.renderViewForUrlMappingInfo(UrlMappingsFilter.java:401)
 	... 31 more
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaClassGetPropertySite.getProperty(PogoMetaClassGetPropertySite.java:53)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
@@ -3375,7 +3375,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSong
 	at org.codehaus.groovy.grails.web.pages.GroovyPage.evaluate(GroovyPage.java:320)
 	... 92 more
 2015-10-16 22:01:41,038 [http-bio-9090-exec-7] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at org.codehaus.groovy.grails.web.pages.GroovyPage.evaluate(GroovyPage.java:322)
 	at sun.reflect.GeneratedMethodAccessor123.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3469,7 +3469,7 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaClassGetPropertySite.getProperty(PogoMetaClassGetPropertySite.java:53)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
@@ -3489,7 +3489,7 @@ Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSong
 	at org.codehaus.groovy.grails.web.pages.GroovyPage.evaluate(GroovyPage.java:320)
 	... 92 more
 2015-10-16 22:01:41,039 [http-bio-9090-exec-7] ERROR StackTrace  - Full Stack Trace:
-groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:53)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaClassGetPropertySite.getProperty(PogoMetaClassGetPropertySite.java:53)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
@@ -3600,41 +3600,41 @@ groovy.lang.MissingPropertyException: No such property: purchasedSongs for class
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 22:01:41,040 [http-bio-9090-exec-7] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
 	... 3 more
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	... 5 more
 2015-10-16 22:01:41,041 [http-bio-9090-exec-7] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
 	... 3 more
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	... 5 more
 2015-10-16 22:01:41,041 [http-bio-9090-exec-7] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	... 5 more
 2015-10-16 22:01:41,042 [http-bio-9090-exec-7] ERROR StackTrace  - Full Stack Trace:
-groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
@@ -3642,41 +3642,41 @@ groovy.lang.MissingPropertyException: No such property: purchasedSongs for class
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 22:01:41,042 [http-bio-9090-exec-7] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
 	... 3 more
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	... 5 more
 2015-10-16 22:01:41,051 [http-bio-9090-exec-7] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
 	... 3 more
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	... 5 more
 2015-10-16 22:01:41,051 [http-bio-9090-exec-7] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	... 5 more
 2015-10-16 22:01:41,052 [http-bio-9090-exec-7] ERROR StackTrace  - Full Stack Trace:
-groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
@@ -3684,15 +3684,15 @@ groovy.lang.MissingPropertyException: No such property: purchasedSongs for class
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 22:01:41,052 [http-bio-9090-exec-7] ERROR StackTrace  - Full Stack Trace:
-org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+org.codehaus.groovy.grails.web.mapping.exceptions.UrlMappingException: Error mapping onto view [/index]: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: preventrisk.User
+Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [session.user.purchasedSongs?.size() ?: 0] on line [132]: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2.doCall(index.gsp:132)
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp.run(index.gsp:172)
 	... 3 more
-Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: preventrisk.User
+Caused by: groovy.lang.MissingPropertyException: No such property: purchasedSongs for class: User
 	at home_monica_Documentos_Ingenieria_de_Software_PreventRisk_grails_app_views_index_gsp$_run_closure2$_closure27.doCall(index.gsp:132)
 	... 5 more
 2015-10-16 22:17:50,293 [http-bio-9090-exec-10] ERROR StackTrace  - Full Stack Trace:
@@ -3700,12 +3700,12 @@ org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: C
 	at org.codehaus.groovy.grails.web.mapping.ResponseRedirector.redirect(ResponseRedirector.groovy:70)
 	at org.codehaus.groovy.grails.web.metaclass.RedirectDynamicMethod.invoke(RedirectDynamicMethod.java:145)
 	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:250)
-	at preventrisk.UserController.redirect(UserController.groovy)
-	at preventrisk.UserController$redirect$0.callCurrent(Unknown Source)
+	at UserController.redirect(UserController.groovy)
+	at UserController$redirect$0.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at preventrisk.UserController.register(UserController.groovy:15)
+	at UserController.register(UserController.groovy:15)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -3785,7 +3785,7 @@ org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: C
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 22:17:50,297 [http-bio-9090-exec-10] ERROR StackTrace  - Full Stack Trace:
 org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot issue a redirect(..) here. The response has already been committed either by another redirect or by directly writing to the response.
-	at preventrisk.UserController.register(UserController.groovy:15)
+	at UserController.register(UserController.groovy:15)
 	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
 	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
@@ -3793,7 +3793,7 @@ org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: C
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 22:17:50,309 [http-bio-9090-exec-10] ERROR StackTrace  - Full Stack Trace:
 org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot issue a redirect(..) here. The response has already been committed either by another redirect or by directly writing to the response.
-	at preventrisk.UserController.register(UserController.groovy:15)
+	at UserController.register(UserController.groovy:15)
 	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
 	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
@@ -3801,7 +3801,7 @@ org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: C
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 22:17:50,309 [http-bio-9090-exec-10] ERROR StackTrace  - Full Stack Trace:
 org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot issue a redirect(..) here. The response has already been committed either by another redirect or by directly writing to the response.
-	at preventrisk.UserController.register(UserController.groovy:15)
+	at UserController.register(UserController.groovy:15)
 	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
 	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
@@ -3809,7 +3809,7 @@ org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: C
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 22:17:50,309 [http-bio-9090-exec-10] ERROR StackTrace  - Full Stack Trace:
 org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot issue a redirect(..) here. The response has already been committed either by another redirect or by directly writing to the response.
-	at preventrisk.UserController.register(UserController.groovy:15)
+	at UserController.register(UserController.groovy:15)
 	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
 	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
@@ -3817,7 +3817,7 @@ org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: C
 	at java.lang.Thread.run(Thread.java:745)
 2015-10-16 22:17:50,309 [http-bio-9090-exec-10] ERROR StackTrace  - Full Stack Trace:
 org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot issue a redirect(..) here. The response has already been committed either by another redirect or by directly writing to the response.
-	at preventrisk.UserController.register(UserController.groovy:15)
+	at UserController.register(UserController.groovy:15)
 	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
 	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)

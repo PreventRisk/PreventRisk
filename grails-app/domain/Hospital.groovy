@@ -1,4 +1,4 @@
-package preventrisk
+
 
 class Hospital extends Location{
 

@@ -60,8 +60,8 @@
         <div class="text-vertical-center">
             <h1>Bienvenido a PreventRisk</h1>
             <h3>Aquí sabrás qué hacer en caso de emergencias.</h3>
-            <h4><a href="http://localhost:9090/PreventRisk/user/login">Inicia sesión</a> o si
-            eres nuevo, registrate <a href="http://localhost:9090/PreventRisk/user/register">aquí</a></h4>
+            <h4><a href="http://localhost:9090/PreventRisk/user/login">Inicia sesión</a>. Si
+            eres nuevo, regístrate <a href="http://localhost:9090/PreventRisk/user/register">aquí</a>.</h4>
             <br>
             <div class="row">
                 <div class="col-lg-12 text-center">
