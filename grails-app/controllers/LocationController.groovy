@@ -3,7 +3,7 @@ import grails.transaction.Transactional
 
 @Transactional(readOnly = true)
 class LocationController {
-
+    def geocoderService
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
@@ -31,6 +31,9 @@ class LocationController {
             return
         }
 
+        //Injecting geocoder
+        geocoderService.fillInLatLng(locationInstance)
+
         locationInstance.save flush: true
 
         request.withFormat {
@@ -57,6 +60,9 @@ class LocationController {
             respond locationInstance.errors, view: 'edit'
             return
         }
+
+        //Injecting geocoder
+        geocoderService.fillInLatLng(locationInstance)
 
         locationInstance.save flush: true
 
