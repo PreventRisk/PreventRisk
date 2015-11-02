@@ -2,17 +2,43 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <g:javascript library="jquery"/>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+                google.load("visualization", "1", {packages:["map"]});
+        google.setOnLoadCallback(drawMap);
+        function drawMap() {
+            var data = google.visualization.arrayToDataTable([
+                ['Lat', 'Long', 'Name', {type: 'string', role: 'tooltip'}],
+                [4.6355603,-74.1236558, 'Clinica Universitaria', 'All data things here'],
+                [4.6425933,-74.1124776, 'Centro Gran estacion', 'All data things here']
+            ]);
 
-    <title>PreventRisk</title>
+            var options = {
+            //    icons: {
+            //        default: {
+            //            normal: 'http://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/Map-Marker-Ball-Azure-icon.png',
+            //            selected: 'http://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/Map-Marker-Ball-Right-Azure-icon.png'
+            //        }
+            //    }
+                showTip: true
+            };
 
-    <!-- Bootstrap Core CSS -->
-    <link href="${request.contextPath}/stylish/css/bootstrap.min.css" rel="stylesheet">
+            var map = new google.visualization.Map(document.getElementById('map_markers_div'));
+            map.draw(data, options);
+        }
+
+    </script>
+
+  <title>PreventRisk</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="${request.contextPath}/stylish/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="${request.contextPath}/stylish/css/stylish-portfolio.css" rel="stylesheet">
@@ -143,7 +169,9 @@
         </div>
     </section>
 
-    <!-- Map -->
+    <div id="map_markers_div"></div>
+
+    <!-- Map
     <aside class="map">
         <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7953.50127292347!2d-74.09018762744006!3d4.6385152302482515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bce39a6fabb%3A0x20a24f1701dc7d9c!2sCdad.+Universitaria%2C+Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1445094889494"></iframe>
         <br />
@@ -151,7 +179,7 @@
             <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7953.50127292347!2d-74.09018762744006!3d4.6385152302482515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bce39a6fabb%3A0x20a24f1701dc7d9c!2sCdad.+Universitaria%2C+Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1445094889494"></a>
         </small>
     </iframe>
-    </aside>
+    </aside>-->
 
     <!-- Footer -->
     <section id = "about">
