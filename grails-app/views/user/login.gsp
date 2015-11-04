@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="layout" content="main"/>
+    <meta name="layout" content="login-form"/>
     <title>PreventRisk LogIn</title>
     <style type="text/css" media="screen">
     #status {
@@ -91,6 +91,7 @@
         <br><br>
     </g:if>
 </div>
+
 <div id="loginBox" class="loginBox">
     <g:if test="${session?.user}">
         <div style="margin-center:40px">

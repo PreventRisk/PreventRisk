@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="layout" content="login-form"/>
+	<meta name="layout" content="stylish"/>
 	<title>Welcome to PreventRisk</title>
 </head>
 <body>

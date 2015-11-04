@@ -2,7 +2,7 @@
 
 class  UserController {
 
-    def register() {
+    def registro() {
         if(request.method == 'POST') {
             def u = new User()
             u.properties['login', 'password', 'firstName', 'lastName'] = params

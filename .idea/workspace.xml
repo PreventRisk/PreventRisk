@@ -2,707 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df1151fc-c741-4b16-8217-8cc433c25e31" name="Default" comment="user/LogIn gsp view &#10;modified user/Register&#10;Links for login and register from /home&#10;user/login is homepage">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/bg/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/demo/1_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/demo/1_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/bg/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/demo/2_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/demo/2_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/bg/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/demo/3_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/demo/3_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/bg/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/demo/4_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/demo/4_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/demo/5_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/demo/5_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/demo/captcha/fonts/Anorexia.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/fonts/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/font/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/GeocoderService$__tt__fillInLatLng_closure2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/GeocoderService$_fillInLatLng_closure1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/GeocoderService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$__tt__delete_closure11$_closure18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$__tt__delete_closure11$_closure19.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$__tt__delete_closure11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$__tt__save_closure9$_closure14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$__tt__save_closure9$_closure15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$__tt__save_closure9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$__tt__update_closure10$_closure16.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$__tt__update_closure10$_closure17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$__tt__update_closure10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$_create_closure3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$_delete_closure7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$_edit_closure5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$_index_closure1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$_notFound_closure8$_closure12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$_notFound_closure8$_closure13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$_notFound_closure8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$_save_closure4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$_show_closure2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController$_update_closure6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/LocationController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/fonts/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ae.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/af.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ai.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/ajax-loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/ajax-modal-loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/al.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-colorpicker/img/alpha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/am.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/amazon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/an.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/animated-overlay.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/arrow-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/as.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/at.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/au.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/aw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ax.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/az.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ba.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/be.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/behance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/bg-opacity.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/bg-white-lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/bg-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/source/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/blogger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/br.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/demo/captcha/images/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/by.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/bz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/fonts/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ca.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/catalonia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/cc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/cd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/cf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/cg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ci.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ck.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/cl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/cm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/cn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/co.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/countdownGlowing.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/countdownLED.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/cr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/cs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/cu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/cv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/cx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/cy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/cz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/datatable-row-openclose.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/de.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/deviantart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/dj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/dk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/dm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/do.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/dribbble.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/dropbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/dz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-easy-pie-chart/img/easy-pie-chart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/eg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/eh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/england.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/er.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/es.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/et.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/europeanunion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/evernote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/fam.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/source/helpers/fancybox_buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/source/fancybox_loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/source/fancybox_overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/source/fancybox_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/fi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/fj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/fk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/fm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/fo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/font/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/font/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/font/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/forrst.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/fr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ga.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/fonts/glyphicons-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/fonts/glyphicons-regular.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/fonts/glyphicons-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/fonts/glyphicons-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/images/glyphicons-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/images/glyphicons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/images/glyphicons_halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/images/glyphicons_halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/fonts/glyphiconshalflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/fonts/glyphiconshalflings-regular.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/fonts/glyphiconshalflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/fonts/glyphiconshalflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/googleplus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/images/gritter-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/images/gritter-brown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/images/gritter-light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/images_original/gritter-light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/images/gritter-long.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/images_original/gritter-long.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/images/gritter-purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/images/gritter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/images_original/gritter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/gy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/hk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/hm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/hn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/hor-menu-red-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/hor-menu-search-close-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/hor-menu-search-close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/hor-menu-search.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/hor-menu-search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/hr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ht.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/hu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-colorpicker/img/hue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/icon-color-close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/icon-color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/icon-img-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/icon-img-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/id.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/images/ie-spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/images_original/ie-spacer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/il.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/in.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/inbox-nav-arrow-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/input-spinner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/instagram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/io.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/iq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ir.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/is.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/it.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/jm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/jo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/jolicloud.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/jp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/fonts/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ke.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/kg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/kh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ki.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/km.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/kn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/kp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/kr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/kw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ky.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/kz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/la.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/last-fm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/lb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/lc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/li.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/linkedin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/lk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/lr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/lt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/lu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/lv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ly.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/md.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/me.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/menu-toggler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ml.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ms.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/my.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/mz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/na.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/nc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ne.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/nf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ng.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ni.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/nl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/np.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/nr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/nu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/nz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/om.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/overlay-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/pa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/pe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/pf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/pg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/picasa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/pintrest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/pk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/pl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/pm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/pn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/portlet-collapse-icon-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/portlet-collapse-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/portlet-config-icon-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/portlet-config-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/portlet-expand-icon-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/portlet-expand-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/portlet-reload-icon-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/portlet-reload-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/portlet-remove-icon-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/portlet-remove-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/pr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ps.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/pt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/pw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/py.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/qa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/re.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/remove-icon-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/rs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/rss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ru.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/rw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-colorpicker/img/saturation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/scotland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/se.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/search-icon-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/search-icon-brown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/search-icon-purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/search-icon-red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/search-icon-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/search-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/select-caret.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/si.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-menu-arrow-green-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-menu-arrow-green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-menu-arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-menu-arrow-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-menu-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-search-close-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-search-close-brown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-search-close-light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-search-close-purple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-search-close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-toggler-blue.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-toggler-brown.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-toggler-light.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-toggler-purple.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-toggler.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/sidebar-toggler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/skype.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/so.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/spotify.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/st.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/stumbleupon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/img/switch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/syncfusion-icons-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/syncfusion-icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/sz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/tc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/td.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/tf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/tg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/th.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/tj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/tk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/tl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/tm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/tn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/to.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/tr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/images_original/trees.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/tt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/tumblr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/tv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/tw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/tz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ua.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ug.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_flat_10_000000_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_glass_100_f6f6f6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_glass_100_fdf5ce_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-icons_228ef1_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-icons_2e83ff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-icons_454545_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-icons_888888_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-icons_ef8c08_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-icons_ffd27a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/um.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/us.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/uy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/uz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/va.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/vc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ve.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/vg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/vi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/vimeo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/vk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/vn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/vu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/wales.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/wf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/wordpress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ws.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/xing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/yahoo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/ye.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/social/youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/yt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/za.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/zm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/zw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-toggle-buttons/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/demo/captcha/images/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-toggle-buttons/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/test/lib/jasmine-1.2.0/MIT.LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-easy-pie-chart/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/README.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-toggle-buttons/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-inputmask/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-knob/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-nestable/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-tags-input/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui-touch-punch/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-easy-pie-chart/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/test/spec/SpecHelper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/test/SpecRunner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/scss/_bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/scss/_extras.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/demo/ajax.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/demo/ajaxSubmit-integration-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/allow-page-scroll.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/css/themes/blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-toggle-buttons/static/stylesheets/bootstrap-toggle-buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-toggle-buttons/static/sass/bootstrap-toggle-buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/less/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/css/themes/brown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/demo/captcha/captcha.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/chaining.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/changelog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-colorpicker/css/colorpicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-colorpicker/less/colorpicker.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-toggle-buttons/static/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/countdownBasic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/css/themes/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/disable-fade-out.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/dynamic-content.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-tags-input/example.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-easy-pie-chart/examples/excanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/excanvas.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/less/extras.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-tags-input/test/fake_json_endpoint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-tags-input/test/fake_plaintext_endpoint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/css/font-awesome-ie7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/less/font-awesome-ie7.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/css/font-awesome-ie7.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/scss/font-awesome-ie7.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/fonts/font.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/font/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/fonts/glyphicons-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/images/glyphicons-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/css/glyphicons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/less/glyphicons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/images/glyphicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/images/glyphicons_halflings-white.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/images/glyphicons_halflings.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/fonts/glyphiconshalflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/css/themes/grey.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/css/halflings.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/less/halflings.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/height-width.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/demo/iframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/demo/captcha/images/image.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/demo/captcha/image_req.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-toggle-buttons/examples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/demo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-easy-pie-chart/examples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-knob/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-nestable/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/demo/captcha/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/test/lib/jasmine-1.2.0/jasmine-html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/test/lib/jasmine-jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/test/lib/jasmine-1.2.0/jasmine.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/test/lib/jasmine-1.2.0/jasmine.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-1.10.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/lib/jquery-1.8.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-migrate-1.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/jquery-ui-1.10.1.custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui/jquery-ui-1.9.2.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/backstretch/jquery.backstretch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/backstretch/jquery.backstretch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-bn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-bs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-gu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-hy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-kn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-ko.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-ml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-my.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-sr-SR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-uz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown-zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/jquery.countdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/countdown/plugin/jquery.countdown.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-easy-pie-chart/jquery.easy-pie-chart.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-easy-pie-chart/jquery.easy-pie-chart.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-easy-pie-chart/jquery.easy-pie-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/source/helpers/jquery.fancybox-buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/source/helpers/jquery.fancybox-buttons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/source/helpers/jquery.fancybox-media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/source/helpers/jquery.fancybox-thumbs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/source/helpers/jquery.fancybox-thumbs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/source/jquery.fancybox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/source/jquery.fancybox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/source/jquery.fancybox.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/css/jquery.gritter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/js/jquery.gritter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/gritter/js/jquery.gritter.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-inputmask/jquery.inputmask.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/test/src/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-knob/js/jquery.knob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-toggle-buttons/static/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/fancybox/lib/jquery.mousewheel-3.0.6.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/jquery.multi-select.jquery.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/js/jquery.multi-select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-nestable/jquery.nestable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-nestable/jquery.nestable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/jquery.slimscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-tags-input/jquery.tagsinput.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-tags-input/jquery.tagsinput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-tags-input/jquery.tagsinput.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/bootstrap-toggle-buttons/static/js/jquery.toggle.buttons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui-touch-punch/jquery.ui.touch-punch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/css/themes/light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/layouts/login-form.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/css/pages/login-soft.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/scripts/modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/scripts/modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/scripts/modernizr_license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/scripts/modernizr_license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/mouse-wheel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/css/multi-select-metro.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/css/multi-select.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-multi-select/test/spec/multiSelectSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/multiple-elements.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/navigation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/nested.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/demo/captcha/newsession.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/libs/prettify/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/libs/prettify/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/css/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/demo/captcha/process.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/programmatic-scrolling.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/css/themes/purple.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/rail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-validation/demo/captcha/rand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/img/flags/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/less/reset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/less/reset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/scroll-events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/scrollbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/less/site.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/less/site.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/slimScroll.jquery.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/start-position.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/css/style-metro.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/css/style-non-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/css/style-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-easy-pie-chart/examples/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/jquery-slimscroll/examples/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons/less/style.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/glyphicons_halflings/less/style.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/login-form/assets/plugins/font-awesome/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/user/registro.gsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/user/register.gsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UserController.class" afterPath="$PROJECT_DIR$/target/classes/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.h2.db" afterPath="$PROJECT_DIR$/devDb.h2.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PreventRisk.iml" afterPath="$PROJECT_DIR$/PreventRisk.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/UserController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/UserController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.lock.db" afterPath="$PROJECT_DIR$/devDb.lock.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.trace.db" afterPath="$PROJECT_DIR$/devDb.trace.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/login-form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/login-form.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/login.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/login.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/stylish.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/stylish.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PreventRisk.iws" />
@@ -726,7 +37,81 @@
     <favorites_list name="PreventRisk" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.gsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6496815">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/user/login.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.0384616">
+              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login-form.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/login-form.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.333333">
+              <caret line="83" column="57" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registro.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/user/registro.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.3846154">
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/UserController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.0">
+              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginCommand.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/LoginCommand.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.5357144">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/login-form/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="347" column="80" selection-start-line="0" selection-start-column="0" selection-end-line="482" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -770,13 +155,16 @@
         <option value="$PROJECT_DIR$/grails-app/domain/preventrisk/Drugstore.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/register.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/login.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/layouts/stylish.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/Drugstore.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/HomeController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/GeocoderService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/Location.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/register.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/UserController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/stylish.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/registro.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/login-form.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/login.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
       </list>
     </option>
@@ -796,10 +184,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
-    <option name="width" value="1314" />
-    <option name="height" value="784" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1535" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -824,7 +212,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -925,11 +312,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -991,10 +432,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PreventRisk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1235,38 +731,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1316,22 +780,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="Grails:PreventRisk" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="PreventRisk" />
       <setting name="vmparams" value="" />
@@ -1373,6 +821,8 @@
       <workItem from="1446324419821" duration="119000" />
       <workItem from="1446415178068" duration="3411000" />
       <workItem from="1446510151121" duration="4440000" />
+      <workItem from="1446586533990" duration="1790000" />
+      <workItem from="1446588411467" duration="8636000" />
     </task>
     <task id="LOCAL-00001" summary="Modelo login domain class&#10;userName&#10;userPassword&#10;DataSource.groovy/development enviroment/ &#10;set to update - no mem - h2, devDB&#10;&#10;Merge branch 'master' of https://github.com/PreventRisk/PreventRisk&#10;&#10;Conflicts:&#10;&#9;src/test/TestFranco.groovy&#10;">
       <created>1444639504088</created>
@@ -1408,7 +858,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43808000" />
+    <option name="totallyTimeSpent" value="54234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1420,75 +870,75 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1314" height="784" extended-state="6" />
+    <frame x="65" y="24" width="1535" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3240059" sideWeight="0.4953125" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25269645" sideWeight="0.49227372" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24921875" sideWeight="0.50772625" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20752183" sideWeight="0.5113636" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26794872" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24921875" sideWeight="0.50772625" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20752183" sideWeight="0.48863637" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32307693" sideWeight="0.4953125" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32504147" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32415903" sideWeight="0.496875" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32415903" sideWeight="0.496875" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32504147" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32415903" sideWeight="0.496875" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.503125" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26794872" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32253313" sideWeight="0.4953125" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20752183" sideWeight="0.49227372" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32307693" sideWeight="0.4953125" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25269645" sideWeight="0.49227372" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24921875" sideWeight="0.50772625" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32415903" sideWeight="0.496875" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24921875" sideWeight="0.50772625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
@@ -1521,14 +971,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/stylish.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="247" column="7" selection-start-line="247" selection-start-column="7" selection-end-line="247" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/home/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1722,13 +1164,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03522505">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/PageFragmentCachingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1737,13 +1172,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/Hospital.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/_form.gsp">
@@ -1753,16 +1188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/User.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5769231">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12228261">
@@ -1770,91 +1195,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/UserController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/register.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-          <folding>
-            <marker date="1446509100160" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446509100160" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/login.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5171102">
-          <caret line="116" column="17" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/HomeController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.061594203">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/LoginCommand.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0917431">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Location.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/GeocoderService.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.1518986">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/login-form/assets/css/pages/login-soft.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/Drugstore.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08947369">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-app/stylish/index.html">
@@ -1869,14 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/login-form/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.653846">
-          <caret line="347" column="80" selection-start-line="0" selection-start-column="0" selection-end-line="482" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1897,26 +1262,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/login-form.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Location.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33580247">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/login-form/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="347" column="80" selection-start-line="0" selection-start-column="0" selection-end-line="482" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/LoginCommand.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5357144">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/User.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.64285713">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5421687">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/stylish.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.360494">
-          <caret line="223" column="29" selection-start-line="223" selection-start-column="29" selection-end-line="223" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.4090909">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/UserController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.0">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/registro.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3846154">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/login-form.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333">
+          <caret line="83" column="57" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/login.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0384616">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.98941797">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.6496815">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
