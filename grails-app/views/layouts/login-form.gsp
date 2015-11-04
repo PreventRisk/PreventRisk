@@ -36,54 +36,61 @@
 <!-- BEGIN LOGIN -->
 <div class="content">
     <!-- BEGIN LOGIN FORM -->
-    <form class="form-vertical login-form" action="" method="post" name="loginForm"
-          url="[controller:'user', action:'dologin']">
-        <h3 class="form-title">Login to your account</h3>
+    <form class="form-vertical login-form"  method="post" name="loginForm">
+        <h3 class="form-title">Accede a tu cuenta</h3>
         <div class="alert alert-error hide">
             <button class="close" data-dismiss="alert"></button>
-            <span>Enter any username and password.</span>
+            <span>Ingresa tu usuario y contraseña.</span>
         </div>
         <div class="control-group">
             <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
-            <label class="control-label visible-ie8 visible-ie9">Username</label>
+            <label class="control-label visible-ie8 visible-ie9">Usuario</label>
             <div class="controls">
                 <div class="input-icon left">
                     <i class="icon-user"></i>
-                    <input class="m-wrap placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" name="login" value="${fieldValue(bean:loginCmd, field:'login')}"/>
+                    <input class="m-wrap placeholder-no-fix" type="text" autocomplete="off" placeholder="Usuario" name="login" value="${fieldValue(bean:loginCmd, field:'login')}"/>
                 </div>
             </div>
         </div>
         <div class="control-group">
-            <label class="control-label visible-ie8 visible-ie9">Password</label>
+            <label class="control-label visible-ie8 visible-ie9">Contraseña</label>
             <div class="controls">
                 <div class="input-icon left">
                     <i class="icon-lock"></i>
-                    <input class="m-wrap placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password"/>
+                    <input class="m-wrap placeholder-no-fix" type="password" autocomplete="off" placeholder="Contraseña" name="password"/>
                 </div>
             </div>
         </div>
         <div class="form-actions">
-            <button type="submit" class="btn blue pull-right">
-                Login <i class="m-icon-swapright m-icon-white"></i>
+            <a href="http://localhost:9090/PreventRisk/home/index" >
+                <button id="login-back-btn" type    ="button" class="btn">  <i class="m-icon-swapleft"></i>  Inicio </button>
+            </a>
+            <button type="actionSubmit" class="btn blue pull-right" value="Login" formaction="dologin">
+                Ingresar <i class="m-icon-swapright m-icon-white"></i>
             </button>
+
         </div>
+
         <div class="forget-password">
-            <h4>Forgot your password ?</h4>
+            <h4>Olvidaste tu contraseña ?</h4>
             <p>
-                no worries, click <a href="javascript:;"  id="forget-password">here</a>
-                to reset your password.
+                No te preocupes, ingresa <a href="javascript:;"  id="forget-password">aquí</a>
+                para reestablecerla.
             </p>
         </div>
         <div class="create-account">
             <p>
-                Don't have an account yet ?&nbsp;
-                <a href="http://localhost:9090/PreventRisk/user/registro" id="register-btn" >Create an account</a>
+                No tienes una cuenta aún?&nbsp;
+                <a href="http://localhost:9090/PreventRisk/user/registro" id="register-btn" >Crear una cuenta</a>
             </p>
         </div>
-            <button type="logout" class="btn pink pull-left">
-                 <g:link controller="user" action="logout">Logout pleaaaase!</g:link>
-            </button>
-        </div>
+
+<!--    LOGOUT
+<div class="form-actions">
+        <button type="logout" class="btn blue pull-right" value="Login" formaction="logout">
+            Logout <i class="m-icon-swapleft m-icon-white"></i>
+        </button>
+    </div>-->
     </form>
 
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
