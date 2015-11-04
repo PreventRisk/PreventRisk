@@ -83,11 +83,11 @@
         </div>
     </div>
     <div class="form-actions">
-        <button id="register-back-btn" type="button" class="btn">
-            <i class="m-icon-swapleft"></i>  Back
-        </button>
+        <a href="http://localhost:9090/PreventRisk/home/index" >
+            <button id="register-back-btn" type="button" class="btn">  <i class="m-icon-swapleft"></i>  Inicio </button>
+        </a>
         <button type="submit" id="register-submit-btn" class="btn green pull-right" name="register" value="Register">
-            Sign Up <i class="m-icon-swapright m-icon-white"></i>
+            Ingresar <i class="m-icon-swapright m-icon-white"></i>
         </button>
     </div>
 </form>
