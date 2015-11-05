@@ -19,14 +19,14 @@ var Login = function () {
 
 	            messages: {
 	                username: {
-	                    required: "Username is required1."
+	                    required: "Username is required."
 	                },
 	                password: {
-	                    required: "Password is required2."
+	                    required: "Password is required."
 	                }
 	            },
 
-	            invalidHandler: function (event, validator) { //display error alert on form submit   
+	            invalidHandler: function (event, validator) { //display error alert on form submit
 	                $('.alert-error', $('.login-form')).show();
 	            },
 
@@ -78,7 +78,7 @@ var Login = function () {
 	                }
 	            },
 
-	            invalidHandler: function (event, validator) { //display error alert on form submit   
+	            invalidHandler: function (event, validator) { //display error alert on form submit
 
 	            },
 
