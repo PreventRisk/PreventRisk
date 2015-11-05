@@ -84,7 +84,7 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Bienvenido a PreventRisk</h1>
+            <h1></h1>
             <h3>Aquí sabrás qué hacer en caso de emergencias.</h3>
             <h4><a href="http://localhost:9090/PreventRisk/user/login">Inicia sesión</a>. Si
             eres nuevo, regístrate <a href="http://localhost:9090/PreventRisk/user/registro">aquí</a>.</h4>
@@ -116,7 +116,7 @@
                                     <strong>Simulador</strong>
                                 </h4>
                                 <p>Puedes crear una situación de emergencia y mostraremos qué hacer.</p>
-                                <a href="http://localhost:9090/PreventRisk/user/login" class="btn btn-light">Ingresar</a>
+                                <a href="http://localhost:9090/PreventRisk/" class="btn btn-light">Ingresar</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
@@ -129,7 +129,7 @@
                                     <strong>Curso</strong>
                                 </h4>
                                 <p>Aquí podrás aprender como actuar en caso de emergencia y ver tu progreso.</p>
-                                <a href="http://localhost:9090/PreventRisk/user/login" class="btn btn-light">Ingresar</a>
+                                <a href="http://localhost:9090/PreventRisk/" class="btn btn-light">Ingresar</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
@@ -142,7 +142,7 @@
                                     <strong>Entidades cercanas</strong>
                                 </h4>
                                 <p>En caso de emergencia, verás que entidades de salud dependiendo del caso.</p>
-                                <a href="http://localhost:9090/PreventRisk/user/login" class="btn btn-light">Ver</a>
+                                <a href="#map_markers_div" class="btn btn-light">Ver</a>
                             </div>
                         </div>
                     </div>
