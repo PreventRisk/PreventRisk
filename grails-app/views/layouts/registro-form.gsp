@@ -5,7 +5,7 @@
 <!-- BEGIN HEAD -->
 <head>
     <meta charset="utf-8" />
-    <title>Inicia sesion</title>
+    <title>Login Form</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="description" />
     <meta content="" name="author" />
@@ -15,14 +15,15 @@
     <link href="${request.contextPath}/login-form/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="${request.contextPath}/login-form/assets/css/style-metro.css" rel="stylesheet" type="text/css"/>
     <link href="${request.contextPath}/login-form/assets/css/style.css" rel="stylesheet" type="text/css"/>
-    <link href="${request.contextPath}/login-form/assets/css/style-responsive.css" rel="stylesheet" type="text/css"/>
-    <link href="${request.contextPath}/login-form/assets/css/themes/default.css" rel="stylesheet" type="text/css" id="style_color"/>
+    <link href="${request.contextPath}/login-form/assets/css/style--responsive.css" rel="stylesheet" type="text/css"/>
+    <link href="${request.contextPath}/login-form/assets/css/themes/blue.css" rel="stylesheet" type="text/css" id="style_color"/>
     <link href="${request.contextPath}/login-form/assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="${request.contextPath}/login-form/assets/plugins/select2/select2_metro.css" />
     <!-- END GLOBAL MANDATORY STYLES -->
     <!-- BEGIN PAGE LEVEL STYLES -->
     <link href="${request.contextPath}/login-form/assets/css/pages/login-soft.css" rel="stylesheet" type="text/css"/>
     <!-- END PAGE LEVEL STYLES -->
+    <link rel="shortcut icon" href="favicon.ico" />
 </head>
 <!-- END HEAD -->
 <!-- BEGIN BODY -->
@@ -34,53 +35,73 @@
 <!-- END LOGO -->
 <!-- BEGIN LOGIN -->
 <div class="content">
-    <!-- BEGIN LOGIN FORM -->
-    <form class="form-vertical login-form"  method="post" name="Formulario de ingreso">
-        <h3 class="form-title">Accede a tu cuenta</h3>
-        <div class="alert alert-error hide">
-            <button class="close" data-dismiss="alert"></button>
-            <span>Ingresa tu usuario y contraseña.</span>
+    <g:hasErrors bean="${user}">
+        <div class="errors">
+            <g:renderErrors bean="${user}"></g:renderErrors>
         </div>
-        <div class="control-group">
-            <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
-            <label class="control-label visible-ie8 visible-ie9">Usuario</label>
+    </g:hasErrors>
+    <!-- BEGIN REGISTRATION FORM -->
+    <form class="form-vertical registry-form"  method="post" name="Formulario de registro">
+        <h3 >Registrate</h3>
+        <p>Ingrese sus datos a continuación:</p>
+        <div class="control-group ">
+            <label class="control-label visible-ie8 visible-ie9">Nombre</label>
             <div class="controls">
                 <div class="input-icon left">
-                    <i class="icon-user"></i>
-                    <input class="m-wrap placeholder-no-fix" type="text" autocomplete="off" placeholder="Usuario" name="login" value="${fieldValue(bean:loginCmd, field:'login')}"/>
+                    <i class="icon-font"></i>
+                    <input class="m-wrap placeholder-no-fix" type="text" placeholder="Nombre" name="firstName" value="${user?.firstName}"/>
                 </div>
             </div>
         </div>
         <div class="control-group">
-            <label class="control-label visible-ie8 visible-ie9">Contraseña</label>
+            <label class="control-label visible-ie8 visible-ie9">Apellido</label>
+            <div class="controls">
+                <div class="input-icon left">
+                    <i class="icon-font"></i>
+                    <input class="m-wrap placeholder-no-fix" type="text" placeholder="Apellido" name="lastName" value="${user?.lastName}"/>
+                </div>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label visible-ie8 visible-ie9">Usuario</label>
+            <div class="controls">
+                <div class="input-icon left">
+                    <i class="icon-user"></i>
+                    <input class="m-wrap placeholder-no-fix" type="text" autocomplete="off" placeholder="Usuario" name="login" value="${user?.login}"/>
+                </div>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label visible-ie8 visible-ie9">Clave</label>
             <div class="controls">
                 <div class="input-icon left">
                     <i class="icon-lock"></i>
-                    <input class="m-wrap placeholder-no-fix" type="password" autocomplete="off" placeholder="Contraseña" name="password"/>
+                    <input class="m-wrap placeholder-no-fix" type="password" autocomplete="off" id="register_password" placeholder="Clave" name="password" value="${user?.password}"/>
+                </div>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label visible-ie8 visible-ie9">Confirmar clave</label>
+            <div class="controls">
+                <div class="input-icon left">
+                    <i class="icon-ok"></i>
+                    <input class="m-wrap placeholder-no-fix" type="password" autocomplete="off" placeholder="Confirma tu clave" name="confirm" value="${params?.confirm}"/>
                 </div>
             </div>
         </div>
         <div class="form-actions">
             <a href="http://localhost:9090/PreventRisk/home/index" >
-                <button id="login-back-btn" type    ="button" class="btn">  <i class="m-icon-swapleft"></i>  Inicio </button>
+                <button id="register-back-btn" type="button" class="btn">  <i class="m-icon-swapleft"></i>  Inicio </button>
             </a>
-            <button type="actionSubmit" class="btn blue pull-right" value="Login" formaction="dologin">
+            <button type="submit" id="register-submit-btn" class="btn green pull-right" name="register" value="Register">
                 Ingresar <i class="m-icon-swapright m-icon-white"></i>
             </button>
-
-        </div>
-
-        <div class="create-account">
-            <p>
-                ¿No tienes una cuenta aún?&nbsp;
-                <a href="http://localhost:9090/PreventRisk/user/registro" id="register-btn" >Crear una cuenta</a>
-            </p>
         </div>
     </form>
-
+    <!-- END REGISTRATION FORM -->
+</div>
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
-<!-- BEGIN CORE PLUGINS -->
-<script src="${request.contextPath}/login-form/assets/plugins/jquery-1.10.1.min.js" type="text/javascript"></script>
+<!-- BEGIN CORE PLUGINS -->   <script src="${request.contextPath}/login-form/assets/plugins/jquery-1.10.1.min.js" type="text/javascript"></script>
 <script src="${request.contextPath}/login-form/assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
 <!-- IMPORTANT! Load jquery-ui-1.10.1.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
 <script src="${request.contextPath}/login-form/assets/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
@@ -110,7 +131,6 @@
         Login.init();
     });
 </script>
-<!-- END JAVASCRIPTS -->
 </body>
 <!-- END BODY -->
 </html>
