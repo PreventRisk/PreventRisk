@@ -4,7 +4,7 @@ Login page
 
 /* logo page */
 .login {
-  background: url(../../img/bg/3.jpg) repeat;
+  background: url(../../img/bg/4.jpg) repeat;
 }
 
 .login .logo {
@@ -17,7 +17,7 @@ Login page
 
 
 .login .content {
-  background: url(../../img/bg/1.jpg) repeat;
+  background: url(../../img/bg-opacity.png) repeat;
   width: 291px;
   margin: 0 auto; 
   margin-bottom: 0px;
