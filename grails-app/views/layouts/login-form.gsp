@@ -71,26 +71,12 @@
 
         </div>
 
-        <div class="forget-password">
-            <h4>Olvidaste tu contraseña ?</h4>
-            <p>
-                No te preocupes, ingresa <a href="javascript:;"  id="forget-password">aquí</a>
-                para reestablecerla.
-            </p>
-        </div>
         <div class="create-account">
             <p>
-                No tienes una cuenta aún?&nbsp;
+                ¿No tienes una cuenta aún?&nbsp;
                 <a href="http://localhost:9090/PreventRisk/user/registro" id="register-btn" >Crear una cuenta</a>
             </p>
         </div>
-
-<!--    LOGOUT
-<div class="form-actions">
-        <button type="logout" class="btn blue pull-right" value="Login" formaction="logout">
-            Logout <i class="m-icon-swapleft m-icon-white"></i>
-        </button>
-    </div>-->
     </form>
 
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
@@ -126,7 +112,6 @@
     });
 </script>
 <!-- END JAVASCRIPTS -->
-<div style="position:absolute; bottom:0px; left:0px; "><a href="http://www.justukfreebies.co.uk/website-templates/free-responsive-login-form-template/">Free Website Templates</a></div>
 </body>
 <!-- END BODY -->
 </html>
