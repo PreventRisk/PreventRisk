@@ -5,7 +5,7 @@
 <!-- BEGIN HEAD -->
 <head>
     <meta charset="utf-8" />
-    <title>Login Form</title>
+    <title>Registrate en PreventRisk</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="description" />
     <meta content="" name="author" />
@@ -43,6 +43,9 @@
     </g:hasErrors>
     <!-- BEGIN REGISTRATION FORM -->
     <form class="form-vertical registry-form"  method="post" name="Formulario de registro">
+        <div class="container" >
+            <img src="${request.contextPath}/stylish/img/preventrisk-w.png" width="200px" height="auto" />
+        </div>
         <h3 >Registrate</h3>
         <p>Ingrese sus datos a continuación:</p>
         <div class="control-group ">

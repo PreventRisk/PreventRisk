@@ -5,7 +5,7 @@
 <!-- BEGIN HEAD -->
 <head>
     <meta charset="utf-8" />
-    <title>Inicia sesion</title>
+    <title>Inicia sesión</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="description" />
     <meta content="" name="author" />
@@ -38,6 +38,9 @@
 <div class="content">
     <!-- BEGIN LOGIN FORM -->
     <form class="form-vertical login-form"  method="post" name="Formulario de ingreso">
+        <div class="container">
+            <img src="${request.contextPath}/stylish/img/preventrisk-w.png" width="200px" height="auto" />
+        </div>
         <h3 class="form-title">Accede a tu cuenta</h3>
         <div class="alert alert-error hide">
             <button class="close" data-dismiss="alert"></button>
