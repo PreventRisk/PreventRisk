@@ -1,5 +1,6 @@
+import grails.rest.*
 
-
+@Resource(uri="/hospitals")
 class Hospital extends Location{
 
     String type

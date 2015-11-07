@@ -18,6 +18,22 @@
                 [4.6355603,-74.1236558, 'Clinica Universitaria', 'All data things here'],
                 [4.6425933,-74.1124776, 'Centro Gran estacion', 'All data things here']
             ]);
+            //var visualization_data = google.visualization.DataTable();
+            //visualization_data.addColumn('number', 'Lat');
+            //visualization_data.addColumn('number', 'Long');
+            //visualization_data.addColumn('string', 'Name');
+            //visualization_data.addRow(4.6355603, -74.1236558, 'Condorito');
+
+           // var locations = '/PreventRisk/location/index.json'
+           //     $.getJSON(locations)
+           //         .done(function (data) {
+           //             $.each(data, function (i, loc) {
+           //                 visualization_data.addRow(
+           //                         [loc.latitude, loc.longitude, loc.name]
+           //                 );
+           //             });
+           //         });
+
 
             var options = {
             //    icons: {

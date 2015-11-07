@@ -9,8 +9,8 @@ class Location {
     double longitude
 
     static constraints = {
-        name blank: false, nullable: false
-        description blank: false, nullable: false, minSize: 30
+        name blank: false, nullable: false, unique: true
+        description blank: false, nullable: false, minSize: 10
         city blank: false, nullable: false
         latitude min: -90d, max: 90d //Between the two poles
     }
