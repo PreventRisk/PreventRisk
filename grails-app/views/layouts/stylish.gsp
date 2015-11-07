@@ -47,6 +47,9 @@
     <link href="${request.contextPath}/stylish/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="${request.contextPath}/stylish/img/favicon.ico"/>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -84,7 +87,9 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1></h1>
+            <div class="container" >
+                <img src="${request.contextPath}/stylish/img/preventrisk-w.png" width="200px" height="auto" />
+            </div>
             <h3>Aquí sabrás qué hacer en caso de emergencias.</h3>
             <h4><a href="http://localhost:9090/PreventRisk/user/login">Inicia sesión</a>. Si
             eres nuevo, regístrate <a href="http://localhost:9090/PreventRisk/user/registro">aquí</a>.</h4>
