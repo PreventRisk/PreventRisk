@@ -8371,3 +8371,211 @@ Caused by: org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: 
 	at grails.util.CacheEntry.getValue(CacheEntry.java:144)
 	at grails.util.CacheEntry.getValue(CacheEntry.java:84)
 	... 3 more
+2015-11-07 14:25:00,578 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'Hospital' on field 'description': rejected value [No pos wow]; codes [Hospital.description.minSize.error.Hospital.description,Hospital.description.minSize.error.description,Hospital.description.minSize.error.java.lang.String,Hospital.description.minSize.error,hospital.description.minSize.error.Hospital.description,hospital.description.minSize.error.description,hospital.description.minSize.error.java.lang.String,hospital.description.minSize.error,Hospital.description.minSize.notmet.Hospital.description,Hospital.description.minSize.notmet.description,Hospital.description.minSize.notmet.java.lang.String,Hospital.description.minSize.notmet,hospital.description.minSize.notmet.Hospital.description,hospital.description.minSize.notmet.description,hospital.description.minSize.notmet.java.lang.String,hospital.description.minSize.notmet,minSize.notmet.Hospital.description,minSize.notmet.description,minSize.notmet.java.lang.String,minSize.notmet]; arguments [description,class Hospital,No pos wow,30]; default message [La propiedad [{0}] de la clase [{1}] con valor [{2}] es menor que el tamaño mínimo de [{3}]]
+
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractSavePersistentMethod.doInvokeInternal(AbstractSavePersistentMethod.java:190)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractDynamicPersistentMethod.invoke(AbstractDynamicPersistentMethod.java:69)
+	at org.codehaus.groovy.grails.orm.hibernate.HibernateGormInstanceApi.save(HibernateGormInstanceApi.groovy:196)
+	at Hospital.save(Hospital.groovy)
+	at Hospital$save.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:7)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1210)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1123)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1084)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1123)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.Closure.call(Closure.java:426)
+	at groovy.lang.Closure.call(Closure.java:420)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:60)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:78)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:110)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-07 14:25:00,687 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'Hospital' on field 'description': rejected value [No pos wow]; codes [Hospital.description.minSize.error.Hospital.description,Hospital.description.minSize.error.description,Hospital.description.minSize.error.java.lang.String,Hospital.description.minSize.error,hospital.description.minSize.error.Hospital.description,hospital.description.minSize.error.description,hospital.description.minSize.error.java.lang.String,hospital.description.minSize.error,Hospital.description.minSize.notmet.Hospital.description,Hospital.description.minSize.notmet.description,Hospital.description.minSize.notmet.java.lang.String,Hospital.description.minSize.notmet,hospital.description.minSize.notmet.Hospital.description,hospital.description.minSize.notmet.description,hospital.description.minSize.notmet.java.lang.String,hospital.description.minSize.notmet,minSize.notmet.Hospital.description,minSize.notmet.description,minSize.notmet.java.lang.String,minSize.notmet]; arguments [description,class Hospital,No pos wow,30]; default message [La propiedad [{0}] de la clase [{1}] con valor [{2}] es menor que el tamaño mínimo de [{3}]]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:7)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-07 14:25:00,689 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'Hospital' on field 'description': rejected value [No pos wow]; codes [Hospital.description.minSize.error.Hospital.description,Hospital.description.minSize.error.description,Hospital.description.minSize.error.java.lang.String,Hospital.description.minSize.error,hospital.description.minSize.error.Hospital.description,hospital.description.minSize.error.description,hospital.description.minSize.error.java.lang.String,hospital.description.minSize.error,Hospital.description.minSize.notmet.Hospital.description,Hospital.description.minSize.notmet.description,Hospital.description.minSize.notmet.java.lang.String,Hospital.description.minSize.notmet,hospital.description.minSize.notmet.Hospital.description,hospital.description.minSize.notmet.description,hospital.description.minSize.notmet.java.lang.String,hospital.description.minSize.notmet,minSize.notmet.Hospital.description,minSize.notmet.description,minSize.notmet.java.lang.String,minSize.notmet]; arguments [description,class Hospital,No pos wow,30]; default message [La propiedad [{0}] de la clase [{1}] con valor [{2}] es menor que el tamaño mínimo de [{3}]]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:7)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-07 14:25:00,691 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'Hospital' on field 'description': rejected value [No pos wow]; codes [Hospital.description.minSize.error.Hospital.description,Hospital.description.minSize.error.description,Hospital.description.minSize.error.java.lang.String,Hospital.description.minSize.error,hospital.description.minSize.error.Hospital.description,hospital.description.minSize.error.description,hospital.description.minSize.error.java.lang.String,hospital.description.minSize.error,Hospital.description.minSize.notmet.Hospital.description,Hospital.description.minSize.notmet.description,Hospital.description.minSize.notmet.java.lang.String,Hospital.description.minSize.notmet,hospital.description.minSize.notmet.Hospital.description,hospital.description.minSize.notmet.description,hospital.description.minSize.notmet.java.lang.String,hospital.description.minSize.notmet,minSize.notmet.Hospital.description,minSize.notmet.description,minSize.notmet.java.lang.String,minSize.notmet]; arguments [description,class Hospital,No pos wow,30]; default message [La propiedad [{0}] de la clase [{1}] con valor [{2}] es menor que el tamaño mínimo de [{3}]]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:7)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-07 14:25:00,692 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'Hospital' on field 'description': rejected value [No pos wow]; codes [Hospital.description.minSize.error.Hospital.description,Hospital.description.minSize.error.description,Hospital.description.minSize.error.java.lang.String,Hospital.description.minSize.error,hospital.description.minSize.error.Hospital.description,hospital.description.minSize.error.description,hospital.description.minSize.error.java.lang.String,hospital.description.minSize.error,Hospital.description.minSize.notmet.Hospital.description,Hospital.description.minSize.notmet.description,Hospital.description.minSize.notmet.java.lang.String,Hospital.description.minSize.notmet,hospital.description.minSize.notmet.Hospital.description,hospital.description.minSize.notmet.description,hospital.description.minSize.notmet.java.lang.String,hospital.description.minSize.notmet,minSize.notmet.Hospital.description,minSize.notmet.description,minSize.notmet.java.lang.String,minSize.notmet]; arguments [description,class Hospital,No pos wow,30]; default message [La propiedad [{0}] de la clase [{1}] con valor [{2}] es menor que el tamaño mínimo de [{3}]]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:7)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-07 14:25:00,693 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'Hospital' on field 'description': rejected value [No pos wow]; codes [Hospital.description.minSize.error.Hospital.description,Hospital.description.minSize.error.description,Hospital.description.minSize.error.java.lang.String,Hospital.description.minSize.error,hospital.description.minSize.error.Hospital.description,hospital.description.minSize.error.description,hospital.description.minSize.error.java.lang.String,hospital.description.minSize.error,Hospital.description.minSize.notmet.Hospital.description,Hospital.description.minSize.notmet.description,Hospital.description.minSize.notmet.java.lang.String,Hospital.description.minSize.notmet,hospital.description.minSize.notmet.Hospital.description,hospital.description.minSize.notmet.description,hospital.description.minSize.notmet.java.lang.String,hospital.description.minSize.notmet,minSize.notmet.Hospital.description,minSize.notmet.description,minSize.notmet.java.lang.String,minSize.notmet]; arguments [description,class Hospital,No pos wow,30]; default message [La propiedad [{0}] de la clase [{1}] con valor [{2}] es menor que el tamaño mínimo de [{3}]]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:7)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-07 14:45:37,277 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'Hospital' on field 'name': rejected value [Cl�nica universitaria]; codes [Hospital.name.unique.error.Hospital.name,Hospital.name.unique.error.name,Hospital.name.unique.error.java.lang.String,Hospital.name.unique.error,hospital.name.unique.error.Hospital.name,hospital.name.unique.error.name,hospital.name.unique.error.java.lang.String,hospital.name.unique.error,Hospital.name.unique.Hospital.name,Hospital.name.unique.name,Hospital.name.unique.java.lang.String,Hospital.name.unique,hospital.name.unique.Hospital.name,hospital.name.unique.name,hospital.name.unique.java.lang.String,hospital.name.unique,unique.Hospital.name,unique.name,unique.java.lang.String,unique]; arguments [name,class Hospital,Cl�nica universitaria]; default message [La propiedad [{0}] de la clase [{1}] con valor [{2}] debe ser única]
+
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractSavePersistentMethod.doInvokeInternal(AbstractSavePersistentMethod.java:190)
+	at org.codehaus.groovy.grails.orm.hibernate.metaclass.AbstractDynamicPersistentMethod.invoke(AbstractDynamicPersistentMethod.java:69)
+	at org.codehaus.groovy.grails.orm.hibernate.HibernateGormInstanceApi.save(HibernateGormInstanceApi.groovy:196)
+	at Hospital.save(Hospital.groovy)
+	at Hospital$save.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:4)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1210)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1123)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1084)
+	at groovy.lang.ExpandoMetaClass.invokeMethod(ExpandoMetaClass.java:1123)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.Closure.call(Closure.java:426)
+	at groovy.lang.Closure.call(Closure.java:420)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsBootstrapClass.callInit(DefaultGrailsBootstrapClass.java:60)
+	at org.codehaus.groovy.grails.web.context.GrailsConfigUtils.executeGrailsBootstraps(GrailsConfigUtils.java:78)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:110)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-07 14:45:37,307 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'Hospital' on field 'name': rejected value [Cl�nica universitaria]; codes [Hospital.name.unique.error.Hospital.name,Hospital.name.unique.error.name,Hospital.name.unique.error.java.lang.String,Hospital.name.unique.error,hospital.name.unique.error.Hospital.name,hospital.name.unique.error.name,hospital.name.unique.error.java.lang.String,hospital.name.unique.error,Hospital.name.unique.Hospital.name,Hospital.name.unique.name,Hospital.name.unique.java.lang.String,Hospital.name.unique,hospital.name.unique.Hospital.name,hospital.name.unique.name,hospital.name.unique.java.lang.String,hospital.name.unique,unique.Hospital.name,unique.name,unique.java.lang.String,unique]; arguments [name,class Hospital,Cl�nica universitaria]; default message [La propiedad [{0}] de la clase [{1}] con valor [{2}] debe ser única]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:4)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-07 14:45:37,308 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'Hospital' on field 'name': rejected value [Cl�nica universitaria]; codes [Hospital.name.unique.error.Hospital.name,Hospital.name.unique.error.name,Hospital.name.unique.error.java.lang.String,Hospital.name.unique.error,hospital.name.unique.error.Hospital.name,hospital.name.unique.error.name,hospital.name.unique.error.java.lang.String,hospital.name.unique.error,Hospital.name.unique.Hospital.name,Hospital.name.unique.name,Hospital.name.unique.java.lang.String,Hospital.name.unique,hospital.name.unique.Hospital.name,hospital.name.unique.name,hospital.name.unique.java.lang.String,hospital.name.unique,unique.Hospital.name,unique.name,unique.java.lang.String,unique]; arguments [name,class Hospital,Cl�nica universitaria]; default message [La propiedad [{0}] de la clase [{1}] con valor [{2}] debe ser única]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:4)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-07 14:45:37,309 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'Hospital' on field 'name': rejected value [Cl�nica universitaria]; codes [Hospital.name.unique.error.Hospital.name,Hospital.name.unique.error.name,Hospital.name.unique.error.java.lang.String,Hospital.name.unique.error,hospital.name.unique.error.Hospital.name,hospital.name.unique.error.name,hospital.name.unique.error.java.lang.String,hospital.name.unique.error,Hospital.name.unique.Hospital.name,Hospital.name.unique.name,Hospital.name.unique.java.lang.String,Hospital.name.unique,hospital.name.unique.Hospital.name,hospital.name.unique.name,hospital.name.unique.java.lang.String,hospital.name.unique,unique.Hospital.name,unique.name,unique.java.lang.String,unique]; arguments [name,class Hospital,Cl�nica universitaria]; default message [La propiedad [{0}] de la clase [{1}] con valor [{2}] debe ser única]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:4)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-07 14:45:37,310 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'Hospital' on field 'name': rejected value [Cl�nica universitaria]; codes [Hospital.name.unique.error.Hospital.name,Hospital.name.unique.error.name,Hospital.name.unique.error.java.lang.String,Hospital.name.unique.error,hospital.name.unique.error.Hospital.name,hospital.name.unique.error.name,hospital.name.unique.error.java.lang.String,hospital.name.unique.error,Hospital.name.unique.Hospital.name,Hospital.name.unique.name,Hospital.name.unique.java.lang.String,Hospital.name.unique,hospital.name.unique.Hospital.name,hospital.name.unique.name,hospital.name.unique.java.lang.String,hospital.name.unique,unique.Hospital.name,unique.name,unique.java.lang.String,unique]; arguments [name,class Hospital,Cl�nica universitaria]; default message [La propiedad [{0}] de la clase [{1}] con valor [{2}] debe ser única]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:4)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-11-07 14:45:37,310 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+grails.validation.ValidationException: Validation Error(s) occurred during save():
+- Field error in object 'Hospital' on field 'name': rejected value [Cl�nica universitaria]; codes [Hospital.name.unique.error.Hospital.name,Hospital.name.unique.error.name,Hospital.name.unique.error.java.lang.String,Hospital.name.unique.error,hospital.name.unique.error.Hospital.name,hospital.name.unique.error.name,hospital.name.unique.error.java.lang.String,hospital.name.unique.error,Hospital.name.unique.Hospital.name,Hospital.name.unique.name,Hospital.name.unique.java.lang.String,Hospital.name.unique,hospital.name.unique.Hospital.name,hospital.name.unique.name,hospital.name.unique.java.lang.String,hospital.name.unique,unique.Hospital.name,unique.name,unique.java.lang.String,unique]; arguments [name,class Hospital,Cl�nica universitaria]; default message [La propiedad [{0}] de la clase [{1}] con valor [{2}] debe ser única]
+
+	at BootStrap$_closure1.doCall(BootStrap.groovy:4)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

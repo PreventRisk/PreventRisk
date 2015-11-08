@@ -10,44 +10,54 @@
     <g:javascript library="jquery"/>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
         <script type="text/javascript">
-                google.load("visualization", "1", {packages:["map"]});
-        google.setOnLoadCallback(drawMap);
-        function drawMap() {
-            var data = google.visualization.arrayToDataTable([
-                ['Lat', 'Long', 'Name', {type: 'string', role: 'tooltip'}],
-                [4.6355603,-74.1236558, 'Clinica Universitaria', 'All data things here'],
-                [4.6425933,-74.1124776, 'Centro Gran estacion', 'All data things here']
-            ]);
-            //var visualization_data = google.visualization.DataTable();
-            //visualization_data.addColumn('number', 'Lat');
-            //visualization_data.addColumn('number', 'Long');
-            //visualization_data.addColumn('string', 'Name');
-            //visualization_data.addRow(4.6355603, -74.1236558, 'Condorito');
+            google.load('visualization', '1.1', {packages: ['map']});
+            google.setOnLoadCallback(drawMap);
 
-           // var locations = '/PreventRisk/location/index.json'
-           //     $.getJSON(locations)
-           //         .done(function (data) {
-           //             $.each(data, function (i, loc) {
-           //                 visualization_data.addRow(
-           //                         [loc.latitude, loc.longitude, loc.name]
-           //                 );
-           //             });
-           //         });
+            function drawMap () {
+                var data = new google.visualization.DataTable();
+                data.addColumn('number', 'Lat');
+                data.addColumn('number', 'Long');
+                data.addColumn('string', 'Name');
+                data.addColumn('string', 'Marker')
 
+                var hospitals = '/PreventRisk/hospital/index.json'
+                var drugs = '/PreventRisk/drugstore/index.json'
+                $.getJSON(hospitals)
+                        .done(function (dat) {
+                            $.each(dat, function (i, loc) {
+                                data.addRow(
+                                      [loc.longitude, loc.latitude, loc.name, 'hospital']
+                                );
+                            });
+                        });
 
-            var options = {
-            //    icons: {
-            //        default: {
-            //            normal: 'http://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/Map-Marker-Ball-Azure-icon.png',
-            //            selected: 'http://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/Map-Marker-Ball-Right-Azure-icon.png'
-            //        }
-            //    }
-                showTip: true
-            };
+                $.getJSON(drugs)
+                        .done(function (dat) {
+                            $.each(dat, function (i, loc) {
+                                data.addRow(
+                                        [loc.longitude, loc.latitude, loc.name, 'drug']
+                                );
+                            });
+                        });
 
-            var map = new google.visualization.Map(document.getElementById('map_markers_div'));
-            map.draw(data, options);
-        }
+                var options = {
+                    zoomLevel: 13,
+                    showTip: true,
+                    icons: {
+                        hospital: {
+                            normal: 'http://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/Map-Marker-Ball-Azure-icon.png',
+                            selected: 'http://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/Map-Marker-Ball-Right-Azure-icon.png'
+                        },
+                        drug: {
+                            normal: 'http://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/Map-Marker-Ball-Pink-icon.png',
+                            selected: 'http://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/Map-Marker-Ball-Right-Pink-icon.png'
+                        }
+                    }
+                };
+
+                var map = new google.visualization.Map(document.getElementById('map_div'));
+                map.draw(data, options);
+            }
 
     </script>
 
@@ -198,7 +208,7 @@
         </div>
     </section>
 
-    <div id="map_markers_div"></div>
+    <div id="map_div" style="height: 450px"></div>
 
     <!-- Map
     <aside class="map">
