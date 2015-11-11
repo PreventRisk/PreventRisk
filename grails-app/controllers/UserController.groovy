@@ -21,9 +21,11 @@ class  UserController {
 
     def dologin(LoginCommand cmd) {
         if(request.method == 'POST') {
+            def user = cmd.getUser()
             if(!cmd.hasErrors()) {
-                session.user = cmd.getUser()
+                session.user = user
                // render("se acepto el login")
+                // flash.message = "Hello ${user.login}!"
                  redirect controller:'home'
             } else {
                 redirect(controller:'user',action:'login')

@@ -88,13 +88,22 @@
 <body>
 
     <!-- Navigation -->
+
+
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="http://localhost:9090/PreventRisk/user/login"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Ingresar</a>
-            </li>
+            <g:if test="${!session.user}">
+                <li class="sidebar-brand">
+                    <a href="http://localhost:9090/PreventRisk/user/login"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Ingresar</a>
+                </li>
+            </g:if>
+            <g:else>
+                <li class="sidebar-brand">
+                    <a href="http://localhost:9090/PreventRisk/user/logout"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Salir</a>
+                </li>
+            </g:else>
             <li>
                 <a href="#top" onclick = $("#menu-close").click(); ><i class="fa fa-home fa-lw"></i>&nbsp; Inicio</a>
             </li>
@@ -110,16 +119,25 @@
         </ul>
     </nav>
 
+
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
             <div class="container" >
                 <img src="${request.contextPath}/stylish/img/preventrisk-w.png" width="200px" height="auto" />
             </div>
-            <h3>Aquí sabrás qué hacer en caso de emergencias.</h3>
-            <h4><a href="http://localhost:9090/PreventRisk/user/login">Inicia sesión</a>. Si
-            eres nuevo, regístrate <a href="http://localhost:9090/PreventRisk/user/registro">aquí</a>.</h4>
-            <br>
+            <g:if test="${session.user}">
+                <h3>Hola ${session.user.lastName} ${session.user.firstName}!
+                <br>Aquí sabrás qué hacer en caso de emergencias.</h3>
+                <h4><a href="http://localhost:9090/PreventRisk/user/logout">Cerrar sesión</a></h4>
+                <br>
+            </g:if>
+            <g:else>
+                <h3>Aquí sabrás qué hacer en caso de emergencias.</h3>
+                <h4><a href="http://localhost:9090/PreventRisk/user/login">Inicia sesión</a>. Si
+                eres nuevo, regístrate <a href="http://localhost:9090/PreventRisk/user/registro">aquí</a>.</h4>
+                <br>
+            </g:else>
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <a href="#about" class="btn btn-dark btn-lg">Saber más</a>

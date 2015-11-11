@@ -37,7 +37,7 @@
 <!-- BEGIN LOGIN -->
 <div class="content">
     <!-- BEGIN LOGIN FORM -->
-    <form class="form-vertical login-form"  method="post" name="Formulario de ingreso">
+    <form class="form-vertical login-form" action="dologin" method="post" name="Formulario de ingreso">
         <div class="container">
             <img src="${request.contextPath}/stylish/img/preventrisk-w.png" width="200px" height="auto" />
         </div>
