@@ -7,7 +7,7 @@ class HospitalController {
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
+        //params.max = Math.min(max ?: 10, 100)
         respond Hospital.list(params), model: [hospitalInstanceCount: Hospital.count()]
     }
 

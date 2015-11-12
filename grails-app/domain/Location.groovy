@@ -14,4 +14,5 @@ class Location {
         city blank: false, nullable: false
         latitude min: -90d, max: 90d //Between the two poles
     }
+
 }
