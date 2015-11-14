@@ -1,4 +1,5 @@
 import static org.springframework.http.HttpStatus.*
+import grails.converters.*
 import grails.transaction.Transactional
 
 @Transactional(readOnly = true)
@@ -7,8 +8,8 @@ class LocationController {
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
-        //params.max = Math.min(max ?: 10, 100)
-        respond Location.list(params), model: [locationInstanceCount: Location.count()]
+        render Location.list() as JSON
+        //respond Location.list(params), model: [locationInstanceCount: Location.count()]
     }
 
     def show(Location locationInstance) {

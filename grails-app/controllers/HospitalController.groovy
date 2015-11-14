@@ -1,4 +1,5 @@
 import static org.springframework.http.HttpStatus.*
+import grails.converters.*
 import grails.transaction.Transactional
 
 @Transactional(readOnly = true)
@@ -7,8 +8,8 @@ class HospitalController {
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
-        //params.max = Math.min(max ?: 10, 100)
-        respond Hospital.list(params), model: [hospitalInstanceCount: Hospital.count()]
+        render Hospital.list() as JSON
+        //respond Hospital.list(params), model: [hospitalInstanceCount: Hospital.count()]
     }
 
     def show(Hospital hospitalInstance) {

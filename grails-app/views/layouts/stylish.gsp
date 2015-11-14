@@ -14,33 +14,8 @@
             google.setOnLoadCallback(drawMap);
 
             function drawMap () {
-                var data = new google.visualization.DataTable();
-                data.addColumn('number', 'Lat');
-                data.addColumn('number', 'Long');
-                data.addColumn('string', 'Name');
-                data.addColumn('string', 'Marker')
-
-                var hospitals = '/PreventRisk/hospital/index.json'
-                var drugs = '/PreventRisk/drugstore/index.json'
-                $.getJSON(hospitals)
-                        .done(function (dat) {
-                            $.each(dat, function (i, loc) {
-                                data.addRow(
-                                      [loc.longitude, loc.latitude, loc.name, 'hospital']
-                                );
-                            });
-                        });
-
-                $.getJSON(drugs)
-                        .done(function (dat) {
-                            $.each(dat, function (i, loc) {
-                                data.addRow(
-                                        [loc.longitude, loc.latitude, loc.name, 'drug']
-                                );
-                            });
-                        });
-
                 var options = {
+                    center: ({lat: -74.0862351, lng: 4.6381991}),
                     zoomLevel: 13,
                     showTip: true,
                     icons: {
@@ -54,6 +29,27 @@
                         }
                     }
                 };
+                var data = new google.visualization.DataTable();
+                data.addColumn('number', 'Lat');
+                data.addColumn('number', 'Long');
+                data.addColumn('string', 'Name');
+                data.addColumn('string', 'Marker')
+
+                var locations = '/PreventRisk/location/index'
+                $.getJSON(locations)
+                        .done(function (dat) {
+                            $.each(dat, function (i, loc) {
+                                if(loc.class == "Hospital"){
+                                    data.addRow( [loc.longitude, loc.latitude,
+                                        "Nombre: " + loc.name + '\n' + "Tipo: " + loc.type + '\n' + "Calidad: " + loc.quality ,
+                                        'hospital'] )
+                                }else if(loc.class == "Drugstore"){
+                                    data.addRow( [loc.longitude, loc.latitude,
+                                        "Nombre: " + loc.name + '\n' + "Especialidad: " + loc.speciality,
+                                        'drug'] )
+                                }
+                            });
+                        });
 
                 var map = new google.visualization.Map(document.getElementById('map_div'));
                 map.draw(data, options);
