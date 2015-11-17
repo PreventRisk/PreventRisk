@@ -9,7 +9,6 @@ class HospitalController {
 
     def index(Integer max) {
         render Hospital.list() as JSON
-        //respond Hospital.list(params), model: [hospitalInstanceCount: Hospital.count()]
     }
 
     def show(Hospital hospitalInstance) {

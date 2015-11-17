@@ -8,54 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <g:javascript library="jquery"/>
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-        <script type="text/javascript">
-            google.load('visualization', '1.1', {packages: ['map']});
-            google.setOnLoadCallback(drawMap);
-
-            function drawMap () {
-                var options = {
-                    center: ({lat: -74.0862351, lng: 4.6381991}),
-                    zoomLevel: 13,
-                    showTip: true,
-                    icons: {
-                        hospital: {
-                            normal: 'http://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/Map-Marker-Ball-Azure-icon.png',
-                            selected: 'http://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/Map-Marker-Ball-Right-Azure-icon.png'
-                        },
-                        drug: {
-                            normal: 'http://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/Map-Marker-Ball-Pink-icon.png',
-                            selected: 'http://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/Map-Marker-Ball-Right-Pink-icon.png'
-                        }
-                    }
-                };
-                var data = new google.visualization.DataTable();
-                data.addColumn('number', 'Lat');
-                data.addColumn('number', 'Long');
-                data.addColumn('string', 'Name');
-                data.addColumn('string', 'Marker')
-
-                var locations = '/PreventRisk/location/index'
-                $.getJSON(locations)
-                        .done(function (dat) {
-                            $.each(dat, function (i, loc) {
-                                if(loc.class == "Hospital"){
-                                    data.addRow( [loc.longitude, loc.latitude,
-                                        "Nombre: " + loc.name + '\n' + "Tipo: " + loc.type + '\n' + "Calidad: " + loc.quality ,
-                                        'hospital'] )
-                                }else if(loc.class == "Drugstore"){
-                                    data.addRow( [loc.longitude, loc.latitude,
-                                        "Nombre: " + loc.name + '\n' + "Especialidad: " + loc.speciality,
-                                        'drug'] )
-                                }
-                            });
-                        });
-
-                var map = new google.visualization.Map(document.getElementById('map_div'));
-                map.draw(data, options);
-            }
-
-    </script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
   <title>PreventRisk</title>
 
@@ -224,15 +178,60 @@
 
     <div id="map_div" style="height: 450px"></div>
 
-    <!-- Map
-    <aside class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7953.50127292347!2d-74.09018762744006!3d4.6385152302482515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bce39a6fabb%3A0x20a24f1701dc7d9c!2sCdad.+Universitaria%2C+Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1445094889494"></iframe>
-        <br />
-        <small>
-            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7953.50127292347!2d-74.09018762744006!3d4.6385152302482515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bce39a6fabb%3A0x20a24f1701dc7d9c!2sCdad.+Universitaria%2C+Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1445094889494"></a>
-        </small>
-    </iframe>
-    </aside>-->
+    <script type="text/javascript">
+        var hospitalmarkers = [];
+        var drugstoremakers = [];
+        var gmarkers = [];
+        var mapOptions = {
+            zoom: 13,
+            center: new google.maps.LatLng(4.6381991, -74.0862351),
+            mapTypeId: google.maps.MapTypeId.HYBRID
+        };
+
+        var map = new google.maps.Map(document.getElementById('map_div'), mapOptions);
+        var infowindow = new google.maps.InfoWindow();
+        var marker;
+
+        var locations = '/PreventRisk/location.json'
+        $.getJSON(locations, function(data){
+            $.each(data, function(key, value){
+                var hospIcon = new google.maps.MarkerImage("PreventRisk/images/Hospital.png", null, null, null, new google.maps.Size(35,35));
+                var drugIcon = new google.maps.MarkerImage("PreventRisk/images/Drogueria.png", null, null, null, new google.maps.Size(35,35));
+                var description;
+                var icon;
+                if(value.class == "Hospital"){
+                    description = "<h4>Hospital</h4><h5>"
+                            + value.name + "</h5>" +
+                    "<p><b>Tipo: </b>" + value.type + '</p>' +
+                    "<p><b>Calidad: </b>" + value.quality + "</p>";
+                    //icon = base + 'Hospital.png'
+                    icon = hospIcon;
+                }else if (value.class == "Drugstore"){
+                    description = "<h4>Droguería</h4><h5>"
+                            + value.name + "</h5>" +
+                    "<p><b>Especialidad: </b>" + value.speciality + '</p>';
+                    //icon = base + 'Drogeria.png'
+                    icon = drugIcon;
+                }
+                var myLatlng = new google.maps.LatLng(value.longitude, value.latitude);
+                //alert(myLatlng);
+                var marker = new google.maps.Marker({
+                    position: myLatlng,
+                    map: map,
+                    title: value.name,
+                    //icon: icon
+                });
+                google.maps.event.addListener(marker, 'click', (function(marker) {
+                    return function() {
+                        infowindow.setContent(description);
+                        infowindow.open(map, marker);
+                    }
+                })(marker))
+
+            });
+        });
+
+    </script>
 
     <!-- Footer -->
     <section id = "about">

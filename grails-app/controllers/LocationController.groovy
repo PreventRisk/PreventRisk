@@ -9,7 +9,6 @@ class LocationController {
 
     def index(Integer max) {
         render Location.list() as JSON
-        //respond Location.list(params), model: [locationInstanceCount: Location.count()]
     }
 
     def show(Location locationInstance) {

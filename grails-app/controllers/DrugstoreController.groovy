@@ -9,7 +9,6 @@ class DrugstoreController {
 
     def index(Integer max) {
         render Drugstore.list() as JSON;
-        //respond Drugstore.list(params), model: [drugstoreInstanceCount: Drugstore.count()]
     }
 
     def show(Drugstore drugstoreInstance) {
