@@ -195,8 +195,8 @@
         var locations = '/PreventRisk/location.json'
         $.getJSON(locations, function(data){
             $.each(data, function(key, value){
-                var hospIcon = new google.maps.MarkerImage("PreventRisk/images/Hospital.png", null, null, null, new google.maps.Size(35,35));
-                var drugIcon = new google.maps.MarkerImage("PreventRisk/images/Drogueria.png", null, null, null, new google.maps.Size(35,35));
+                var hospIcon = new google.maps.MarkerImage('${request.contextPath}/stylish/img/Hospital.png', null, null, null, new google.maps.Size(35,35));
+                var drugIcon = new google.maps.MarkerImage('${request.contextPath}/stylish/img/Drogueria.png', null, null, null, new google.maps.Size(35,35));
                 var description;
                 var icon;
                 if(value.class == "Hospital"){
@@ -219,7 +219,7 @@
                     position: myLatlng,
                     map: map,
                     title: value.name,
-                    //icon: icon
+                    icon: icon
                 });
                 google.maps.event.addListener(marker, 'click', (function(marker) {
                     return function() {
