@@ -141,7 +141,7 @@
                                     <strong>Entidades cercanas</strong>
                                 </h4>
                                 <p>En caso de emergencia, verás que entidades de salud dependiendo del caso.</p>
-                                <a href="#map_markers_div" class="btn btn-light">Ver</a>
+                                <a href="#map_div" class="btn btn-light">Ver</a>
                             </div>
                         </div>
                     </div>
@@ -161,15 +161,39 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3>Puedes ver cual droguería o hospital es el más cercano.</h3>
-                    <div class="form-group">
-                        <label for="sel1"><h4>Filtrar por:</h4></label>
-                        <select class="form-control" id="sel1" style ="opacity: 0.8; border-bottom: none">
-                            <option disabled="disabled">-- Seleccione -- </option>
-                            <option>Droguerias</option>
-                            <option>Hospitales</option>
-                        </select>
-                    </div>
-                    <a href="#" class="btn btn-lg btn-dark">Ver</a>
+                    <h3>Filtrar por: </h3>
+                    <ol style="display:inline-block; vertical-align:top">
+                        <il style="display:inline-block; vertical-align:top">
+                            <label for="sel1"><h4>Lugar:</h4></label>
+                            <select class="form-control" id="sel1" style ="opacity: 0.8; border-bottom: none; float: left">
+                                <option value="disabled">-- Seleccione -- </option>
+                                <option value="Drugstore">Droguerias</option>
+                                <option value="Hospital">Hospitales</option>
+                            </select>
+                        </il>
+                        <il  style="display:inline-block; vertical-align:top">
+                            <label for="sel1"><h4>Calidad:</h4></label>
+                            <select class="form-control" id="sel1" style ="opacity: 0.8; border-bottom: none; float: left">
+                                <option value="disabled">-- Seleccione -- </option>
+                                <option value=1>1</option>
+                                <option value=2>2</option>
+                                <option value=3>3</option>
+                                <option value=4>4</option>
+                                <option value=5>5</option>
+                            </select>
+                        </il>
+                        <il style="display:inline-block; vertical-align:top">
+                            <label for="sel1"><h4>Especialidad:</h4></label>
+                            <select class="form-control" id="sel1" style ="opacity: 0.8; border-bottom: none; float: left">
+                                <option value="disabled">-- Seleccione -- </option>
+                                <option value="Regular">Sin especializacion</option>
+                                <option value="Homeópata">Homeopatia</option>
+                                <option value="Accesorios">Venta de accesorios</option>
+                            </select>
+                        </il>
+
+                    </ol>
+
                 </div>
             </div>
         </div>
@@ -178,9 +202,7 @@
     <div id="map_div" style="height: 450px"></div>
 
     <script type="text/javascript">
-        var hospitalmarkers = [];
-        var drugstoremakers = [];
-        var gmarkers = [];
+        var listOfMarkers = [];
         var mapOptions = {
             zoom: 13,
             center: new google.maps.LatLng(4.6381991, -74.0862351),
@@ -198,28 +220,33 @@
                 var drugIcon = new google.maps.MarkerImage('${request.contextPath}/stylish/img/Drogueria.png', null, null, null, new google.maps.Size(25,25));
                 var description;
                 var icon;
+                var locationClass;
                 if(value.class == "Hospital"){
                     description = "<h4>Hospital</h4><h5>"
                             + value.name + "</h5>" +
                     "<p><b>Tipo: </b>" + value.type + '</p>' +
                     "<p><b>Calidad: </b>" + value.quality + "</p>";
-                    //icon = base + 'Hospital.png'
                     icon = hospIcon;
+                    locationClass = 'Hospital';
                 }else if (value.class == "Drugstore"){
                     description = "<h4>Droguería</h4><h5>"
                             + value.name + "</h5>" +
                     "<p><b>Especialidad: </b>" + value.speciality + '</p>';
-                    //icon = base + 'Drogeria.png'
                     icon = drugIcon;
+                    locationClass = 'Drugstore';
                 }
                 var myLatlng = new google.maps.LatLng(value.longitude, value.latitude);
                 //alert(myLatlng);
                 var marker = new google.maps.Marker({
                     position: myLatlng,
+                    speciality: value.speciality,
+                    quality: value.quality,
                     map: map,
                     title: value.name,
-                    icon: icon
+                    icon: icon,
+                    localclass: locationClass
                 });
+                listOfMarkers.push(marker);
                 google.maps.event.addListener(marker, 'click', (function(marker) {
                     return function() {
                         infowindow.setContent(description);
