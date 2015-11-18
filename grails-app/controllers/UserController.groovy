@@ -19,6 +19,10 @@ class  UserController {
         }
     }
 
+    def modify() {
+        respond session.user
+    }
+
     def dologin(LoginCommand cmd) {
         if(request.method == 'POST') {
             def user = cmd.getUser()
