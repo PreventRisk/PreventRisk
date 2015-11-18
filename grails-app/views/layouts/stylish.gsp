@@ -77,7 +77,7 @@
                 <img src="${request.contextPath}/stylish/img/preventrisk-w.png" width="200px" height="auto" />
             </div>
             <g:if test="${session.user}">
-                <h3>Hola ${session.user.lastName} ${session.user.firstName}!
+                <h3>¡Hola ${session.user.firstName} ${session.user.lastName}!
                 <br>Aquí sabrás qué hacer en caso de emergencias.</h3>
                 <h4><a href="http://localhost:9090/PreventRisk/user/logout">Cerrar sesión</a></h4>
                 <br>
@@ -90,7 +90,7 @@
             </g:else>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="#about" class="btn btn-dark btn-lg">Saber más</a>
+                    <a href="#services" class="btn btn-dark btn-lg">Saber más</a>
                 </div>
             </div>
         </div>
@@ -115,7 +115,7 @@
                                     <strong>Simulador</strong>
                                 </h4>
                                 <p>Puedes crear una situación de emergencia y mostraremos qué hacer.</p>
-                                <a href="http://localhost:9090/PreventRisk/" class="btn btn-light">Ingresar</a>
+                                <a href="http://localhost:9090/PreventRisk/emergency/emergencyType" class="btn btn-light">Ingresar</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
@@ -167,7 +167,6 @@
                             <option disabled="disabled">-- Seleccione -- </option>
                             <option>Droguerias</option>
                             <option>Hospitales</option>
-                            <option>Centros de salud</option>
                         </select>
                     </div>
                     <a href="#" class="btn btn-lg btn-dark">Ver</a>
@@ -195,8 +194,8 @@
         var locations = '/PreventRisk/location.json'
         $.getJSON(locations, function(data){
             $.each(data, function(key, value){
-                var hospIcon = new google.maps.MarkerImage('${request.contextPath}/stylish/img/Hospital.png', null, null, null, new google.maps.Size(35,35));
-                var drugIcon = new google.maps.MarkerImage('${request.contextPath}/stylish/img/Drogueria.png', null, null, null, new google.maps.Size(35,35));
+                var hospIcon = new google.maps.MarkerImage('${request.contextPath}/stylish/img/Hospital.png', null, null, null, new google.maps.Size(25,25));
+                var drugIcon = new google.maps.MarkerImage('${request.contextPath}/stylish/img/Drogueria.png', null, null, null, new google.maps.Size(25,25));
                 var description;
                 var icon;
                 if(value.class == "Hospital"){
