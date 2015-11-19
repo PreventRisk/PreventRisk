@@ -38,8 +38,26 @@ class  UserController {
             redirect(controller:'user',action:'login')
         }
     }
+    def dologinfromsim(LoginCommand cmd) {
+        if(request.method == 'POST') {
+            def user = cmd.getUser()
+            if(!cmd.hasErrors()) {
+                session.user = user
+                // render("se acepto el login")
+                // flash.message = "Hello ${user.login}!"
+                redirect (controller:'emergency', action:'emergencyType')
+            } else {
+                redirect(controller:'user',action:'login')
+            }
+        } else {
+            redirect(controller:'user',action:'login')
+        }
+    }
 
     def login= {
+    }
+    def loginfromsimulator = {
+
     }
 
 
@@ -47,7 +65,7 @@ class  UserController {
         if(session.user) {
             session.user = null
             session.invalidate()
-            render("ha salido de la aplicacion")
+            //render("ha salido de la aplicacion")
             redirect(controller:'home')
         }
     }

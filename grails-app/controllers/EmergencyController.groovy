@@ -20,7 +20,7 @@ class EmergencyController {
     }
 
     def answer() {
-        respond emergencyInstance.steps
+
     }
 
     def emergencyType(){

@@ -43,7 +43,7 @@
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
         <g:if test="${!session.user}">
             <li class="sidebar-brand">
-                <a href="http://localhost:9090/PreventRisk/user/login"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Ingresar</a>
+                <a href="http://localhost:9090/PreventRisk/user/loginfromsimulator"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Ingresar</a>
             </li>
         </g:if>
         <g:else>
@@ -78,11 +78,11 @@
             <br>
         </g:if>
         <g:else>
-            <h3>Para ingresar a la simulacion primero debe iniciar sesión.</h3>
+            <h3>Para ingresar a la simulación primero debe iniciar sesión.</h3>
             <br>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="http://localhost:9090/PreventRisk/user/login" class="btn btn-dark btn-lg">Iniciar sesión</a>
+                    <a href="http://localhost:9090/PreventRisk/user/loginfromsimulator" class="btn btn-dark btn-lg">Iniciar sesión</a>
                 </div>
             </div>
         </g:else>
@@ -109,7 +109,7 @@
                                     <strong>Emergencia Médica</strong>
                                 </h4>
                                 <p>Estas son debidas a</p>
-                                <a href="http://localhost:9090/PreventRisk/emergency/emergencyType" class="btn btn-light">Empieza</a>
+                                <a href="http://localhost:9090/PreventRisk/emergency/answer" class="btn btn-light">Empieza</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
