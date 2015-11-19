@@ -165,7 +165,7 @@
                     <ol style="display:inline-block; vertical-align:top">
                         <il style="display:inline-block; vertical-align:top">
                             <label for="sel1"><h4>Lugar:</h4></label>
-                            <select class="form-control" id="sel1" style ="opacity: 0.8; border-bottom: none; float: left">
+                            <select class="form-control" id="sel1" style ="opacity: 0.8; border-bottom: none; float: left" onchange = "filterMarkers('local', this.value);">
                                 <option value="disabled">-- Seleccione -- </option>
                                 <option value="Drugstore">Droguerias</option>
                                 <option value="Hospital">Hospitales</option>
@@ -173,18 +173,18 @@
                         </il>
                         <il  style="display:inline-block; vertical-align:top">
                             <label for="sel1"><h4>Calidad:</h4></label>
-                            <select class="form-control" id="sel1" style ="opacity: 0.8; border-bottom: none; float: left">
+                            <select class="form-control" id="sel1" style ="opacity: 0.8; border-bottom: none; float: left" onchange="filterMarkers('qual', this.value);">
                                 <option value="disabled">-- Seleccione -- </option>
-                                <option value=1>1</option>
-                                <option value=2>2</option>
-                                <option value=3>3</option>
-                                <option value=4>4</option>
-                                <option value=5>5</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
                             </select>
                         </il>
                         <il style="display:inline-block; vertical-align:top">
                             <label for="sel1"><h4>Especialidad:</h4></label>
-                            <select class="form-control" id="sel1" style ="opacity: 0.8; border-bottom: none; float: left">
+                            <select class="form-control" id="sel1" style ="opacity: 0.8; border-bottom: none; float: left" onchange="filterMarkers('special', this.value);">
                                 <option value="disabled">-- Seleccione -- </option>
                                 <option value="Regular">Sin especializacion</option>
                                 <option value="Homeópata">Homeopatia</option>
@@ -256,6 +256,27 @@
 
             });
         });
+
+        filterMarkers = function (type,value) {
+           for (i = 0; i < listOfMarkers.length; i++) {
+               marker = listOfMarkers[i];
+               //var typeVal;
+               if (type == "local"){
+                   typeVal = marker.localclass;
+               }else if(type == "qual"){
+                   typeVal = marker.quality;
+               }else if(type == "special"){
+                   typeVal = marker.speciality;
+               }
+
+               if (typeVal == value || value == "disabled") {
+                    marker.setVisible(true);
+               }else {
+                    marker.setVisible(false);
+               }
+            }
+        }
+
 
     </script>
 
