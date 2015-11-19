@@ -69,15 +69,15 @@
 <!-- Header -->
 <header id="top" class="header">
     <div class="text-vertical-center">
+        <div class="container" >
+            <img src="${request.contextPath}/stylish/img/preventrisk-w.png" width="200px" height="auto" />
+        </div>
         <g:if test="${session.user}">
             <h3>¡Bienvenido ${session.user.firstName} ${session.user.lastName} a nuestro simulador!
                 <br></h3>
             <br>
         </g:if>
         <g:else>
-            <div class="container" >
-                <img src="${request.contextPath}/stylish/img/preventrisk-w.png" width="200px" height="auto" />
-            </div>
             <h3>Para ingresar a la simulacion primero debe iniciar sesión.</h3>
             <br>
             <div class="row">
@@ -88,6 +88,85 @@
         </g:else>
     </div>
 </header>
+
+
+<g:if test="${session.user}">
+
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Escoge la naturaleza de la emergencia</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-gear fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>Emergencia Médica</strong>
+                                </h4>
+                                <p>Estas son debidas a</p>
+                                <a href="http://localhost:9090/PreventRisk/emergency/emergencyType" class="btn btn-light">Empieza</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-book fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>Emergencia Medioambiental</strong>
+                                </h4>
+                                <p>blablabla</p>
+                                <a href="http://localhost:9090/PreventRisk/" class="btn btn-light">Empieza</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-hospital-o fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>Emergencia Civil</strong>
+                                </h4>
+                                <p>blablabla</p>
+                                <a href="#map_div" class="btn btn-light">Empieza</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <!--  <hr class="small"> -->
+                    <!-- /.row (nested) -->
+                    <a href="http://localhost:9090/PreventRisk/" class="btn btn-dark">Regresar al Inicio</a>
+                    <h4><a href="http://localhost:9090/PreventRisk/user/logout">Cerrar sesión</a></h4>
+                    <br>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+</g:if>
+
 
 <!-- Footer -->
 <section id = "about">

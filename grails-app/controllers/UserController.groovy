@@ -48,7 +48,7 @@ class  UserController {
             session.user = null
             session.invalidate()
             render("ha salido de la aplicacion")
-            //redirect(controller:'home')
+            redirect(controller:'home')
         }
     }
 }
