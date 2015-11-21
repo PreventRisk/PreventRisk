@@ -64,6 +64,7 @@ class  UserController {
     def doModify() {
         def u = User.findByLogin(params.login)
         if (u==null){
+            flash.message= "Los datos no pueden estar vacios"
             redirect(controller:'user',action:'modify')
         }else{
         if (u.password == params.vieja) {
