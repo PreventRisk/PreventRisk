@@ -58,7 +58,6 @@ class  UserController {
     }
 
     def modify={
-
     }
 
     def doModify() {
@@ -83,13 +82,27 @@ class  UserController {
              redirect(controller:'user',action:'modify')
              flash.message = "La contraseña anterior es incorrecta"
             }
-    }}
+        }
+    }
 
 
-
-
-
-
+    def doDelete(){
+        def u = User.findByLogin(params.login)
+        if (u==null){
+            flash.message= "El campo usuario no puede estar vacío"
+            redirect(controller:'user',action:'modify')
+        }else{
+            if (u.password == params.vieja) {
+                u.delete(flush: true)
+                session.user = null
+                session.invalidate()
+                redirect(controller: 'home')
+             }else {
+             redirect(controller:'user',action:'modify')
+             flash.message = "Su contraseña es incorrecta"
+            }
+        }
+    }
 
 
     def logout() {

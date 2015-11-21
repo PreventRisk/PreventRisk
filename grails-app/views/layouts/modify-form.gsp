@@ -126,7 +126,7 @@
 
         </div>
     <div class="form-actions">
-        <button type="submit" id="delete" class="btn green pull-right"  value="delete" formaction="doDelete">
+        <button type="submit" id="delete" class="btn green pull-right"  value="modify" formaction="doDelete">
             Eliminar cuenta <i class="icon-remove   m-icon-white"></i>
         </button>
 
