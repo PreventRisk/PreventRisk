@@ -95,10 +95,10 @@
         </div>
         <div class="form-actions">
             <a href="http://localhost:9090/PreventRisk/home/index" >
-                <button id="register-back-btn" type="button" class="btn">  <i class="m-icon-swapleft"></i>  Inicio </button>
+                <button id="register-back-btn" type="button" class="btn">  <i class="icon-hospital"></i>  Inicio </button>
             </a>
             <button type="submit" id="register-submit-btn" class="btn green pull-right" name="register" value="Register">
-                Ingresar <i class="m-icon-swapright m-icon-white"></i>
+                Ingresar <i class="icon-ambulance"></i>
             </button>
         </div>
     </form>

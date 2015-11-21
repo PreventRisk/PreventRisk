@@ -50,8 +50,12 @@
                 </li>
             </g:if>
             <g:else>
+
                 <li class="sidebar-brand">
                     <a href="http://localhost:9090/PreventRisk/user/logout"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Salir</a>
+                </li>
+                <li class="sidebar-brand">
+                    <a href="http://localhost:9090/PreventRisk/user/modify"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Modificar mis datos</a>
                 </li>
             </g:else>
             <li>

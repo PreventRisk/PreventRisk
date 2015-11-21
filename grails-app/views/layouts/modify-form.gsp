@@ -117,13 +117,21 @@
 
         <div class="form-actions">
             <a href="http://localhost:9090/PreventRisk/home/index" >
-                <button id="register-back-btn" type="button" class="btn">  <i class="m-icon-swapleft"></i>  Inicio </button>
+                <button id="modify-back-btn" type="button" class="btn">  <i class="icon-hospital"></i>  Inicio </button>
             </a>
-            <button type="submit" id="register-submit-btn" class="btn green pull-right" value="modify" formaction="doModify">
-                Modificar datos <i class="m-icon-swapright m-icon-white"></i>
+            <button type="submit" id="modify-submit-btn" class="btn blue pull-right" value="modify" formaction="doModify">
+                Modificar datos <i class="icon-ok m-icon-white"></i>
             </button>
 
+
         </div>
+    <div class="form-actions">
+        <button type="submit" id="delete" class="btn green pull-right"  value="delete" formaction="doDelete">
+            Eliminar cuenta <i class="icon-remove   m-icon-white"></i>
+        </button>
+
+
+    </div>
     </form>
     <!-- END REGISTRATION FORM -->
 </div>

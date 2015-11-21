@@ -67,10 +67,10 @@
         </div>
         <div class="form-actions">
             <a href="http://localhost:9090/PreventRisk/home/index" >
-                <button id="login-back-btn" type    ="button" class="btn">  <i class="m-icon-swapleft"></i>  Inicio </button>
+                <button id="login-back-btn" type    ="button" class="btn">  <i class="icon-hospital"></i>  Inicio </button>
             </a>
             <button type="actionSubmit" class="btn blue pull-right" value="Login" formaction="dologinfromsim">
-                Ingresar <i class="m-icon-swapright m-icon-white"></i>
+                Ingresar <i class="icon-ambulance m-icon-white"></i>
             </button>
 
         </div>
