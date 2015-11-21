@@ -1,6 +1,5 @@
-
-
 class  UserController {
+    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def registro() {
         if(request.method == 'POST') {
@@ -11,26 +10,24 @@ class  UserController {
                 return [user:u]
             } else if(u.save()) {
                 session.user = u
-                //render("usuario creado")
-                redirect controller:"home"
+                render("usuario creado")
+                //  redirect controller:"home"
             } else {
                 return [user:u]
             }
         }
     }
 
-    def modify() {
-        respond session.user
-    }
+
 
     def dologin(LoginCommand cmd) {
         if(request.method == 'POST') {
             def user = cmd.getUser()
             if(!cmd.hasErrors()) {
                 session.user = user
-               // render("se acepto el login")
+                // render("se acepto el login")
                 // flash.message = "Hello ${user.login}!"
-                 redirect controller:'home'
+                redirect controller:'home'
             } else {
                 redirect(controller:'user',action:'login')
             }
@@ -59,6 +56,39 @@ class  UserController {
     def loginfromsimulator = {
 
     }
+
+    def modify={
+
+    }
+
+    def doModify() {
+        def u = User.findByLogin(params.login)
+        if (u==null){
+            redirect(controller:'user',action:'modify')
+        }else{
+        if (u.password == params.vieja) {
+            if (params.password != params.confirm) {
+            flash.message = "Las nuevas contraseñas no coinciden"
+            redirect(controller:'user',action:'modify')
+            } else {
+                u.firstName = params.firstName
+                u.lastName = params.lastName
+                u.password= params.confirm
+                u.save(flush: true)
+                session.user = u
+                redirect(controller: 'home')
+            }
+        } else {
+             redirect(controller:'user',action:'modify')
+             flash.message = "La contraseña anterior es incorrecta"
+            }
+    }}
+
+
+
+
+
+
 
 
     def logout() {
