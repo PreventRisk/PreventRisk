@@ -59,15 +59,6 @@
         </div>
         <h3 >Modifica tus datos</h3>
         <p>Ingrese sus datos a continuación:</p>
-    <div class="control-group">
-        <label class="control-label visible-ie8 visible-ie9">Usuario</label>
-        <div class="controls">
-            <div class="input-icon left">
-                <i class="icon-user"></i>
-                <input class="m-wrap placeholder-no-fix" type="text" autocomplete="off" placeholder="Usuario" name="login" value="${user?.login}"/>
-            </div>
-        </div>
-    </div>
         <div class="control-group ">
             <label class="control-label visible-ie8 visible-ie9">Nombre</label>
             <div class="controls">
