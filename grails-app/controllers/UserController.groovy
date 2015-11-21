@@ -1,4 +1,7 @@
+
 class  UserController {
+
+
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def registro() {
@@ -10,8 +13,7 @@ class  UserController {
                 return [user:u]
             } else if(u.save()) {
                 session.user = u
-                render("usuario creado")
-                //  redirect controller:"home"
+                  redirect controller:"home"
             } else {
                 return [user:u]
             }
@@ -58,33 +60,41 @@ class  UserController {
     }
 
     def modify={
+
     }
 
     def doModify() {
         def u = User.findByLogin(params.login)
-        if (u==null){
+        if (u==null || params.firstName=='' || params.lastName==''){
             flash.message= "Los datos no pueden estar vacios"
             redirect(controller:'user',action:'modify')
         }else{
-        if (u.password == params.vieja) {
+            if (u.id!= session.user.id){
+                flash.message = "Sólo puedes modificar tu cuenta"
+                redirect(controller:'user',action:'modify')
+            }
+            if (u.password == params.vieja) {
             if (params.password != params.confirm) {
             flash.message = "Las nuevas contraseñas no coinciden"
-            redirect(controller:'user',action:'modify')
+                redirect(controller:'user',action:'modify')
             } else {
                 u.firstName = params.firstName
                 u.lastName = params.lastName
                 u.password= params.confirm
+               if (!u.validate()){
+                   flash.message= "La nueva contraseña debe contener al menos 5 caracteres"
+                   redirect(controller:'user',action:'modify')
+               }else{
                 u.save(flush: true)
                 session.user = u
                 redirect(controller: 'home')
-            }
+            }}
         } else {
-             redirect(controller:'user',action:'modify')
              flash.message = "La contraseña anterior es incorrecta"
+                redirect(controller:'user',action:'modify')
             }
         }
     }
-
 
     def doDelete(){
         def u = User.findByLogin(params.login)
@@ -92,24 +102,25 @@ class  UserController {
             flash.message= "El campo usuario no puede estar vacío"
             redirect(controller:'user',action:'modify')
         }else{
-            if (u.password == params.vieja) {
+            if (u.id!= session.user.id){
+                flash.message = "Sólo puedes eliminar tu cuenta"
+                redirect(controller:'user',action:'modify')
+            }else if (u.password == params.vieja) {
                 u.delete(flush: true)
                 session.user = null
                 session.invalidate()
                 redirect(controller: 'home')
              }else {
              redirect(controller:'user',action:'modify')
-             flash.message = "Su contraseña es incorrecta"
+             flash.message = "La contraseña es incorrecta"
             }
         }
     }
-
 
     def logout() {
         if(session.user) {
             session.user = null
             session.invalidate()
-            //render("ha salido de la aplicacion")
             redirect(controller:'home')
         }
     }
