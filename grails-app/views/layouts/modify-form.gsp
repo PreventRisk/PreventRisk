@@ -34,23 +34,40 @@
 
 <!-- BEGIN LOGO -->
 <div class="logo">
-    <!-- PUT YOUR LOGO HERE -->
-</div>
-<!-- END LOGO -->
-<!-- BEGIN LOGIN -->
-<div class="content">
     <g:hasErrors bean="${user}">
         <div class="errors">
             <g:renderErrors bean="${user}"></g:renderErrors>
         </div>
     </g:hasErrors>
-    <!-- BEGIN MODIFY FORM -->
-    <form class="form-vertical registry-form"  method="post" name="Formulario de registro">
+    <!-- PUT YOUR LOGO HERE -->
+</div>
+<!-- END LOGO -->
+<!-- BEGIN LOGIN -->
+<div class="content">
+
+<!-- BEGIN MODIFY FORM -->
+    <form class="form-vertical registry-form"  action="doModify" method="POST" name="Formulario de actualizacion">
+        <g:if test="${flash.message}">
+            <div class="alert-message warning">
+             <a class="message" ></a>
+             <p><strong>Error!</strong> ${flash.message}</p>
+
+             </div>
+        </g:if>
         <div class="container" >
             <img src="${request.contextPath}/stylish/img/preventrisk-w.png" width="200px" height="auto" />
         </div>
         <h3 >Modifica tus datos</h3>
         <p>Ingrese sus datos a continuación:</p>
+    <div class="control-group">
+        <label class="control-label visible-ie8 visible-ie9">Usuario</label>
+        <div class="controls">
+            <div class="input-icon left">
+                <i class="icon-user"></i>
+                <input class="m-wrap placeholder-no-fix" type="text" autocomplete="off" placeholder="Usuario" name="login" value="${user?.login}"/>
+            </div>
+        </div>
+    </div>
         <div class="control-group ">
             <label class="control-label visible-ie8 visible-ie9">Nombre</label>
             <div class="controls">
@@ -69,21 +86,13 @@
                 </div>
             </div>
         </div>
-        <div class="control-group">
-            <label class="control-label visible-ie8 visible-ie9">Usuario</label>
-            <div class="controls">
-                <div class="input-icon left">
-                    <i class="icon-user"></i>
-                    <input class="m-wrap placeholder-no-fix" type="text" autocomplete="off" placeholder="Usuario" name="login" value="${user?.login}"/>
-                </div>
-            </div>
-        </div>
+
         <div class="control-group">
             <label class="control-label visible-ie8 visible-ie9">Ingresar clave vieja</label>
             <div class="controls">
                 <div class="input-icon left">
                     <i class="icon-ok"></i>
-                    <input class="m-wrap placeholder-no-fix" type="password" autocomplete="off" placeholder="Confirma tu clave" name="confirm" value="${params?.confirm}"/>
+                    <input class="m-wrap placeholder-no-fix" type="password" autocomplete="off" placeholder="Contraseña anterior" name="vieja" value="${params?.vieja}"/>
                 </div>
             </div>
         </div>
@@ -92,7 +101,7 @@
             <div class="controls">
                 <div class="input-icon left">
                     <i class="icon-lock"></i>
-                    <input class="m-wrap placeholder-no-fix" type="password" autocomplete="off" id="register_password" placeholder="Clave" name="password" value="${user?.password}"/>
+                    <input class="m-wrap placeholder-no-fix" type="password" autocomplete="off" id="register_password" placeholder="Contraseña nueva" name="password" value="${user?.password}"/>
                 </div>
             </div>
         </div>
@@ -101,26 +110,19 @@
             <div class="controls">
                 <div class="input-icon left">
                     <i class="icon-ok"></i>
-                    <input class="m-wrap placeholder-no-fix" type="password" autocomplete="off" placeholder="Confirma tu clave" name="confirm" value="${params?.confirm}"/>
+                    <input class="m-wrap placeholder-no-fix" type="password" autocomplete="off" placeholder="Confirma tu nueva contraseña" name="confirm" value="${params?.confirm}"/>
                 </div>
             </div>
-        </div>
-        <div class="form-actions">
-            <a href="http://localhost:9090/PreventRisk/home/index" >
-                <button id="register-back-btn" type="button" class="btn">  <i class="m-icon-swapleft"></i>  Inicio </button>
-            </a>
-            <button type="submit" id="register-submit-btn" class="btn green pull-right" name="register" value="Register">
-                Confirmar <i class="m-icon-swapright m-icon-white"></i>
-            </button>
         </div>
 
         <div class="form-actions">
             <a href="http://localhost:9090/PreventRisk/home/index" >
                 <button id="register-back-btn" type="button" class="btn">  <i class="m-icon-swapleft"></i>  Inicio </button>
             </a>
-            <button type="submit" id="register-submit-btn" class="btn green pull-right" name="register" value="Register">
-                Eliminar usuario <i class="m-icon-swapright m-icon-white"></i>
+            <button type="submit" id="register-submit-btn" class="btn green pull-right" value="modify" formaction="doModify">
+                Modificar datos <i class="m-icon-swapright m-icon-white"></i>
             </button>
+
         </div>
     </form>
     <!-- END REGISTRATION FORM -->
