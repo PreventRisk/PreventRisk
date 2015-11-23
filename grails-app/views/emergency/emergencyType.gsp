@@ -49,9 +49,9 @@
 <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <g:if test="${!session.user}">
+        <g:if test="${!session?.user}">
             <li class="sidebar-brand">
-                <a href="http://localhost:9090/PreventRisk/user/loginfromsimulator"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Ingresar</a>
+                <a href="http://localhost:9090/PreventRisk/user/login"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Ingresar</a>
             </li>
         </g:if>
         <g:else>
@@ -74,8 +74,9 @@
     </ul>
 </nav>
 
-<g:if test="${!session.user}">
+
 <!-- Header -->
+<g:if test="${!session.user}">
 <header id="top" class="header">
     <div class="text-vertical-center">
         <div class="container" >
@@ -91,6 +92,8 @@
     </div>
 </header>
 </g:if>
+
+<!-- body -->
 
 <g:if test="${session.user}">
 
@@ -131,7 +134,7 @@
                                     <strong>Emergencia Medioambiental</strong>
                                 </h4>
                                 <p>blablabla</p>
-                                <a href="http://localhost:9090/PreventRisk/" class="btn btn-light">Empieza</a>
+                                <a href="http://localhost:9090/PreventRisk/emergency/question" class="btn btn-light">Empieza</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
@@ -144,7 +147,7 @@
                                     <strong>Emergencia Civil</strong>
                                 </h4>
                                 <p>blablabla</p>
-                                <a href="#map_div" class="btn btn-light">Empieza</a>
+                                <a href="http://localhost:9090/PreventRisk/emergency/question" class="btn btn-light">Empieza</a>
                             </div>
                         </div>
                     </div>
