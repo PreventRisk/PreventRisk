@@ -29,7 +29,24 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        div.transbox
+        {
+            margin: 20px;
+            background: url(${request.contextPath}/login-form/assets/img/bg-opacity.png) repeat;
+            opacity:0.9;
+        }
 
+        .circular {
+            width: 200px;
+            height: 200px;
+            border-radius: 150px;
+            -webkit-border-radius: 150px;
+            -moz-border-radius: 150px;
+            background: url(${request.contextPath}/stylish/img/test.jpg) no-repeat;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -41,7 +58,7 @@
 <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <g:if test="${!session.user}">
+        <g:if test="${!session?.user}">
             <li class="sidebar-brand">
                 <a href="http://localhost:9090/PreventRisk/user/login"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Ingresar</a>
             </li>
@@ -66,28 +83,78 @@
     </ul>
 </nav>
 
-<!-- Header -->
-<header id="top" class="header">
-    <div class="text-vertical-center">
-        <g:if test="${session.user}">
-            <h3>¡Bienvenido ${session.user.firstName} ${session.user.lastName} a nuestro simulador!
-                <br></h3>
-            <br>
-        </g:if>
-        <g:else>
+<g:if test="${!session.user}">
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
             <div class="container" >
                 <img src="${request.contextPath}/stylish/img/preventrisk-w.png" width="200px" height="auto" />
             </div>
-            <h3>Para ingresar a la simulacion primero debe iniciar sesión.</h3>
+            <h3>Usted no tiene permiso para acceder a esta página.</h3>
             <br>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="http://localhost:9090/PreventRisk/user/login" class="btn btn-dark btn-lg">Iniciar sesión</a>
+                    <a href="http://localhost:9090/PreventRisk/" class="btn btn-dark btn-lg">Ir a inicio</a>
                 </div>
             </div>
-        </g:else>
-    </div>
-</header>
+        </div>
+    </header>
+</g:if>
+
+<!-- body -->
+
+<g:if test="${session?.user}">
+    <section id="portfolio" class="header">
+        <div class="container">
+            <br>
+            <br>
+            <center><div class="service-item">
+                <img src="${request.contextPath}/stylish/img/preventrisk-w.png" width="200px" height="auto" />
+                <h3>¡Bienvenido al simulador, ${session.user.firstName} ${session.user.lastName}!</h3>
+            </div></center>
+            <div class="transbox">
+                <div class="row text-center">
+
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <br>
+                        <br>
+                        <br>
+
+                        <center><div class="circular" width="200px" height="auto"></div></center>
+                        <h2>¿Tuvo una lesión?</h2>
+
+                        <hr class="small">
+                        <div class="col-lg-10 col-lg-offset-1 text-center">
+                            <a href="http://localhost:9090/PreventRisk/emergency/answer" class="btn btn-light"><i class="fa fa-smile-o fa-lw"></i>  SI</a>
+                            <br>
+                            <br>
+                            <a href="http://localhost:9090/PreventRisk" class="btn btn-light"><i class="fa fa-frown-o fa-lw"></i>  NO</a>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+
+                    <!-- /.row (nested) -->
+
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <br>
+                <a href="http://localhost:9090/PreventRisk/emergency/emergencyType" class="btn btn-dark">Reiniciar</a>
+                <br>
+                <br>
+                <a href="http://localhost:9090/PreventRisk" class="btn btn-dark">Volver a inicio</a>
+                <br>
+                <br>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+</g:if>
+
 
 <!-- Footer -->
 <section id = "about">
