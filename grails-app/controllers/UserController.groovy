@@ -55,9 +55,6 @@ class  UserController {
 
     def login= {
     }
-    def loginfromsimulator = {
-
-    }
 
     def modify={
 

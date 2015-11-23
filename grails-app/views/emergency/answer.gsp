@@ -73,55 +73,67 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Pregunta</h2>
+                    <h2>Ud sufre de "(Insertar variableRes)"</h2>
                     <hr class="small">
+                    <br><br><br>
                     <div class="row">
                         <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-gear fa-stack-1x text-primary"></i>
+                                    <i class=  "fa fa-heart-o fa-stack-1x text-primary"></i>
                                 </span>
                                 <h4>
                                     <strong>Espacio para Imagen</strong>
                                 </h4>
                                 <p>blabla</p>
-                                <a href="http://localhost:9090/PreventRisk/emergency/answer" class="btn btn-light">Nothing</a>
+                                <a href="http://localhost:9090/PreventRisk/emergency/" class="btn btn-light">Nothing</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-book fa-stack-1x text-primary"></i>
-                                </span>
                                 <h4>
-                                    <strong>Sí</strong>
+                                    <strong>Pasos a seguir:</strong>
                                 </h4>
-                                <p>blablabla</p>
-                                <a href="http://localhost:9090/PreventRisk/" class="btn btn-light">Sí</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-hospital-o fa-stack-1x text-primary"></i>
-                                </span>
-                                <h4>
-                                    <strong>No</strong>
-                                </h4>
-                                <p>blablabla</p>
-                                <a href="#map_div" class="btn btn-light">No</a>
+                                <p>1.) <br> 2.) <br> 3.)  <br> 4.)  <br> 5.)
+                                    1.) <br> 3.)  <br> 4.)  <br> 5.)
+                                1.) <br> 3.)  <br> 4.)  <br> 5.)
+                                1.) <br> 3.)  <br> 4.)  <br> 5.)
+                                    <br> 2.)  <br> 2.)</p>
+
                             </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
                 </div>
+                <div class=" row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                            </span>
+                            <h4>
+                                <strong>Regresar al Inicio</strong>
+                            </h4>
+                            <a href="http://localhost:9090/PreventRisk/" class="btn btn-light">Inicio</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                            </span>
+                            <h4>
+                                <strong>Empezar una nueva simulación</strong>
+                            </h4>
+                            <a href="http://localhost:9090/PreventRisk/emergency/emergencyType" class="btn btn-light">Nueva</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
                 <!-- /.col-lg-10 -->
             </div>
             <!-- /.row -->
-        </div>
         <!-- /.container -->
     </section>
 
