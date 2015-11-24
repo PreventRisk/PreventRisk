@@ -37,13 +37,19 @@
             opacity:0.9;
         }
 
-        .circular {
+        .round {
+            border-radius: 50%;
+            overflow: hidden;
             width: 200px;
             height: 200px;
-            border-radius: 150px;
-            -webkit-border-radius: 150px;
-            -moz-border-radius: 150px;
-            background: url(${request.contextPath}/stylish/img/test.jpg) no-repeat;
+        }
+        .round img {
+            display: block;
+            /* Stretch
+                  height: 100%;
+                  width: 100%; */
+            min-width: 100%;
+            min-height: 100%;
         }
 
     </style>
@@ -120,7 +126,9 @@
                         <br>
                         <br>
 
-                        <center><div class="circular" width="200px" height="auto"></div></center>
+                        <center><div class="round">
+                            <img src="${request.contextPath}/stylish/img/test.jpg" />
+                        </div></center>
                         <h2>¿Tuvo una lesión?</h2>
 
                         <hr class="small">

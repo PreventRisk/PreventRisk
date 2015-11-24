@@ -38,15 +38,20 @@
         background: url(${request.contextPath}/login-form/assets/img/bg-opacity.png) repeat;
         opacity:0.9;
     }
-    .circular {
+    .round {
+        border-radius: 50%;
+        overflow: hidden;
         width: 200px;
         height: 200px;
-        border-radius: 150px;
-        -webkit-border-radius: 150px;
-        -moz-border-radius: 150px;
-        background: url(${request.contextPath}/stylish/img/test.jpg) no-repeat;
     }
-
+    .round img {
+        display: block;
+        /* Stretch
+              height: 100%;
+              width: 100%; */
+        min-width: 100%;
+        min-height: 100%;
+    }
     </style>
 </head>
 
@@ -129,58 +134,55 @@
                     <div class="row">
 
                         <div class="col-md-4 col-sm-6">
-                            <center><div class="circular" width="200px" height="auto"></div></center>
+                            <center><div class="round">
+                                <img src="${request.contextPath}/stylish/img/test.jpg" />
+                            </div></center>
                         </div>
                         <div class="col-md-4 col-sm-6">
-                            <div class="service-item">
+                            <div class="table-layout" align="justify">
                                 <h4>
                                     <strong>Pasos a seguir:</strong>
                                 </h4>
-                                <p>1.) <br> 2.) sss<br> 3.)  <br> 4.)  <br> 5.)
-                                    1.) <br> 3.)  <br> 4.)  <br> 5.)
-                                1.) <br> 3.)  <br> 4.)  ffff<br> 5.)
-                                1.) <br> 3.)  <br> 4.)eeeew  <br> 5.)esta es una cadena de texto muy larga para poder comprobar la indentacion de la fuente en la columana de este texto
-                                    <br> 2.) www <br> 2.)</p>
+                                <p>Este tipo de casos se presenta cuando... TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST</p>
+                                <ul >
+
+                                    <li>Para prevenir...
+
+                                        <ul>
+                                            <li>Cuidese mejor
+                                            <li>No corra
+                                            <li>Coma bien
+                                        </ul>
+
+                                    <li>Actue...
+
+                                        <ul>
+                                            <li>Echese cafe
+                                            <li>...
+                                        </ul>
+
+                                </ul>
 
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class=  "fa fa-heart-o fa-stack-1x text-primary"></i>
-                                </span>
-                                <h4>
-                                    <strong>Espacio para Publicidad</strong>
-                                </h4>
-                                <p>blabla</p>
-                                <a href="http://localhost:9090/PreventRisk/emergency/" class="btn btn-light">Nothing</a>
+                               <center><div class="round">
+                                <img src="${request.contextPath}/stylish/img/test2.jpg" />
+                            </div></center>
                             </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                </div>
-                <div class=" row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service-item">
-                            <span class="fa-stack fa-4x">
-                            </span>
-                            <h4>
-                                <strong>Regresar al Inicio</strong>
-                            </h4>
-                            <a href="http://localhost:9090/PreventRisk/" class="btn btn-light">Inicio</a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service-item">
-                            <span class="fa-stack fa-4x">
-                            </span>
-                            <h4>
-                                <strong>Empezar una nueva simulación</strong>
-                            </h4>
-                            <a href="http://localhost:9090/PreventRisk/emergency/emergencyType" class="btn btn-light">Nueva</a>
-                        </div>
+                    <div class="col-lg-10 col-lg-offset-1 text-center">
+                        <!--  <hr class="small"> -->
+                        <!-- /.row (nested) -->
+                        <hr class="small">
+                        <a href="http://localhost:9090/PreventRisk/emergency/emergencyType" class="btn btn-dark">Nueva Simulación</a>
+                        <hr class="small">
+                        <a href="http://localhost:9090/PreventRisk" class="btn btn-dark">Volver a inicio</a>
+                        <br>
+                        <h4><a href="http://localhost:9090/PreventRisk/user/logout" class="btn btn-dark">Cerrar sesión</a></h4>
                     </div>
                 </div>
             </div>
@@ -188,15 +190,7 @@
                 <!-- /.col-lg-10 -->
             </div>
             </div>
-            <div class="col-lg-10 col-lg-offset-1 text-center">
-                <!--  <hr class="small"> -->
-                <!-- /.row (nested) -->
-                <a href="http://localhost:9090/PreventRisk/emergency/emergencyType" class="btn btn-dark">Nueva Simulación</a>
-                <br>
-                <a href="http://localhost:9090/PreventRisk" class="btn btn-dark">Volver a inicio</a>
-                <br>
-                <h4><a href="http://localhost:9090/PreventRisk/user/logout" class="btn btn-dark">Cerrar sesión</a></h4>
-            </div>
+
             <!-- /.row -->
         <!-- /.container -->
     </section>
