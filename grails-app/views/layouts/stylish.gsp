@@ -33,6 +33,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style>
+
+    .textmap{
+        color: black;
+    }
+</style>
+
 </head>
 
 <body>
@@ -132,7 +139,7 @@
                                     <strong>Curso</strong>
                                 </h4>
                                 <p>Aquí podrás aprender como actuar en caso de emergencia y ver tu progreso.</p>
-                                <a href="${request.contextPath}/" class="btn btn-light">Ingresar</a>
+                                <a href="${request.contextPath}/course/index" class="btn btn-light">Ingresar</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
@@ -145,7 +152,7 @@
                                     <strong>Entidades cercanas</strong>
                                 </h4>
                                 <p>En caso de emergencia, verás que entidades de salud dependiendo del caso.</p>
-                                <a href="#map_div" class="btn btn-light">Ver</a>
+                                <a href="#entities" class="btn btn-light">Ver</a>
                             </div>
                         </div>
                     </div>
@@ -226,16 +233,16 @@
                 var icon;
                 var locationClass;
                 if(value.class == "Hospital"){
-                    description = "<h4>Hospital</h4><h5>"
+                    description = "<div class='textmap'><h4>Hospital</h4><h5>"
                             + value.name + "</h5>" +
                     "<p><b>Tipo: </b>" + value.type + '</p>' +
-                    "<p><b>Calidad: </b>" + value.quality + "</p>";
+                    "<p><b>Calidad: </b>" + value.quality + "</p></div>";
                     icon = hospIcon;
                     locationClass = 'Hospital';
                 }else if (value.class == "Drugstore"){
-                    description = "<h4>Droguería</h4><h5>"
+                    description = "<div class='textmap'><h4>Droguería</h4><h5>"
                             + value.name + "</h5>" +
-                    "<p><b>Especialidad: </b>" + value.speciality + '</p>';
+                    "<p><b>Especialidad: </b>" + value.speciality + '</p></div>';
                     icon = drugIcon;
                     locationClass = 'Drugstore';
                 }
