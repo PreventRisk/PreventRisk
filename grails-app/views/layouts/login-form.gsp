@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="form-actions">
-            <a href="http://localhost:9090/PreventRisk/home/index" >
+            <a href="${request.contextPath}/home/index" >
                 <button id="login-back-btn" type    ="button" class="btn">  <i class="icon-hospital"></i>  Inicio </button>
             </a>
             <button type="submit" class="btn blue pull-right" value="Login" formaction="dologin">
@@ -78,7 +78,7 @@
         <div class="create-account">
             <p>
                 ¿No tienes una cuenta aún?&nbsp;
-                <a href="http://localhost:9090/PreventRisk/user/registro" id="register-btn" >Crear una cuenta</a>
+                <a href="${request.contextPath}/user/registro" id="register-btn" >Crear una cuenta</a>
             </p>
         </div>
     </form>

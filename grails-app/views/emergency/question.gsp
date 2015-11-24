@@ -66,22 +66,22 @@
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
         <g:if test="${!session?.user}">
             <li class="sidebar-brand">
-                <a href="http://localhost:9090/PreventRisk/user/login"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Ingresar</a>
+                <a href="${request.contextPath}/user/login"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Ingresar</a>
             </li>
         </g:if>
         <g:else>
             <li class="sidebar-brand">
-                <a href="http://localhost:9090/PreventRisk/user/logout"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Salir</a>
+                <a href="${request.contextPath}/user/logout"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Salir</a>
             </li>
         </g:else>
         <li>
-            <a href="http://localhost:9090/PreventRisk" onclick = $("#menu-close").click(); ><i class="fa fa-home fa-lw"></i>&nbsp; Inicio</a>
+            <a href="${request.contextPath}" onclick = $("#menu-close").click(); ><i class="fa fa-home fa-lw"></i>&nbsp; Inicio</a>
         </li>
         <li>
-            <a href="http://localhost:9090/PreventRisk/#services" onclick = $("#menu-close").click(); ><i class="fa fa-shield fa-lw"></i>&nbsp; Servicios</a>
+            <a href="${request.contextPath}/#services" onclick = $("#menu-close").click(); ><i class="fa fa-shield fa-lw"></i>&nbsp; Servicios</a>
         </li>
         <li>
-            <a href="http://localhost:9090/PreventRisk#entities" onclick = $("#menu-close").click(); ><i class="fa fa-map-marker fa-lw"></i>&nbsp; Entidades cercanas</a>
+            <a href="${request.contextPath}#entities" onclick = $("#menu-close").click(); ><i class="fa fa-map-marker fa-lw"></i>&nbsp; Entidades cercanas</a>
         </li>
         <li>
             <a href="#about" onclick = $("#menu-close").click(); ><i class="fa fa-info-circle fa-lw"></i>&nbsp; Sobre nosotros</a>
@@ -100,7 +100,7 @@
             <br>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="http://localhost:9090/PreventRisk/" class="btn btn-dark btn-lg">Ir a inicio</a>
+                    <a href="${request.contextPath}/" class="btn btn-dark btn-lg">Ir a inicio</a>
                 </div>
             </div>
         </div>
@@ -133,10 +133,10 @@
 
                         <hr class="small">
                         <div class="col-lg-10 col-lg-offset-1 text-center">
-                            <a href="http://localhost:9090/PreventRisk/emergency/answer" class="btn btn-light"><i class="fa fa-smile-o fa-lw"></i>  SI</a>
+                            <a href="${request.contextPath}/emergency/answer" class="btn btn-light"><i class="fa fa-smile-o fa-lw"></i>  SI</a>
                             <br>
                             <br>
-                            <a href="http://localhost:9090/PreventRisk" class="btn btn-light"><i class="fa fa-frown-o fa-lw"></i>  NO</a>
+                            <a href="${request.contextPath}" class="btn btn-light"><i class="fa fa-frown-o fa-lw"></i>  NO</a>
                             <br>
                             <br>
                             <br>
@@ -150,10 +150,10 @@
             </div>
             <div class="col-lg-10 col-lg-offset-1 text-center">
                 <br>
-                <a href="http://localhost:9090/PreventRisk/emergency/emergencyType" class="btn btn-dark">Reiniciar</a>
+                <a href="${request.contextPath}/emergency/emergencyType" class="btn btn-dark">Reiniciar</a>
                 <br>
                 <br>
-                <a href="http://localhost:9090/PreventRisk" class="btn btn-dark">Volver a inicio</a>
+                <a href="${request.contextPath}" class="btn btn-dark">Volver a inicio</a>
                 <br>
                 <br>
             </div>

@@ -107,7 +107,7 @@
         </div>
 
         <div class="form-actions">
-            <a href="http://localhost:9090/PreventRisk/home/index" >
+            <a href="${request.contextPath}/home/index" >
                 <button id="modify-back-btn" type="button" class="btn">  <i class="icon-hospital"></i>  Inicio </button>
             </a>
             <button type="submit" id="modify-submit-btn" class="btn blue pull-right" value="modify" formaction="doModify">

@@ -46,16 +46,16 @@
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <g:if test="${!session.user}">
                 <li class="sidebar-brand">
-                    <a href="http://localhost:9090/PreventRisk/user/login"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Ingresar</a>
+                    <a href="${request.contextPath}/user/login"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Ingresar</a>
                 </li>
             </g:if>
             <g:else>
 
                 <li class="sidebar-brand">
-                    <a href="http://localhost:9090/PreventRisk/user/logout"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Salir</a>
+                    <a href="${request.contextPath}/user/logout"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Salir</a>
                 </li>
                 <li class="sidebar-brand">
-                    <a href="http://localhost:9090/PreventRisk/user/modify"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Modificar mis datos</a>
+                    <a href="${request.contextPath}/user/modify"  onclick = $("#menu-close").click(); ><i class="fa fa-user fa-lw"></i>&nbsp; Modificar mis datos</a>
                 </li>
             </g:else>
             <li>
@@ -83,13 +83,13 @@
             <g:if test="${session.user}">
                 <h3>¡Hola ${session.user.firstName} ${session.user.lastName}!
                 <br>Aquí sabrás qué hacer en caso de emergencias.</h3>
-                <h4><a href="http://localhost:9090/PreventRisk/user/logout">Cerrar sesión</a></h4>
+                <h4><a href="${request.contextPath}/user/logout">Cerrar sesión</a></h4>
                 <br>
             </g:if>
             <g:else>
                 <h3>Aquí sabrás qué hacer en caso de emergencias.</h3>
-                <h4><a href="http://localhost:9090/PreventRisk/user/login">Inicia sesión</a>. Si
-                eres nuevo, regístrate <a href="http://localhost:9090/PreventRisk/user/registro">aquí</a>.</h4>
+                <h4><a href="${request.contextPath}/user/login">Inicia sesión</a>. Si
+                eres nuevo, regístrate <a href="${request.contextPath}/user/registro">aquí</a>.</h4>
                 <br>
             </g:else>
             <div class="row">
@@ -119,7 +119,7 @@
                                     <strong>Simulador</strong>
                                 </h4>
                                 <p>Puedes crear una situación de emergencia y mostraremos qué hacer.</p>
-                                <a href="http://localhost:9090/PreventRisk/emergency/emergencyType" class="btn btn-light">Ingresar</a>
+                                <a href="${request.contextPath}/emergency/emergencyType" class="btn btn-light">Ingresar</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
@@ -132,7 +132,7 @@
                                     <strong>Curso</strong>
                                 </h4>
                                 <p>Aquí podrás aprender como actuar en caso de emergencia y ver tu progreso.</p>
-                                <a href="http://localhost:9090/PreventRisk/" class="btn btn-light">Ingresar</a>
+                                <a href="${request.contextPath}/" class="btn btn-light">Ingresar</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
