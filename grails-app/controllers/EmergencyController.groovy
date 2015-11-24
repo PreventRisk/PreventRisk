@@ -1,10 +1,13 @@
 import static org.springframework.http.HttpStatus.*
+import groovy.sql.*
 import grails.transaction.Transactional
 
 @Transactional(readOnly = true)
 class EmergencyController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
+    def emergencySelected = []
+    def relations = []
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
@@ -16,7 +19,7 @@ class EmergencyController {
     }
 
     def create() {
-        respond new Emergency(params)
+//        respond new Emergency(params)
     }
 
     def answer() {
@@ -26,6 +29,18 @@ class EmergencyController {
     def emergencyType(){
 
     }
+
+    def selectType(String id){
+        emergencySelected = []
+        def emergencies = Emergency.list()
+        [emergencies: emergencies]
+        emergencies.each {
+            if (it.type == id) emergencySelected.add(it.id)
+        }
+        println emergencySelected
+    }
+
+
 
     def question(){
 

@@ -41,7 +41,6 @@
 </head>
 
 <body>
-
 <!-- Navigation -->
 
 
@@ -121,7 +120,12 @@
                                     <strong>Emergencia Médica</strong>
                                 </h4>
                                 <p>Estas son debidas a</p>
-                                <a href="http://localhost:9090/PreventRisk/emergency/question" class="btn btn-light">Empieza</a>
+                                <g:form>
+                                    <g:link action="selectType" id="Medica">
+                                            <input value="Empieza" type="button" class="btn btn-light"></input>
+                                    </g:link>
+                                </g:form>
+
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
