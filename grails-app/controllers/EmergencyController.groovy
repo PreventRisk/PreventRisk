@@ -33,6 +33,10 @@ class EmergencyController {
     }
 
     def question(String id){
+
+        def mayorSymptomActual = 0
+        def mayorSymptom = 0
+        def idMayorSymptom = 0
         emergencySelected = []
         def emergencies = Emergency.list()
         [emergencies: emergencies]
@@ -43,16 +47,15 @@ class EmergencyController {
         for(int emergencias=0; emergencias<19; emergencias++){
             for(int sintomas=0; sintomas<63; sintomas++){
                 if(emergencySelected.contains(emergencias)){
-                    if(emergency_symptoms[emergencias].contains(sintomas)) matrixEmergency[emergencias][sintomas] = 1
+                    if(emergency_symptoms[emergencias].contains(sintomas)) {
+                        matrixEmergency[emergencias][sintomas] = 1
+                        idMayorSymptom = sintomas
+                    }
                 }
                 else
                     matrixEmergency[emergencias][sintomas] = 0
             }
         }
-
-        def mayorSymptomActual = 0
-        def mayorSymptom = 0
-        def idMayorSymptom = 0
 
         for(int sintomas=0; sintomas<63; sintomas++){
             for(int emergencias=0; emergencias<19; emergencias++){
@@ -60,15 +63,18 @@ class EmergencyController {
                     mayorSymptom++
                 }
             }
-            if(mayorSymptom>mayorSymptomActual){
+
+            if(mayorSymptom>=mayorSymptomActual){
                 idMayorSymptom = sintomas
                 mayorSymptomActual=mayorSymptom
             }
             mayorSymptom = 0
         }
 
-        def test = Symptom.get(idMayorSymptom).question
-        println test
+        println idMayorSymptom + " con numero de repeticiones " + mayorSymptomActual
+
+        def symptomRepet = Symptom.get(idMayorSymptom)
+        render(view: "question", model: [question: symptomRepet.question, imagen: symptomRepet.img])
     }
 
     @Transactional

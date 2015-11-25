@@ -127,7 +127,7 @@
                     <br>
                     <br>
                     <br>
-                    <h2>Ud. sufre de: "(Insertar variableRes)"</h2>
+                    <h2>Usted sufre de: Alergia</h2>
 
                     <hr class="small">
                     <br><br><br>
@@ -143,25 +143,11 @@
                                 <h4>
                                     <strong>Pasos a seguir:</strong>
                                 </h4>
-                                <p>Este tipo de casos se presenta cuando... TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST</p>
-                                <ul >
-
-                                    <li>Para prevenir...
-
-                                        <ul>
-                                            <li>Cuidese mejor
-                                            <li>No corra
-                                            <li>Coma bien
-                                        </ul>
-
-                                    <li>Actue...
-
-                                        <ul>
-                                            <li>Echese cafe
-                                            <li>...
-                                        </ul>
-
-                                </ul>
+                                <p>• Pida ayuda.</p>
+                                <p>• Ventile el ambiente.</p>
+                                <p>• Bríndele a la persona confort y tranquilidad.</p>
+                                <p>• Si porta una jeringa con adrenalina (prescripta), puede administrársela.</p>
+                                <p>• Aguarde la llegada de ayuda.</p>
 
                             </div>
                         </div>

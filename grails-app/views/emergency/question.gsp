@@ -129,7 +129,7 @@
                         <center><div class="round">
                             <img src="${request.contextPath}/stylish/img/test.jpg" />
                         </div></center>
-                        <h2>¿Tuvo una lesión?</h2>
+                        <h2>${question}</h2>
 
                         <hr class="small">
                         <div class="col-lg-10 col-lg-offset-1 text-center">
