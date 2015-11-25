@@ -183,14 +183,13 @@
                             </select>
                         </il>
                         <il  style="display:inline-block; vertical-align:top">
-                            <label for="sel1"><h4>Calidad:</h4></label>
+                            <label for="sel1"><h4>Nivel:</h4></label>
                             <select class="form-control" id="sel1" style ="opacity: 0.8; border-bottom: none; float: left" onchange="filterMarkers('qual', this.value);">
                                 <option value="disabled">-- Seleccione -- </option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
+                                <option value="0">Clínica</option>
+                                <option value="1">1 - Cuidados básicos</option>
+                                <option value="2">2 - Cuidados intermedios</option>
+                                <option value="3">3 - Cuidados intensivos</option>
                             </select>
                         </il>
                         <il style="display:inline-block; vertical-align:top">
@@ -236,7 +235,7 @@
                     description = "<div class='textmap'><h4>Hospital</h4><h5>"
                             + value.name + "</h5>" +
                     "<p><b>Tipo: </b>" + value.type + '</p>' +
-                    "<p><b>Calidad: </b>" + value.quality + "</p></div>";
+                    "<p><b>Nivel: </b>" + value.quality + "</p></div>";
                     icon = hospIcon;
                     locationClass = 'Hospital';
                 }else if (value.class == "Drugstore"){

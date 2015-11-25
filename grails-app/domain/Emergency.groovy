@@ -6,7 +6,6 @@ class Emergency {
     String name
     String steps
     String type
-    static mappedBy = [symptoms: Symptom]
 
     static constraints = {
         name nullable: false

@@ -8,6 +8,6 @@ class Hospital extends Location{
 
     static constraints = {
         type blank: false, nullable: false
-        quality range: 1..5
+        quality range: 0..3
     }
 }
