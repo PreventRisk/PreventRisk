@@ -119,9 +119,9 @@
                                 <h4>
                                     <strong>Emergencia Médica</strong>
                                 </h4>
-                                <p>Estas son debidas a</p>
+                                <p>Relacionada a enfermedades o problemas de salud, como por ejemplo, infartos, desmayos, crisis o convulsiones y ataques.</p>
                                 <g:form>
-                                    <g:link action="selectType" id="Medica">
+                                    <g:link action="question" id="Medica" >
                                             <input value="Empieza" type="button" class="btn btn-light"></input>
                                     </g:link>
                                 </g:form>
@@ -137,8 +137,12 @@
                                 <h4>
                                     <strong>Emergencia Medioambiental</strong>
                                 </h4>
-                                <p>blablabla</p>
-                                <a href="http://localhost:9090/PreventRisk/emergency/question" class="btn btn-light">Empieza</a>
+                                <p>Debida a  factores del entorno, como lo son ataques de animales, contaminación, reacciones sensoriales, entre otras. </p>
+                                <g:form>
+                                    <g:link action="question" id="Medioambiental" >
+                                        <input value="Empieza" type="button" class="btn btn-light"></input>
+                                    </g:link>
+                                </g:form>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">
@@ -150,8 +154,12 @@
                                 <h4>
                                     <strong>Emergencia Civil</strong>
                                 </h4>
-                                <p>blablabla</p>
-                                <a href="http://localhost:9090/PreventRisk/emergency/question" class="btn btn-light">Empieza</a>
+                                <p>Relacionada a lesiones causadas por la acción del hombre directamente, como por ejemplo, asaltos, atentados, disturbios, guerras, e incendios.</p>
+                                <g:form>
+                                    <g:link action="question" id="Lesiones" >
+                                        <input value="Empieza" type="button" class="btn btn-light"></input>
+                                    </g:link>
+                                </g:form>
                             </div>
                         </div>
                     </div>
