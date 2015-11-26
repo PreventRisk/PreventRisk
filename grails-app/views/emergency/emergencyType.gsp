@@ -154,7 +154,7 @@
                                 <h4>
                                     <strong>Emergencia Civil</strong>
                                 </h4>
-                                <p>Relacionada a lesiones causadas por la acción del hombre directamente, como por ejemplo, asaltos, atentados, disturbios, guerras, e incendios.</p>
+                                <p>Relacionada a lesiones causadas por la acción del hombre directamente, como por ejemplo, asaltos, atentados o accidentes.</p>
                                 <g:form>
                                     <g:link action="question" id="Lesiones" >
                                         <input value="Empieza" type="button" class="btn btn-light"></input>

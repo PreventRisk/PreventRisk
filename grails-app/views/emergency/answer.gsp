@@ -135,7 +135,7 @@
 
                         <div class="col-md-4 col-sm-6">
                             <center><div class="round">
-                                <img src="${request.contextPath}/stylish/img/test.jpg" />
+                                <img src="${request.contextPath}/images/sudoracion.JPG" width="200px"  height="200px"/>
                             </div></center>
                         </div>
                         <div class="col-md-4 col-sm-6">
@@ -148,7 +148,6 @@
                                 <p>• Bríndele a la persona confort y tranquilidad.</p>
                                 <p>• Si porta una jeringa con adrenalina (prescripta), puede administrársela.</p>
                                 <p>• Aguarde la llegada de ayuda.</p>
-
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6">

@@ -7,6 +7,7 @@ class Symptom {
     String question
     String img
 
+
     static constraints = {
         name nullable: false
         emergencies nullable: false

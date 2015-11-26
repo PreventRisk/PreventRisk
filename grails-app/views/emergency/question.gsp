@@ -127,7 +127,7 @@
                         <br>
 
                         <center><div class="round">
-                            <img src="${request.contextPath}/stylish/img/test.jpg" />
+                            <img src="${request.contextPath}/images/lagrimeo.jpg" width="200px"  height="200px" />
                         </div></center>
                         <h2>${question}</h2>
 
