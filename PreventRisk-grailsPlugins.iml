@@ -65,5 +65,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="grails-2.5.1 (4)" level="application" />
   </component>
 </module>

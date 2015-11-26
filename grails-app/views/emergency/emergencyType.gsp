@@ -121,7 +121,7 @@
                                 </h4>
                                 <p>Relacionada a enfermedades o problemas de salud, como por ejemplo, infartos, desmayos, crisis o convulsiones y ataques.</p>
                                 <g:form>
-                                    <g:link action="question" id="Medica" >
+                                    <g:link action="init" id="Medica" >
                                             <input value="Empieza" type="button" class="btn btn-light"></input>
                                     </g:link>
                                 </g:form>
@@ -139,8 +139,8 @@
                                 </h4>
                                 <p>Debida a  factores del entorno, como lo son ataques de animales, contaminación, reacciones sensoriales, entre otras. </p>
                                 <g:form>
-                                    <g:link action="question" id="Medioambiental" >
-                                        <input value="Empieza" type="button" class="btn btn-light"></input>
+                                    <g:link action="init" id="Medioambiental" >
+                                       <input value="Empieza" type="button" class="btn btn-light"></input>
                                     </g:link>
                                 </g:form>
                             </div>
@@ -156,7 +156,7 @@
                                 </h4>
                                 <p>Relacionada a lesiones causadas por la acción del hombre directamente, como por ejemplo, asaltos, atentados o accidentes.</p>
                                 <g:form>
-                                    <g:link action="question" id="Lesiones" >
+                                    <g:link action="init" id="Lesiones" >
                                         <input value="Empieza" type="button" class="btn btn-light"></input>
                                     </g:link>
                                 </g:form>

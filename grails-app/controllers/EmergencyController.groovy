@@ -28,15 +28,7 @@ class EmergencyController {
 
     }
 
-    def emergencyType() {
-
-    }
-
-    def question(String id){
-
-        def mayorSymptomActual = 0
-        def mayorSymptom = 0
-        def idMayorSymptom = 0
+    def init(String id){
         emergencySelected = []
         def emergencies = Emergency.list()
         [emergencies: emergencies]
@@ -49,33 +41,100 @@ class EmergencyController {
                 if(emergencySelected.contains(emergencias)){
                     if(emergency_symptoms[emergencias].contains(sintomas)) {
                         matrixEmergency[emergencias][sintomas] = 1
-                        idMayorSymptom = sintomas
                     }
                 }
                 else
                     matrixEmergency[emergencias][sintomas] = 0
             }
         }
+        redirect(action: 'question', id: "")
+    }
+
+    def emergencyType() {
+
+    }
+
+    def question(String id){
+        def mayorSymptomActual = 0
+        def mayorSymptom = 0
+        def idMayorSymptom = 0
 
         for(int sintomas=0; sintomas<63; sintomas++){
             for(int emergencias=0; emergencias<19; emergencias++){
-                if(matrixEmergency[emergencias][sintomas]==1){
+                if(matrixEmergency[emergencias][sintomas]==1)
                     mayorSymptom++
-                }
             }
 
-            if(mayorSymptom>=mayorSymptomActual){
+            if(mayorSymptom>mayorSymptomActual){
                 idMayorSymptom = sintomas
-                mayorSymptomActual=mayorSymptom
+                mayorSymptomActual = mayorSymptom
             }
             mayorSymptom = 0
         }
 
-        println idMayorSymptom + " con numero de repeticiones " + mayorSymptomActual
+        println idMayorSymptom
 
-        def symptomRepet = Symptom.get(idMayorSymptom)
-        render(view: "question", model: [question: symptomRepet.question, imagen: symptomRepet.img])
+        if (id == "YES"){
+            println "chanchanchanchanchancharan"
+            for(int emergencias = 0; emergencias<19; emergencias++){
+                if(matrixEmergency[emergencias][idMayorSymptom] == 0){
+                    for(int sintomas=0; sintomas<63; sintomas++) matrixEmergency[emergencias][sintomas] = 0
+                }
+            }
+
+            println "salio del for 1 "
+            for(int i = 0; i<19; i++) println matrixEmergency[i]
+
+            for(int emergencias = 0; emergencias<19; emergencias++){
+                println "entro al for 2 con emergencias: " + emergencias
+                matrixEmergency[emergencias][idMayorSymptom] = 2
+            }
+        }
+
+        else if (id == "NO"){
+            println "no tiene esta vaina"
+            for(int emergencias = 0; emergencias<19; emergencias++){
+                if(matrixEmergency[emergencias][idMayorSymptom] == 1){
+                    for(int sintomas=0; sintomas<63; sintomas++) matrixEmergency[emergencias][sintomas] = 0
+                }
+            }
+            for(int emergencias = 0; emergencias<19; emergencias++){
+                matrixEmergency[emergencias][idMayorSymptom] == 2
+            }
+        }
+
+        boolean justOne = false
+        int emergencyRta = 0
+
+        for(int enfermedades = 0; enfermedades <19; enfermedades++){
+            if (matrixEmergency[enfermedades].sum() > 0){
+                emergencyRta = enfermedades
+                if(justOne == false) justOne = true
+                else{
+                    justOne = false
+                    break
+                }
+            }
+        }
+
+        if (!justOne){
+            println idMayorSymptom + " con numero de repeticiones " + mayorSymptomActual
+            def symptomRepet = Symptom.get(idMayorSymptom)
+            render(view: "question", model: [question: symptomRepet.question, imagen: symptomRepet.img])
+        }
+        else{
+            println emergencyRta
+            def symptomRepet = Emergency.get(emergencyRta)
+            render(view: "answer", model: [name: symptomRepet.name, steps: symptomRepet.steps])
+        }
+
+
+
+
+
     }
+
+
 
     @Transactional
     def save(Emergency emergencyInstance) {

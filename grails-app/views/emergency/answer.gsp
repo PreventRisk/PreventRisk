@@ -127,7 +127,7 @@
                     <br>
                     <br>
                     <br>
-                    <h2>Usted sufre de: Alergia</h2>
+                    <h2>Usted sufre de: ${name}</h2>
 
                     <hr class="small">
                     <br><br><br>

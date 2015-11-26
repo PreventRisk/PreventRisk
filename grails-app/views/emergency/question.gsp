@@ -133,13 +133,21 @@
 
                         <hr class="small">
                         <div class="col-lg-10 col-lg-offset-1 text-center">
-                            <a href="${request.contextPath}/emergency/answer" class="btn btn-light"><i class="fa fa-smile-o fa-lw"></i>  SI</a>
-                            <br>
-                            <br>
-                            <a href="${request.contextPath}" class="btn btn-light"><i class="fa fa-frown-o fa-lw"></i>  NO</a>
-                            <br>
-                            <br>
-                            <br>
+                            <g:form>
+                                <g:link action="question" id="YES">
+                                    <input value="SI" type="button" class="btn btn-light"></input>
+                                </g:link>
+                                <br>
+                                <br>
+                                <g:link action="question" id="NO">
+                                    <input value="NO" type="button" class="btn btn-light"></input>
+                                </g:link>
+                                <!--a href="${request.contextPath}" class="btn btn-light"><i class="fa fa-frown-o fa-lw"></i>  NO</a-->
+                                <br>
+                                <br>
+                                <br>
+                            </g:form>
+
                         </div>
                     </div>
 
