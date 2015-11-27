@@ -139,7 +139,7 @@
                                 </h4>
                                 <p>Debida a  factores del entorno, como lo son ataques de animales, contaminación, reacciones sensoriales, entre otras. </p>
                                 <g:form>
-                                    <g:link action="init" id="Medioambiental" >
+                                    <g:link action="init" id=" Medioambiental" >
                                        <input value="Empieza" type="button" class="btn btn-light"></input>
                                     </g:link>
                                 </g:form>
