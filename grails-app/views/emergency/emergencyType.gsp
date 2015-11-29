@@ -110,14 +110,14 @@
                     <h2>Escoge la naturaleza de la emergencia</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-medkit fa-stack-1x text-primary"></i>
                                 </span>
                                 <h4>
-                                    <strong>Emergencia Médica</strong>
+                                    <strong>Emergencia <br> Médica</strong>
                                 </h4>
                                 <p>Relacionada a enfermedades o problemas de salud, como por ejemplo, infartos, desmayos, crisis o convulsiones y ataques.</p>
                                 <g:form>
@@ -128,7 +128,7 @@
 
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
@@ -145,18 +145,35 @@
                                 </g:form>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-hospital-o fa-stack-1x text-primary"></i>
                                 </span>
                                 <h4>
-                                    <strong>Emergencia Civil</strong>
+                                    <strong>Emergencia <br> Civil</strong>
                                 </h4>
                                 <p>Relacionada a lesiones causadas por la acción del hombre directamente, como por ejemplo, asaltos, atentados o accidentes.</p>
                                 <g:form>
                                     <g:link action="init" id="Lesiones" >
+                                        <input value="Empieza" type="button" class="btn btn-light"></input>
+                                    </g:link>
+                                </g:form>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-question fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>¿No estás <br> seguro?</strong>
+                                </h4>
+                                <p>Si las categorias anteriores no te dan seguridad sobre la naturaleza de tu emergencia no importa, empieza aquí.</p>
+                                <g:form>
+                                    <g:link action="init" id="" >
                                         <input value="Empieza" type="button" class="btn btn-light"></input>
                                     </g:link>
                                 </g:form>

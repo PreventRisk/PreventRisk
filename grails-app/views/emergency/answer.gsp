@@ -124,21 +124,19 @@
 
                 <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <br>
-                    <br>
-                    <br>
+                    <br><br><br>
                     <h2>Usted sufre de: ${name}</h2>
 
                     <hr class="small">
                     <br><br><br>
                     <div class="row">
 
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-md-6">
                             <center><div class="round">
                                 <img src="${request.contextPath}/images/sudoracion.JPG" width="200px"  height="200px"/>
                             </div></center>
                         </div>
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-md-6">
                             <div class="table-layout" align="justify">
                                 <h4>
                                     <strong>Pasos a seguir:</strong>
@@ -150,13 +148,12 @@
                                 <p>• Aguarde la llegada de ayuda.</p>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="service-item">
-                               <center><div class="round">
-                                <img src="${request.contextPath}/stylish/img/test2.jpg" />
-                            </div></center>
-                            </div>
-                        </div>
+                    </div>
+                    <br><br><br>
+                    <div class="callout">
+                        <iframe width="100%" height="400px"
+                                src="https://www.youtube.com/embed/HqApRwrIBJ0">
+                        </iframe>
                     </div>
                     <!-- /.row (nested) -->
                     <div class="col-lg-10 col-lg-offset-1 text-center">
