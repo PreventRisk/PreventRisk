@@ -125,7 +125,12 @@
                 <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
                     <br><br><br>
-                    <h2>Usted sufre de: ${name}</h2>
+                    <g:if test="${name == "Datos insuficientes"}">
+                        <h2>${name}</h2>
+                    </g:if>
+                    <g:else>
+                        <h2>Usted sufre de: ${name}</h2>
+                    </g:else>
 
                     <hr class="small">
                     <br><br><br>
@@ -141,11 +146,7 @@
                                 <h4>
                                     <strong>Pasos a seguir:</strong>
                                 </h4>
-                                <p>• Pida ayuda.</p>
-                                <p>• Ventile el ambiente.</p>
-                                <p>• Bríndele a la persona confort y tranquilidad.</p>
-                                <p>• Si porta una jeringa con adrenalina (prescripta), puede administrársela.</p>
-                                <p>• Aguarde la llegada de ayuda.</p>
+                                <p>${steps}</p>
                             </div>
                         </div>
                     </div>

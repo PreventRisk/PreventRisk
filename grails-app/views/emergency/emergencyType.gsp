@@ -173,7 +173,7 @@
                                 </h4>
                                 <p>Si las categorias anteriores no te dan seguridad sobre la naturaleza de tu emergencia no importa, empieza aquí.</p>
                                 <g:form>
-                                    <g:link action="init" id="" >
+                                    <g:link action="init" id="Untyped" >
                                         <input value="Empieza" type="button" class="btn btn-light"></input>
                                     </g:link>
                                 </g:form>
