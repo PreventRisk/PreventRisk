@@ -138,7 +138,7 @@
 
                         <div class="col-md-6">
                             <center><div class="round">
-                                <img src="${request.contextPath}/images/sudoracion.JPG" width="200px"  height="200px"/>
+                                <img src="${request.contextPath}${image}" width="200px"  height="200px"/>
                             </div></center>
                         </div>
                         <div class="col-md-6">
@@ -153,7 +153,7 @@
                     <br><br><br>
                     <div class="callout">
                         <iframe width="100%" height="400px"
-                                src="https://www.youtube.com/embed/HqApRwrIBJ0">
+                                src="https://www.youtube.com/embed/${video}">
                         </iframe>
                     </div>
                     <!-- /.row (nested) -->

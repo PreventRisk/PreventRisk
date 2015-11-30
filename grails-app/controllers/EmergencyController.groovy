@@ -103,13 +103,13 @@ class EmergencyController {
         if (justOne){
             println emergencyRta
             def symptomRepet = Emergency.get(emergencyRta)
-            render(view: "answer", model: [name: symptomRepet.name, steps: symptomRepet.steps])
+            render(view: "answer", model: [name: symptomRepet.name, steps: symptomRepet.steps, image: symptomRepet.img, video: symptomRepet.video])
         }
         else if(!justOne) {
-            if (all) render(view: "answer", model: [name: "Datos insuficientes", steps: "Por favor repita"])
+            if (all) render(view: "answer", model: [name: "Datos insuficientes", steps: "Por favor repita la simulacion"])
             else {
                 def symptomRepet = Symptom.get(currentSymptomId)
-                render(view: "question", model: [question: symptomRepet.question, imagen: symptomRepet.img])
+                render(view: "question", model: [question: symptomRepet.question, image: symptomRepet.img])
             }
         }
     }
