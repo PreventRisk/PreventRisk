@@ -2,97 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df1151fc-c741-4b16-8217-8cc433c25e31" name="Default" comment="user/LogIn gsp view &#10;modified user/Register&#10;Links for login and register from /home&#10;user/login is homepage">
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\Drogueria.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\First-Aid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\Hospital.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\Sick Child-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\Sick Child-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\alteracionDelEquilibrio.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\alucinaciones.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\ampolla.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\angustia.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\ansiedad.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\brazo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\cambioAnimo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\cambiodeAnimo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\confusion.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\congestionNasal.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\congestionNasal.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\corazon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\corazon1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\cura.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\deformacion.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\desvanecimiento.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\dificultadParaRespirar.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\dificultadparahablar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\disminuciondevision.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\dolor.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\dolorCentrodelPecho.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\dolorDeCabeza.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\dolorDeEspalda.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\dolorDeEstomago.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\enrojecimiento.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\estornudo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\fatiga.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\fiebre.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\flatmix_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\free-sick-boy-in-bed-vector.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\free_sick-child_vector.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\frialidad.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\hambre.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\headache.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\hematoma.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\hemorragia.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\hormigueo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\human-organs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\inflamacion.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\labiosInflamados.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\lagrima.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\lagrimeo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\manchasenlaPiel.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\mareo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\movilidadAnormal.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\movimientosInvoluntarios.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\nauseas1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\nervous.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\palidez.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\paralisis.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\paralisisFacial.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\perdidaDeLaFuerza.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\perdidadeMemoria.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\perdidadeconciencia.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\pielCarbonizada.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\primeros_aux.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\primeros_auxilios_ojos.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\respiracionRuidosa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\sed.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\sudoracion.JPG" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\sudoracionExcesiva.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\sweating-clipart-lilylady-999753-albums-clip-art-seasons-2-pic89476-sweating.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\temperaturaAlta.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\nikic\OneDrive\Documentos\GitHub\PreventRisk\images\urticaria.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Emergency$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/Emergency$__clinit__closure1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Emergency.class" afterPath="$PROJECT_DIR$/target/classes/Emergency.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure11$_closure16.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure11$_closure16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure11.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$_question_closure6.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$_question_closure6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__delete_closure17$_closure24.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__delete_closure17$_closure24.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__delete_closure17$_closure25.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__delete_closure17$_closure25.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__delete_closure17.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__delete_closure17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__init_closure14.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__init_closure14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__save_closure15$_closure20.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__save_closure15$_closure20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__save_closure15$_closure21.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__save_closure15$_closure21.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__save_closure15.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__save_closure15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__update_closure16$_closure22.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__update_closure16$_closure22.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__update_closure16$_closure23.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__update_closure16$_closure23.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__update_closure16.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__update_closure16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure13$_closure18.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure13$_closure18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure13$_closure19.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure13$_closure19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure13.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$_question_closure8.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$_question_closure8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Hospital$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/Hospital$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Hospital.class" afterPath="$PROJECT_DIR$/target/classes/Hospital.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Symptom$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/Symptom$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Symptom.class" afterPath="$PROJECT_DIR$/target/classes/Symptom.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UserController$_closure1.class" afterPath="$PROJECT_DIR$/target/classes/UserController$_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UserController.class" afterPath="$PROJECT_DIR$/target/classes/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.h2.db" afterPath="$PROJECT_DIR$/devDb.h2.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/EmergencyController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/EmergencyController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PreventRisk-grailsPlugins.iml" afterPath="$PROJECT_DIR$/PreventRisk-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/emergency/answer.gsp" afterPath="$PROJECT_DIR$/grails-app/views/emergency/answer.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.lock.db" afterPath="$PROJECT_DIR$/devDb.lock.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.trace.db" afterPath="$PROJECT_DIR$/devDb.trace.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/emergency/emergencyType.gsp" afterPath="$PROJECT_DIR$/grails-app/views/emergency/emergencyType.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/emergency/question.gsp" afterPath="$PROJECT_DIR$/grails-app/views/emergency/question.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PreventRisk.iml" afterPath="$PROJECT_DIR$/PreventRisk.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.lock.db" afterPath="$PROJECT_DIR$/devDb.lock.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" afterPath="$PROJECT_DIR$/target/work/web.xml.tmp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/resources/web.xml" afterPath="$PROJECT_DIR$/target/work/resources/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -112,6 +43,12 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="PreventRisk" />
@@ -121,8 +58,8 @@
       <file leaf-file-name="EmergencyController.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/EmergencyController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44155845">
-              <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.34492755">
+              <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -132,22 +69,47 @@
       </file>
       <file leaf-file-name="Emergency.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/Emergency.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Symptom.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/Symptom.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="26" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="question.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/question.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.4693878">
-              <caret line="136" column="56" selection-start-line="136" selection-start-column="56" selection-end-line="136" selection-end-column="56" />
+            <state vertical-scroll-proportion="-5.2040815">
+              <caret line="129" column="67" selection-start-line="129" selection-start-column="67" selection-end-line="129" selection-end-column="67" />
+              <folding>
+                <marker date="1448843853500" expanded="true" signature="5928:5958" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="emergencyType.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/emergencyType.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.448979">
+              <caret line="144" column="41" selection-start-line="144" selection-start-column="41" selection-end-line="144" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -156,8 +118,8 @@
       <file leaf-file-name="answer.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/answer.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6938776">
-              <caret line="129" column="46" selection-start-line="129" selection-start-column="46" selection-end-line="129" selection-end-column="46" />
+            <state vertical-scroll-proportion="-3.122449">
+              <caret line="156" column="33" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -231,11 +193,11 @@
         <option value="$PROJECT_DIR$/grails-app/controllers/UserController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/EMERGENCY_SYMPTOMS.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/Emergency_Symptoms.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/Emergency.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/Symptom.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/emergency/emergencyType.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/emergency/question.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/domain/Emergency.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/EmergencyController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/emergency/question.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/emergency/answer.gsp" />
       </list>
     </option>
@@ -255,10 +217,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1320" />
-    <option name="height" value="784" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -283,8 +245,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -392,6 +352,8 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -643,47 +605,12 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -733,22 +660,6 @@
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
       <method />
     </configuration>
     <configuration default="false" name="Grails:PreventRisk" type="GrailsRunConfigurationType" factoryName="Grails">
@@ -813,6 +724,12 @@
       <workItem from="1448420355977" duration="11395000" />
       <workItem from="1448465303916" duration="3807000" />
       <workItem from="1448564544111" duration="9693000" />
+      <workItem from="1448670017470" duration="8865000" />
+      <workItem from="1448741790581" duration="5241000" />
+      <workItem from="1448799979198" duration="8460000" />
+      <workItem from="1448813278259" duration="2735000" />
+      <workItem from="1448835697822" duration="5101000" />
+      <workItem from="1448846708933" duration="1494000" />
     </task>
     <task id="LOCAL-00001" summary="Modelo login domain class&#10;userName&#10;userPassword&#10;DataSource.groovy/development enviroment/ &#10;set to update - no mem - h2, devDB&#10;&#10;Merge branch 'master' of https://github.com/PreventRisk/PreventRisk&#10;&#10;Conflicts:&#10;&#9;src/test/TestFranco.groovy&#10;">
       <created>1444639504088</created>
@@ -848,7 +765,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182369000" />
+    <option name="totallyTimeSpent" value="214265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -860,8 +777,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -872,15 +789,15 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35407406" sideWeight="0.49003068" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3529412" sideWeight="0.49003068" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25460124" sideWeight="0.48863637" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25416037" sideWeight="0.48863637" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24921875" sideWeight="0.50772625" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -961,6 +878,86 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/answer.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/EmergencyController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Emergency.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/question.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="143" column="32" selection-start-line="143" selection-start-column="32" selection-end-line="143" selection-end-column="32" />
+          <folding>
+            <marker date="1448843853500" expanded="true" signature="5928:5958" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/answer.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/EmergencyController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Emergency.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/question.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="136" column="32" selection-start-line="136" selection-start-column="32" selection-end-line="136" selection-end-column="32" />
+          <folding>
+            <marker date="1448843853500" expanded="true" signature="5928:5958" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/answer.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="129" column="46" selection-start-line="129" selection-start-column="46" selection-end-line="129" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/target/work/plugins/cache-1.1.8/src/java/grails/plugin/cache/web/filter/PageFragmentCachingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1059,69 +1056,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/images/Hospital.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/GeocoderService.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.9423077">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Hospital.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Hospital.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2692308">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/LoginCommand.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/LoginCommand.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Location.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Location.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4506024">
           <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/User.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/User.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3686747">
           <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Drugstore.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Drugstore.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28674698">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/create.gsp">
@@ -1237,94 +1229,57 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/Symptom.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Emergency.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26881722">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/images/lagrima.jpg">
-      <provider selected="true" editor-type-id="images">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/images/Drogueria.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/images/sed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/images/perdidadeconciencia.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/images/lagrimeo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/images/Sick Child-03.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/images/Sick Child-01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/images/sudoracion.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/emergencyType.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/answer.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.456">
-          <caret line="142" column="39" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="39" />
+        <state vertical-scroll-proportion="-3.122449">
+          <caret line="156" column="33" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/question.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4693878">
-          <caret line="136" column="56" selection-start-line="136" selection-start-column="56" selection-end-line="136" selection-end-column="56" />
-          <folding />
+        <state vertical-scroll-proportion="-5.2040815">
+          <caret line="129" column="67" selection-start-line="129" selection-start-column="67" selection-end-line="129" selection-end-column="67" />
+          <folding>
+            <marker date="1448843853500" expanded="true" signature="5928:5958" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Emergency.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/emergencyType.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/answer.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6938776">
-          <caret line="129" column="46" selection-start-line="129" selection-start-column="46" selection-end-line="129" selection-end-column="46" />
+        <state vertical-scroll-proportion="-9.448979">
+          <caret line="144" column="41" selection-start-line="144" selection-start-column="41" selection-end-line="144" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/EmergencyController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44155845">
-          <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.34492755">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
@@ -1339,15 +1294,15 @@
           <value>
             <GrailsSettings>
               <option name="buildConfigCrc" value="-1257070100" />
-              <option name="pluginDependenciesCrc" value="-747976210" />
+              <option name="pluginDependenciesCrc" value="1682136675" />
               <option name="properties">
                 <map>
-                  <entry key="grails.global.plugins.dir" value="C:\Users\nikic\.grails\2.5.1\global-plugins" />
+                  <entry key="grails.global.plugins.dir" value="C:\Users\Francisco Aranguren\.grails\2.5.1\global-plugins" />
                   <entry key="grails.project.fork.run" value="true" />
                   <entry key="grails.project.fork.test" value="true" />
                   <entry key="grails.project.plugins.dir" value="target\work\plugins" />
                   <entry key="grails.project.work.dir" value="target\work" />
-                  <entry key="grails.work.dir" value="C:\Users\nikic\.grails\2.5.1" />
+                  <entry key="grails.work.dir" value="C:\Users\Francisco Aranguren\.grails\2.5.1" />
                 </map>
               </option>
             </GrailsSettings>
