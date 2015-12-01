@@ -27,11 +27,16 @@ class  UserController {
             def user = cmd.getUser()
             if(!cmd.hasErrors()) {
                 session.user = user
-                // render("se acepto el login")
-                // flash.message = "Hello ${user.login}!"
                 redirect controller:'home'
-            } else {
-                redirect(controller:'user',action:'login')
+            }else{
+                def u= User.findByLogin(params.login)
+                if(!u){
+                    flash.message="No se encuentra el usuario: ${params.login}"
+                    redirect(controller:'user',action:'login')
+                }else{
+                    flash.message="La contraseña es incorrecta"
+                    redirect(controller:'user',action:'login')
+                }
             }
         } else {
             redirect(controller:'user',action:'login')
@@ -42,11 +47,16 @@ class  UserController {
             def user = cmd.getUser()
             if(!cmd.hasErrors()) {
                 session.user = user
-                // render("se acepto el login")
-                // flash.message = "Hello ${user.login}!"
                 redirect (controller:'emergency', action:'emergencyType')
-            } else {
-                redirect(controller:'user',action:'login')
+            }else{
+                def u= User.findByLogin(params.login)
+                if(!u){
+                    flash.message="No se encuentra el usuario: ${params.login}"
+                    redirect(controller:'user',action:'login')
+                }else{
+                    flash.message="La contraseña es incorrecta"
+                    redirect(controller:'user',action:'login')
+                }
             }
         } else {
             redirect(controller:'user',action:'login')
