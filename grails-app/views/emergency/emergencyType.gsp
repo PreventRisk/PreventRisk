@@ -122,7 +122,7 @@
                                 <p>Relacionada a enfermedades o problemas de salud, como por ejemplo, infartos, desmayos, crisis o convulsiones y ataques.</p>
                                 <g:form>
                                     <g:link action="init" id="Medica" >
-                                            <input value="Empieza" type="button" class="btn btn-light"></input>
+                                            <input value="Empieza" type="button" class="btn btn-light"/>
                                     </g:link>
                                 </g:form>
 
@@ -139,8 +139,8 @@
                                 </h4>
                                 <p>Debida a  factores del entorno, como lo son ataques de animales, contaminación, reacciones sensoriales, entre otras. </p>
                                 <g:form>
-                                    <g:link action="init" id=" Medioambiental" >
-                                       <input value="Empieza" type="button" class="btn btn-light"></input>
+                                    <g:link action="init" id="Medioambiental" >
+                                       <input value="Empieza" type="button" class="btn btn-light"/>
                                     </g:link>
                                 </g:form>
                             </div>
@@ -157,7 +157,7 @@
                                 <p>Relacionada a lesiones causadas por la acción del hombre directamente, como por ejemplo, asaltos, atentados o accidentes.</p>
                                 <g:form>
                                     <g:link action="init" id="Lesiones" >
-                                        <input value="Empieza" type="button" class="btn btn-light"></input>
+                                        <input value="Empieza" type="button" class="btn btn-light"/>
                                     </g:link>
                                 </g:form>
                             </div>
@@ -174,7 +174,7 @@
                                 <p>Si las categorias anteriores no te dan seguridad sobre la naturaleza de tu emergencia no importa, empieza aquí.</p>
                                 <g:form>
                                     <g:link action="init" id="Untyped" >
-                                        <input value="Empieza" type="button" class="btn btn-light"></input>
+                                        <input value="Empieza" type="button" class="btn btn-light"/>
                                     </g:link>
                                 </g:form>
                             </div>

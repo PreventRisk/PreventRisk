@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df1151fc-c741-4b16-8217-8cc433c25e31" name="Default" comment="user/LogIn gsp view &#10;modified user/Register&#10;Links for login and register from /home&#10;user/login is homepage">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Emergency$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/Emergency$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Emergency.class" afterPath="$PROJECT_DIR$/target/classes/Emergency.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__delete_closure17$_closure24.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__delete_closure17$_closure24.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__delete_closure17$_closure25.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__delete_closure17$_closure25.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__delete_closure17.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__delete_closure17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__init_closure14.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__init_closure14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__save_closure15$_closure20.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__save_closure15$_closure20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__save_closure15$_closure21.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__save_closure15$_closure21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__save_closure15.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__save_closure15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__update_closure16$_closure22.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__update_closure16$_closure22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__update_closure16$_closure23.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__update_closure16$_closure23.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__update_closure16.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$__tt__update_closure16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure13$_closure18.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure13$_closure18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure13$_closure19.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure13$_closure19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure13.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$_notFound_closure13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController$_question_closure8.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController$_question_closure8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EmergencyController.class" afterPath="$PROJECT_DIR$/target/classes/EmergencyController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.h2.db" afterPath="$PROJECT_DIR$/devDb.h2.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.trace.db" afterPath="$PROJECT_DIR$/devDb.trace.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PreventRisk.iml" afterPath="$PROJECT_DIR$/PreventRisk.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devDb.lock.db" afterPath="$PROJECT_DIR$/devDb.lock.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/resources/web.xml" afterPath="$PROJECT_DIR$/target/work/resources/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/emergency/emergencyType.gsp" afterPath="$PROJECT_DIR$/grails-app/views/emergency/emergencyType.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PreventRisk.iws" />
@@ -55,10 +36,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EmergencyController.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EmergencyController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/EmergencyController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34492755">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
@@ -69,34 +50,34 @@
       </file>
       <file leaf-file-name="Emergency.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/Emergency.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="Symptom.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/Symptom.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="26" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="question.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/question.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.2040815">
+            <state vertical-scroll-proportion="0.0">
               <caret line="129" column="67" selection-start-line="129" selection-start-column="67" selection-end-line="129" selection-end-column="67" />
               <folding>
                 <marker date="1448843853500" expanded="true" signature="5928:5958" placeholder="..." />
@@ -105,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="emergencyType.gsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="emergencyType.gsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/emergencyType.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.448979">
-              <caret line="144" column="41" selection-start-line="144" selection-start-column="41" selection-end-line="144" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.89341694">
+              <caret line="148" column="54" selection-start-line="148" selection-start-column="54" selection-end-line="148" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -118,9 +99,16 @@
       <file leaf-file-name="answer.gsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/answer.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.122449">
+            <state vertical-scroll-proportion="0.0">
               <caret line="156" column="33" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
-              <folding />
+              <folding>
+                <marker date="1448844539060" expanded="true" signature="2247:2470" placeholder="..." />
+                <marker date="1448844539060" expanded="true" signature="2487:2710" placeholder="..." />
+                <marker date="1448844539060" expanded="true" signature="3453:4050" placeholder="..." />
+                <marker date="1448844539060" expanded="true" signature="4098:6888" placeholder="..." />
+                <marker date="1448844539060" expanded="true" signature="4733:4802" placeholder="..." />
+                <marker date="1448844539060" expanded="true" signature="4831:4918" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,11 +182,11 @@
         <option value="$PROJECT_DIR$/grails-app/domain/EMERGENCY_SYMPTOMS.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/Emergency_Symptoms.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/Symptom.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/emergency/emergencyType.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/Emergency.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/EmergencyController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/emergency/question.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/emergency/answer.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/emergency/emergencyType.gsp" />
       </list>
     </option>
   </component>
@@ -245,6 +233,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -352,7 +341,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -730,6 +718,7 @@
       <workItem from="1448813278259" duration="2735000" />
       <workItem from="1448835697822" duration="5101000" />
       <workItem from="1448846708933" duration="1494000" />
+      <workItem from="1448929841677" duration="1988000" />
     </task>
     <task id="LOCAL-00001" summary="Modelo login domain class&#10;userName&#10;userPassword&#10;DataSource.groovy/development enviroment/ &#10;set to update - no mem - h2, devDB&#10;&#10;Merge branch 'master' of https://github.com/PreventRisk/PreventRisk&#10;&#10;Conflicts:&#10;&#9;src/test/TestFranco.groovy&#10;">
       <created>1444639504088</created>
@@ -765,7 +754,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214265000" />
+    <option name="totallyTimeSpent" value="216253000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -870,7 +859,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="user/LogIn gsp view &#10;modified user/Register&#10;Links for login and register from /home&#10;user/login is homepage" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -882,7 +873,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
-          <folding />
+          <folding>
+            <marker date="1448844539060" expanded="true" signature="2247:2470" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="2487:2710" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="3453:4050" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="4098:6888" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="4733:4802" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="4831:4918" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -918,7 +916,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
-          <folding />
+          <folding>
+            <marker date="1448844539060" expanded="true" signature="2247:2470" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="2487:2710" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="3453:4050" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="4098:6888" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="4733:4802" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="4831:4918" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -954,7 +959,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="129" column="46" selection-start-line="129" selection-start-column="46" selection-end-line="129" selection-end-column="46" />
-          <folding />
+          <folding>
+            <marker date="1448844539060" expanded="true" signature="2247:2470" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="2487:2710" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="3453:4050" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="4098:6888" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="4733:4802" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="4831:4918" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,63 +1069,63 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/GeocoderService.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.9423077">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Hospital.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Hospital.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2692308">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/LoginCommand.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/LoginCommand.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Location.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Location.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4506024">
           <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/User.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/User.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3686747">
           <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Drugstore.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Drugstore.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28674698">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/create.gsp">
@@ -1229,38 +1241,45 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/Symptom.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/Emergency.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/Emergency.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/answer.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.122449">
+        <state vertical-scroll-proportion="0.0">
           <caret line="156" column="33" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="33" />
-          <folding />
+          <folding>
+            <marker date="1448844539060" expanded="true" signature="2247:2470" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="2487:2710" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="3453:4050" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="4098:6888" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="4733:4802" placeholder="..." />
+            <marker date="1448844539060" expanded="true" signature="4831:4918" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/question.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.2040815">
+        <state vertical-scroll-proportion="0.0">
           <caret line="129" column="67" selection-start-line="129" selection-start-column="67" selection-end-line="129" selection-end-column="67" />
           <folding>
             <marker date="1448843853500" expanded="true" signature="5928:5958" placeholder="..." />
@@ -1268,21 +1287,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/emergencyType.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.448979">
-          <caret line="144" column="41" selection-start-line="144" selection-start-column="41" selection-end-line="144" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/EmergencyController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34492755">
+        <state vertical-scroll-proportion="0.0">
           <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/emergency/emergencyType.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89341694">
+          <caret line="148" column="54" selection-start-line="148" selection-start-column="54" selection-end-line="148" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
