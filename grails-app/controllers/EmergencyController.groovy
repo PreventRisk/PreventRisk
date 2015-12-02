@@ -103,7 +103,21 @@ class EmergencyController {
         if (justOne){
             println emergencyRta
             def symptomRepet = Emergency.get(emergencyRta)
-            render(view: "answer", model: [name: symptomRepet.name, steps: symptomRepet.steps, image: symptomRepet.img, video: symptomRepet.video])
+            def step = symptomRepet.steps.toString()
+            def steps = new String[10]
+            def line = ''
+            def number_of_lines = 0
+            step.each {
+                if (it == '\u2022'){
+                    steps[number_of_lines] = line
+                    line = ''
+                    number_of_lines += 1
+                }
+                line += it
+            }
+            steps[number_of_lines] = line
+            [steps: steps]
+            render(view: "answer", model: [name: symptomRepet.name, steps: steps, image: symptomRepet.img, video: symptomRepet.video], lines: number_of_lines)
         }
         else if(!justOne) {
             if (all) render(view: "answer", model: [name: "Datos insuficientes", steps: "Por favor repita la simulacion"])

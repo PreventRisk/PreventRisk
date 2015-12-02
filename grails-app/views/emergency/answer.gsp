@@ -146,8 +146,9 @@
                                 <h4>
                                     <strong>Pasos a seguir:</strong>
                                 </h4>
-                                <p>${steps}</p>
-                            </div>
+                                <g:each in="${steps}">
+                                    ${it}<br />
+                                </g:each>
                         </div>
                     </div>
                     <br><br><br>
