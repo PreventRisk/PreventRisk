@@ -38,6 +38,13 @@
 <div class="content">
     <!-- BEGIN LOGIN FORM -->
     <form class="form-vertical login-form" action="dologin" method="post" name="Formulario de ingreso">
+    <g:if test="${flash.message}">
+        <div class="alert-message warning">
+            <a class="message" ></a>
+            <p><strong>Error!</strong> ${flash.message}</p>
+
+        </div>
+    </g:if>
         <div class="container">
             <img src="${request.contextPath}/stylish/img/preventrisk-w.png" width="200px" height="auto" />
         </div>

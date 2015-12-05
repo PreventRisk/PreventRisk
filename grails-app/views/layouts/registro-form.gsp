@@ -35,7 +35,7 @@
 </div>
 <!-- END LOGO -->
 <!-- BEGIN LOGIN -->
-<div class="content">
+<div class="content" style="color: white">
     <g:hasErrors bean="${user}">
         <div class="errors">
             <g:renderErrors bean="${user}"></g:renderErrors>
@@ -43,6 +43,7 @@
     </g:hasErrors>
     <!-- BEGIN REGISTRATION FORM -->
     <form class="form-vertical registry-form"  method="post" name="Formulario de registro">
+
         <div class="container" >
             <img src="${request.contextPath}/stylish/img/preventrisk-w.png" width="200px" height="auto" />
         </div>

@@ -15,6 +15,9 @@ class  UserController {
                 session.user = u
                   redirect controller:"home"
             } else {
+                u.errors.each {
+                    flash.message= it
+                }
                 return [user:u]
             }
         }
