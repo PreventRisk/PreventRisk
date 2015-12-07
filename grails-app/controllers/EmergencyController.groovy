@@ -120,7 +120,7 @@ class EmergencyController {
             render(view: "answer", model: [name: symptomRepet.name, steps: steps, image: symptomRepet.img, video: symptomRepet.video], lines: number_of_lines)
         }
         else if(!justOne) {
-            if (all) render(view: "answer", model: [name: "Datos insuficientes", steps: "Por favor repita la simulacion"])
+            if (all) render(view: "incomplete", model: [name: "Datos insuficientes", steps: "Por favor repita la simulacion"])
             else {
                 def symptomRepet = Symptom.get(currentSymptomId)
                 render(view: "question", model: [question: symptomRepet.question, image: symptomRepet.img])
@@ -154,7 +154,9 @@ class EmergencyController {
         redirect(action: "find_question")
     }
 
-
+    def incomplete(){
+        render (view: 'incomplete')
+    }
 
     @Transactional
     def save(Emergency emergencyInstance) {

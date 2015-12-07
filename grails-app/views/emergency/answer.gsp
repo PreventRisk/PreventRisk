@@ -94,7 +94,7 @@
 <g:if test="${!session.user}">
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <div class="container" >gi
+            <div class="container" >
                 <img src="${request.contextPath}/stylish/img/preventrisk-w.png" width="200px" height="auto" />
             </div>
             <h3>Usted no tiene permiso para acceder a esta página.</h3>
