@@ -1,0 +1,14 @@
+Testsuite: org.junit.runner.manipulation.Filter
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0,032 sec
+------------- Standard Output ---------------
+--Output from initializationError--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from initializationError--
+------------- ---------------- ---------------
+
+Testcase: initializationError took 0,025 sec
+	Caused an ERROR
+No tests found matching grails test target pattern filter from org.junit.runner.Request$1@3da94292
+java.lang.Exception: No tests found matching grails test target pattern filter from org.junit.runner.Request$1@3da94292
+
